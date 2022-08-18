@@ -127,6 +127,29 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+    plugins: [
+        [
+            'docusaurus-plugin-typedoc',
+            {
+              name: 'colonyJS',
+              entryPoints: ['./vendor/colonyJS/src/index.ts'],
+              tsconfig: './vendor/colonyJS/tsconfig.json',
+              out: 'colonyjs',
+              excludeInternal: true,
+              excludePrivate: true,
+              excludeProtected: true,
+              githubPages: false,
+              disableSources: true,
+              readme: 'none',
+              hideBreadcrumbs: true,
+              hideInPageTOC: true,
+              sidebar: {
+                categoryLabel: 'ColonyJS',
+                position: 0,
+              }
+            }
+        ]
+    ]
 };
 
 module.exports = config;
