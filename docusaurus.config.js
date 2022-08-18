@@ -65,11 +65,11 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'welcome',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -145,7 +145,7 @@ const config = {
               hideInPageTOC: true,
               sidebar: {
                 categoryLabel: 'ColonyJS',
-                position: 0,
+                position: 2,
               }
             }
         ]
