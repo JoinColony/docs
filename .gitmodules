@@ -1,3 +1,6 @@
 [submodule "vendor/colonyJS"]
 	path = vendor/colonyJS
 	url = https://github.com/JoinColony/colonyJS.git
+[submodule "vendor/colonySDK"]
+	path = vendor/colonySDK
+	url = https://github.com/JoinColony/colonySDK.git
