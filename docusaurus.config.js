@@ -4,20 +4,30 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const getEditUrlPath = ({ docPath }) => {
+  docPath = docPath
+    .replace(/colonynetwork/, 'colonyNetwork/edit/develop/docs')
+    .replace(/colonysdk/, 'colonySDK/edit/main/docs')
+    .replace(/colonyjs/, 'colonyJS/edit/develop/docs');
+
+
+  return `https://github.com/JoinColony/${docPath}`;
+}
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'The Colony Docs',
+  tagline: 'Explore the vast possibilities of the Colony Network',
+  url: 'https://docs.colony.io',
   baseUrl: '/',
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'JoinColony', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -34,10 +44,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: getEditUrlPath,
         },
         blog: false,
         theme: {
@@ -50,21 +57,39 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        appId: 'ZFUKNKZFFL',
+        apiKey: '286f37a3de8d2dd5172c0cce745a87f4',
+        indexName: 'colony',
+        contextualSearch: true,
+      },
       navbar: {
-        title: 'My Site',
+        title: 'Colony Developer Portal',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Colony Logo',
+          src: 'img/logo.png',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'colonysdk/index',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Colony SDK',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            type: 'doc',
+            docId: 'colonynetwork/index',
+            position: 'left',
+            label: 'Colony Network',
+          },
+          {
+            type: 'doc',
+            docId: 'colonyjs/index',
+            position: 'left',
+            label: 'ColonyJS',
+          },
+          {
+            href: 'https://github.com/JoinColony',
             label: 'GitHub',
             position: 'right',
           },
@@ -74,28 +99,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/feVZWwysqM',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/JoinColony',
               },
             ],
           },
@@ -103,17 +115,13 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/JoinColony',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} colony.io. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

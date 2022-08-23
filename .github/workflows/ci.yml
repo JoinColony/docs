@@ -41,10 +41,22 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install ⚙️
+      - name: Install SDK ⚙️
+        working-directory: ./vendor/colonySDK
+        run: npm ci
+
+      - name: Install ColonyJS ⚙️
+        working-directory: ./vendor/colonyJS
+        run: npm ci
+
+      - name: Install Docusaurus ⚙️
+        run: npm ci
+
+      - name: Copy docs 🕸
         run: |
-          cd vendor/colonyJS && npm ci
-          cd .. && npm ci
+          cp -R $GITHUB_WORKSPACE/vendor/colonyNetwork/docs $GITHUB_WORKSPACE/docs/colonynetwork
+          cp -R $GITHUB_WORKSPACE/vendor/colonySDK/docs $GITHUB_WORKSPACE/docs/colonysdk
+          cp -R $GITHUB_WORKSPACE/vendor/colonyJS/docs $GITHUB_WORKSPACE/docs/colonyjs
 
       - name: Build 🛠
         run: npm run build

@@ -21,6 +21,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# TypeDoc generated files
-docs/colonyjs/api
-docs/colonysdk/api
+# Doc generated and copied files
+docs/colonyjs
+docs/colonysdk
+docs/colonynetwork
