@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <ShortName>The Colony Developer Portal</ShortName>
-  <Description>Search The Colony Developer Portal</Description>
+  <ShortName>The Colony Docs</ShortName>
+  <Description>Search The Colony Docs</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://your-docusaurus-test-site.com/docs/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://your-docusaurus-test-site.com/docs/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://your-docusaurus-test-site.com/docs/opensearch.xml" />
-  <moz:SearchForm>https://your-docusaurus-test-site.com/docs/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://docs.colony.io/img/logo.png</Image>
+  <Url type="text/html" method="get" template="https://docs.colony.io/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://docs.colony.io/opensearch.xml" />
+  <moz:SearchForm>https://docs.colony.io/</moz:SearchForm>
 </OpenSearchDescription>
