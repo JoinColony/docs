@@ -60,7 +60,7 @@ const config = {
       algolia: {
         appId: 'ZFUKNKZFFL',
         apiKey: '286f37a3de8d2dd5172c0cce745a87f4',
-        indexName: 'colony',
+        indexName: 'crawler_colony_docs',
         contextualSearch: true,
       },
       navbar: {
