@@ -13,7 +13,7 @@ const getEditUrlPath = ({ docPath }) => {
   docPath = docPath
     .replace(/^colonynetwork/, 'colonyNetwork/edit/develop/docs')
     .replace(/^colonysdk/, 'colonySDK/edit/main/docs')
-    .replace(/^colonyjs/, 'colonyJS/edit/develop/docs');
+    .replace(/^colonyjs/, 'colonyJS/edit/main/docs');
 
 
   return `https://github.com/JoinColony/${docPath}`;
