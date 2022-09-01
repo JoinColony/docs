@@ -1,6 +1,11 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+const path = require('path');
+
+const typedocConfigColonyJS = require('./vendor/colonyJS/typedoc.json');
+const typedocConfigColonySDK = require('./vendor/colonySDK/typedoc.json');
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -12,6 +17,10 @@ const getEditUrlPath = ({ docPath }) => {
 
 
   return `https://github.com/JoinColony/${docPath}`;
+}
+
+const resolveVendor = (libraryName, internalPath) => {
+  return path.resolve(__dirname, 'vendor', libraryName, internalPath);
 }
 
 /** @type {import('@docusaurus/types').Config} */
@@ -132,17 +141,12 @@ const config = {
     [
       'docusaurus-plugin-typedoc',
       {
-        name: 'colonyJS',
+        ...typedocConfigColonyJS,
         id: 'colonyjs',
-        entryPoints: ['./vendor/colonyJS/src/index.ts'],
-        tsconfig: './vendor/colonyJS/tsconfig.json',
+        entryPoints: typedocConfigColonyJS
+          .entryPoints.map(p => resolveVendor('colonyJS', p)),
+        tsconfig: resolveVendor('colonyJS', typedocConfigColonyJS.tsconfig),
         out: 'colonyjs/api',
-        excludeInternal: true,
-        excludePrivate: true,
-        excludeProtected: true,
-        githubPages: false,
-        disableSources: true,
-        readme: 'none',
         hideBreadcrumbs: true,
         hideInPageTOC: true,
       }
@@ -150,17 +154,12 @@ const config = {
     [
       'docusaurus-plugin-typedoc',
       {
-        name: 'colonySDK',
+        ...typedocConfigColonySDK,
         id: 'colonysdk',
-        entryPoints: ['./vendor/colonySDK/src/index.ts'],
-        tsconfig: './vendor/colonySDK/tsconfig.json',
+        entryPoints: typedocConfigColonySDK
+          .entryPoints.map(p => resolveVendor('colonySDK', p)),
+        tsconfig: resolveVendor('colonySDK', typedocConfigColonySDK.tsconfig),
         out: 'colonysdk/api',
-        excludeInternal: true,
-        excludePrivate: true,
-        excludeProtected: true,
-        githubPages: false,
-        disableSources: true,
-        readme: 'none',
         hideBreadcrumbs: true,
         hideInPageTOC: true,
       }
