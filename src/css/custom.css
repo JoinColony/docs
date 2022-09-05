@@ -4,27 +4,50 @@
  * work well for content-centric websites.
  */
 
+@font-face {
+  font-family: Avenir Next;
+  font-weight: 400;
+  src: url(/61840fafb9a4c4f6e9470967_avenir-next-regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: Avenir Next;
+  font-weight: 700;
+  src: url(/61840fafb9a4c40af0470965_avenir-next-bold.woff2) format('woff2');
+}
+
+body {
+  font-family: 'Avenir Next', sans-serif;
+  letter-spacing: -.03em;
+}
+
+h1, h2, h3, h4, h5 {
+  letter-spacing: -.04em;
+}
+
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-heading-font-family: 'Avenir Next', sans-serif;
+  --ifm-font-weight-bold: 700;
+  --ifm-color-primary: #289BDC;
+  --ifm-color-primary-dark: #289BDC;
+  --ifm-color-primary-darker: #289BDC;
+  --ifm-color-primary-darkest: #289BDC;
+  --ifm-color-primary-light: #19A582;
+  --ifm-color-primary-lighter: #19A582;
+  --ifm-color-primary-lightest: #19A582;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #19A582;
+  --ifm-color-primary-dark: #19A582;
+  --ifm-color-primary-darker: #19A582;
+  --ifm-color-primary-darkest: #19A582;
+  --ifm-color-primary-light: #289BDC;
+  --ifm-color-primary-lighter: #289BDC;
+  --ifm-color-primary-lightest: #289BDC;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }

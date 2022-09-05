@@ -25,7 +25,7 @@ const resolveVendor = (libraryName, internalPath) => {
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'The Colony Docs',
+  title: 'Colony Developer Docs',
   tagline: 'Explore the vast possibilities of the Colony Network',
   url: 'https://docs.colony.io',
   baseUrl: '/',
@@ -73,7 +73,7 @@ const config = {
         contextualSearch: true,
       },
       navbar: {
-        title: 'Colony Developer Portal',
+        title: 'Colony Developer Docs',
         logo: {
           alt: 'Colony Logo',
           src: 'img/logo.png',

@@ -4,51 +4,56 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  logo: string;
   description: JSX.Element;
+  link: string;
+  color: string;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Colony SDK',
+    logo: 'https://raw.githubusercontent.com/JoinColony/brand/v1.0.0/logo_sdk_no_padding.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Just add <s>water</s> MetaMask toolbox for the most common Colony workflows. Start here if you're new 🚀
       </>
     ),
+    link: 'docs/colonysdk',
+    color: '#19A582',
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Colony Network',
+    logo: 'https://raw.githubusercontent.com/JoinColony/brand/v1.0.0/logo_network_no_padding.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The Colony Smart Contracts in all their glory. Freshly tested. Upgradable. Ready for you!
       </>
     ),
+    link: 'docs/colonynetwork',
+    color: '#289BDC',
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'ColonyJS',
+    logo: 'https://raw.githubusercontent.com/JoinColony/brand/v1.0.0/logo_js_no_padding.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Our reference client implementation, written in TypeScript. Battle-tested in our Dapp, it gives you all the features the Colony Network has to offer.
       </>
     ),
+    link: 'docs/colonyjs',
+    color: '#F5416E',
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, logo, description, link, color}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <a href={link}><img src={logo} className={styles.featureSvg} /></a>
       </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+        <h3><a href={link} style={{ color }}>{title}</a></h3>
         <p>{description}</p>
       </div>
     </div>

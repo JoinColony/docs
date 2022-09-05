@@ -1,17 +1,17 @@
-# Website
+# Colony Docs
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
 
 ```
-$ yarn
+$ npm install
 ```
 
 ### Local Development
 
 ```
-$ yarn start
+$ npm run start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
@@ -19,23 +19,19 @@ This command starts a local development server and opens up a browser window. Mo
 ### Build
 
 ```
-$ yarn build
+$ npm run build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ### Deployment
 
-Using SSH:
+The pages are automatically deployed on push of the `main` branch using GitHub pages actions. See [this file](https://github.com/JoinColony/docs/blob/main/.github/workflows/ci.yml).
 
-```
-$ USE_SSH=true yarn deploy
-```
+### Submodule libraries
 
-Not using SSH:
+The docs for the individual libraries (like Colony Network, Colony SDK, etc.) are pulled in via git submodules. Make sure that the individual submodule tags always correspond to a proper release tag of that library.
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+**To update a library version** (e.g. `colonySDK`)
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Go to `vendor/colonySDK` and do a `git checkout v0.6.0` (adjust to the version you want to update to). Then leave to the `docs` main repository directory and do a git commit and push. The docs will then automatically be built and deployed by GitHub actions.
