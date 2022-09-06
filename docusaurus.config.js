@@ -149,6 +149,7 @@ const config = {
         out: 'colonyjs/api',
         hideBreadcrumbs: true,
         hideInPageTOC: true,
+        plugin: undefined,
       }
     ],
     [
@@ -162,6 +163,7 @@ const config = {
         out: 'colonysdk/api',
         hideBreadcrumbs: true,
         hideInPageTOC: true,
+        plugin: undefined,
       }
     ]
   ]

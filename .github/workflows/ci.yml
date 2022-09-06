@@ -53,10 +53,7 @@ jobs:
         run: npm ci
 
       - name: Copy docs 🕸
-        run: |
-          cp -R $GITHUB_WORKSPACE/vendor/colonyNetwork/docs $GITHUB_WORKSPACE/docs/colonynetwork
-          cp -R $GITHUB_WORKSPACE/vendor/colonySDK/docs $GITHUB_WORKSPACE/docs/colonysdk
-          cp -R $GITHUB_WORKSPACE/vendor/colonyJS/docs $GITHUB_WORKSPACE/docs/colonyjs
+        run: npm run copy-docs
 
       - name: Build 🛠
         run: npm run build
