@@ -69,6 +69,7 @@
 * [Permissions](advanced-features/permissions.md)
 * [Recovery Mode](advanced-features/recovery-mode.md)
 * [Upgrade Colony and Extensions](advanced-features/upgrade-colony-and-extensions.md)
+* [Safe Control (Gnosis Safe)](advanced-features/safe-control-gnosis-safe.md)
 
 ## Disclaimers
 
