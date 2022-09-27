@@ -34,6 +34,7 @@
 ## Expenditures 💰
 
 * [Payments](expenditures/payments.md)
+* [Advanced Payments](expenditures/advanced-payments.md)
 
 ## Manage Funds 💸
 
