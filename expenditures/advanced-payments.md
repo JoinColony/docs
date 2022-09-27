@@ -74,6 +74,6 @@ However, in cases where a change request goes to vote, there is a special condit
 
 
 
-**Cancelling a Payment & Stake punishments**
+#### **Cancelling a Payment & Stake punishments**
 
 In the case where an Advanced Payment needs to be cancelled, for example if it was created with bad intent or created in error, the person who cancels the Payment has the decision to punish the initial creator for the stake made to create the Payment. Cancelling a Payment requires a Motion, or a member with the Arbitration permission.
