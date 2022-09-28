@@ -1,4 +1,4 @@
-# Table of contents
+# (delete this) Table of contents
 
 * [Welcome!](README.md)
 
