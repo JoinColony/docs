@@ -8,12 +8,12 @@ Every colony has its own **Ethereum Address** that you can use to receive funds 
 
 ![](../assets/ColonyAddress.gif)
 
-{% hint style="danger" %}
+:::danger WATCH YOURSELF
 Only send ERC-20 tokens on the xDai network to a colony. If your funds are on another network, you will need to [bridge](https://www.xdaichain.com/for-users/bridges/omnibridge) them to xDai first. **If you send funds directly from any other network than xDai (such as Ethereum mainnet, Polygon, BSC, etc.), your funds will be lost.**&#x20;
-{% endhint %}
+:::
 
 Once you've sent or received funds from external sources, you will need to [claim](../manage-funds/sending-funds-to-a-colony.md#claiming-funds) them.
 
-{% hint style="info" %}
+:::tip Don't Forget!
 See also [Sending Funds to a Colony.](../manage-funds/sending-funds-to-a-colony.md)
-{% endhint %}
+:::
