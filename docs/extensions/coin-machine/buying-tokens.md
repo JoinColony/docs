@@ -4,9 +4,9 @@ description: How to Buy Tokens during a Token Sale.
 
 # Buying Tokens
 
-{% hint style="danger" %}
+:::caution
 Coin Machine is moving to a stand alone product and is therefore no longer being included in the Colony DApp. The documentation for Coin Machine will also be moved to it's own Gitbook as required.
-{% endhint %}
+:::
 
 To enter Coin Machine, navigate to "Buy Tokens" in the sidebar on the left-hand side of the screen.&#x20;
 
@@ -40,6 +40,6 @@ To buy tokens during an ongoing sale, follow these steps:
 * If the next screen shows "Partial Success...", you have bought some, but not the whole amount of tokens you specified.
 * If the next screen shows "You didn't get any X this time" (with X representing the respective token of that colony's token sale), you did not buy any tokens at this time. Unless that was the very last sale, you will see a countdown to the next sale below where you can try again.&#x20;
 
-{% hint style="info" %}
+:::note
 To use tokens you just bought in the colony, you need to [activate](../../key-concepts/token-activation.md) them first.
-{% endhint %}
+:::

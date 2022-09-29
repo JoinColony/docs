@@ -8,9 +8,9 @@ description: >-
 
 To use Governance, it must first be enabled. Enabling this extension requires that you set some additional parameters. These parameters cannot be changed after enabling it. To do so, you must uninstall the extension, and then install and enable it again with new parameters. Note that uninstalling the extension results in all Motions being lost.
 
-{% hint style="info" %}
+:::note
 If you intend to set up a colony **for testing purposes only**, you may want to adjust some of the default settings in order to speed up some processes while testing in real-time with other users, such as on a call. _For that purpose, we recommend setting the "End Vote Threshold" to 50% and the duration of all four phases to 0.1 hours._ For asynchronous testing and a more realistic experience, you may want to stick the default values listed below.
-{% endhint %}
+:::
 
 ### Required Stake
 
@@ -49,9 +49,9 @@ _At what threshold of reputation having voted should the voting period to end?_
 
 E.g., If the End Vote Threshold is 70%, then the voting period will end as soon as 70% of the reputation in a team has cast their vote. This helps votes get settled faster. If you want to ensure everyone gets to vote if they want to, set the value to 100%.
 
-{% hint style="info" %}
+:::note
 For testing purposes, we recommend a value of 50%.
-{% endhint %}
+:::note
 
 ### Staking Phase Duration
 
@@ -61,9 +61,9 @@ _How long do you want to allow each side of a motion to get staked?_
 
 E.g., if the staking phase is 72 hours, then once a motion is created members will have 72 hours to provide the full stake required to back the motion. If the motion does not receive the full stake in 72 hours, it will fail. Once the motion has been fully staked, the staking period will reset and members will have a further 72 hours in which to “Object” by staking against the motion if they wish to take the decision to a vote. If the full stake for the objection is not staked, then the motion will automatically pass.
 
-{% hint style="info" %}
+:::note
 For testing purposes, we recommend a value of 0.1 hours.
-{% endhint %}
+:::
 
 ### Voting Phase Duration
 
@@ -73,9 +73,9 @@ _How long do you want to give members to cast their votes?_
 
 E.g., if the vote duration is 72 hours, then after both sides of the motion are fully staked, members with reputation in the team will have 72 hours in which to vote, unless the “End Vote Threshold” is reached, in which case the vote will end early.
 
-{% hint style="info" %}
+:::note
 For testing purposes, we recommend a value of 0.1 hours.
-{% endhint %}
+:::
 
 ### Reveal Phase Duration
 
@@ -85,9 +85,9 @@ _How long do you want to give members to reveal their votes?_
 
 E.g., votes in colony are secret while the vote is ongoing, and so must be revealed once votes have been cast. If the reveal phase is 72 hours long, then members will have 72 hours to reveal their votes, otherwise their votes will not be counted and they will not receive a share of the voter reward. If all votes are revealed before the end of the reveal phase, then the reveal phase will end.
 
-{% hint style="info" %}
+:::note
 For testing purposes, we recommend a value of 0.1 hours.
-{% endhint %}
+:::
 
 ### Escalation Phase Duration
 
@@ -97,10 +97,10 @@ _How long do you wish to allow for members to escalate a dispute to a higher tea
 
 E.g., if the escalation phase is 72 hours, once the outcome of a vote is known, if the loser feels the outcome was for any reason incorrect, then they will have 72 hours in which to escalate the dispute to a higher team in the colony by increasing the stake to meet the required stake of that higher team.
 
-{% hint style="info" %}
+:::note
 For testing purposes, we recommend a value of 0.1 hours.
-{% endhint %}
+:::
 
-{% hint style="warning" %}
+:::caution
 Please note that Dispute escalation is not yet supported.
-{% endhint %}
+:::

@@ -4,9 +4,9 @@ description: How to Install the Extension.
 
 # Installation
 
-{% hint style="info" %}
+:::hint
 Whitelist is currently available to the [Metacolony](https://xdai.colony.io/colony/meta) only and will be rolled out to all existing and new colonies starting Q1 2022.
-{% endhint %}
+:::
 
 The Whitelist Extension is used in combination with the [Coin Machine](https://colony.gitbook.io/colony/extensions/coin-machine) Extension which needs to be installed and set up separately, as described [here](https://colony.gitbook.io/colony/extensions/coin-machine). This guide describes how to install and set up the Whitelist Extension only.&#x20;
 

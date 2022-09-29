@@ -15,7 +15,7 @@ To remove the extension:
 3. If applicable, wait for outstanding actions using this extension to complete, and ensure members' stakes have been reclaimed.
 4. Click on "Uninstall", acknowledge the warning that _this deletes all actions associated with the Governance (Reputation Weighted) extension and that unclaimed funds will be lost permanently_, click on "Confirm" and confirm the transaction in your wallet.
 
-{% hint style="danger" %}
+:::caution
 Uninstalling the Governance (Reputation Weighted) extension results in **all actions associated with this extension being lost**. This includes all Motions as well as funds from stakes in ongoing Motions that have not been claimed between deprecating and uninstalling the extension. A remedy is currently in development but not in effect until noted here.
-{% endhint %}
+:::
 

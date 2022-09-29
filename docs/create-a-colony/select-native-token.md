@@ -14,9 +14,9 @@ Select this option if your project already has an existing token.
 
 ![](../assets/ExistingToken.gif)
 
-{% hint style="info" %}
+:::tip
 If you're using an existing ERC20 token as your native token, please use the [xDai bridged version of the contract](https://www.xdaichain.com/for-users/bridges/omnibridge).
-{% endhint %}
+:::
 
 ### Create a New Token
 
@@ -24,11 +24,11 @@ Select this option if your project doesn't have a token yet, and wishes to have 
 
 ![](../assets/NewToken.gif)
 
-{% hint style="info" %}
+:::tip
 **Pro Tip** :sunglasses: **:** you can use emojis for your token symbol! :grin:&#x20;
-{% endhint %}
+:::
 
-{% hint style="warning" %}
+:::caution
 You cannot change your colony's [Native Token](select-native-token.md). Please choose carefully.
-{% endhint %}
+:::
 

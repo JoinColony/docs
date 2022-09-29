@@ -6,9 +6,9 @@ description: What is Recovery Mode in Colony, and how to use it in case of dange
 
 If you believe that something dangerous is happening in your colony (e.g. it is under attack), recovery mode will disable the colony and prevent further activity until the issue is brought to resolution.
 
-{% hint style="warning" %}
+:::caution
 Leaving recovery requires the approval of a majority of members holding the Recovery permission.
-{% endhint %}
+:::
 
 ### Activate Recovery Mode
 
@@ -16,9 +16,9 @@ To activate Recovery Mode, navigate to **New Action > Advanced > Recovery** and 
 
 ![](../assets/Recovery.gif)
 
-{% hint style="danger" %}
+:::danger
 While in recovery mode the colony is disabled and no actions may be taken.
-{% endhint %}
+:::
 
 ### Exit Recovery Mode
 
@@ -28,9 +28,9 @@ The majority of Recovery permission holders must be assured that the issue is re
 
 ![](../assets/SignRecovery.gif)
 
-{% hint style="info" %}
+:::tip
 Approvals are reset each time storage slots are updated.
-{% endhint %}
+:::
 
 When enough permission holders have signed to exit recovery mode, as long as no further storage slots are updated, a recovery permission holder may now sign a transaction to reactivate the colony.
 

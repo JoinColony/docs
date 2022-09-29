@@ -20,9 +20,9 @@ To create a new Team, navigate to **New Action > Manage Teams > Create New Team*
 
 You can decide the **Team** name, define its purpose, and explain why you are creating it. You can change a Team's details later, but **you cannot delete a Team.**
 
-{% hint style="warning" %}
+:::caution
 [Architecture](../advanced-features/permissions.md#architecture) or [Root](../advanced-features/permissions.md#root) permissions are needed to create teams.
-{% endhint %}
+:::
 
 ### **Edit Team**
 
@@ -30,6 +30,6 @@ To make changes to a Team name & description, navigate to **New Action > Manage 
 
 ![How to edit teams in Colony.](../assets/EditTeam.gif)
 
-{% hint style="warning" %}
+:::caution
 [Architecture](../advanced-features/permissions.md#architecture) or [Root](../advanced-features/permissions.md#root) permissions are needed to edit teams.
-{% endhint %}
+:::

@@ -36,6 +36,6 @@ Arbitration allows you to resolve disputes, make state changes, and punish bad b
 
 [Recovery](recovery-mode.md) allows you to disable the colony in an emergency, update storage, and approve reactivation. Recovery permission is only effective in **Root**.
 
-{% hint style="info" %}
+:::tip
 Currently, the only way to distribute authority within a colony is to efficiently set permission in Teams and in Root.
-{% endhint %}
+:::

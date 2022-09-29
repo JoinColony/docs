@@ -55,7 +55,7 @@ If it looks good to go, you're ready to launch your colony!
 
 Next, you'll need to approve a series of transactions with your MetaMask wallet to get your colony's contracts set up. This process only needs to be ran one time per colony and should only take a few minutes.
 
-![Pasted image 20220926115607.png](images/Pasted_image_20220926115607.png)
+![Sign Transactions](images/Pasted_image_20220926115607.png)
 
 Now that your colony has officially been created, you’re ready to bring some contributors on board!
 
@@ -63,15 +63,15 @@ Now that your colony has officially been created, you’re ready to bring some c
 
 After completing the initial setup process, you’ll be brought to your colony's dashboard, which will serve as the home base for your DAO. For now, let's click on "Contributors" to see how we can bring some friends onboard.
 
-![Pasted image 20220926120053.png](images/Pasted_image_20220926120053.png)
+![Invite Contributors](images/Pasted_image_20220926120053.png)
 
 On the Contributors page, we'll see a list of all the DAO members, along with their permissions and reputation scores. It's a bit lonely in here, but not for long! Clicking "Invite" will copy our sharable colony URL, which contributors can use to join the group.
 
-![Pasted image 20220926120446.png](images/Pasted_image_20220926120446.png)
+![Invite Contributors with Sharable Link](images/Pasted_image_20220926120446.png)
 
 When a prospective new member clicks this link, they will see the "Join this colony" option beneath the colony's name. If they're new to using the Colony Dapp, they'll be asked to setup a unique username before joining.
 
-![Pasted image 20220926121447.png](images/Pasted_image_20220926121447.png)
+![Join this colony](images/Pasted_image_20220926121447.png)
 
 Our colony now has some new members! Since they haven't earned any reputation yet, the new members are known as Watchers.
 
@@ -81,23 +81,23 @@ If you’re using an existing ERC20 token as your colony’s native token, you c
 
 If you've set up a new token, you'll need to mint it before you can pay contributors. This can be easily done by navigating to New Action -> Manage Funds -> Mint Token
 
-![Pasted image 20220926125706.png](images/Pasted_image_20220926125706.png)
+![Mint Your Native Token](images/Pasted_image_20220926125706.png)
 
 ## Step 6: Set Up Permissions and Teams
 
 If you have a trusted teammate that wants to help manage your colony, you can grant them specific permissions by navigating to New Action -> Advanced -> Manage Permissions.
 
-![Pasted image 20220926123209.png](images/Pasted_image_20220926123209.png)
+![Set Up Permissions](images/Pasted_image_20220926123209.png)
 
 Chances are, you'll also want to set up specific domains within your colony, which are known as **teams**. Members within each team can have their own domain-specific reputation score, which gives them the autonomy to pursue their workstreams without bogging down the rest of the organization.
 
 Navigate to New Action -> Manage Team -> Create New Team to get started.
 
-![Pasted image 20220926123806.png](images/Pasted_image_20220926123806.png)
+![Set Up Teams](images/Pasted_image_20220926123806.png)
 
 After your new team has been created, you'll be brought to the team landing page, where teammates can leave messages for each other.
 
-![Pasted image 20220926124126.png](images/Pasted_image_20220926124126.png)
+![Message Team](images/Pasted_image_20220926124126.png)
 
 ## Step 7: Set Reputations
 
@@ -108,7 +108,7 @@ These newest DAO members have indicated their willingness and ability to contrib
 
 For today, let's set our reputation score directly. We do this by navigating to New Action -> Manage Reputation -> Award Reputation
 
-![Pasted image 20220926124343.png](images/Pasted_image_20220926124343.png)
+![Set Reputations](images/Pasted_image_20220926124343.png)
 
 Note: make sure that your reputation scores have been adequately weighted to avoid new contributors having an undue amount of influence in your colony. In other words: set your own reputation before sending out payments.
 

@@ -10,6 +10,6 @@ After you've made your choice and reviewed the details, click "Continue" and pro
 
 ![](../assets/SignTransaction.gif)
 
-{% hint style="warning" %}
+:::caution
 If you get stuck during any transaction, it's always possible to hit the back button or retry, signing the remaining transactions.
-{% endhint %}
+:::

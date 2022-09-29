@@ -9,9 +9,9 @@ To create a colony, navigate to [https://xdai.colony.io/landing](https://xdai.co
 1. Click to "**Create a colony**"
 2. Select your colony name & unique URL
 
-{% hint style="warning" %}
+:::caution
 Please note, colony URLs cannot be changed, so choose carefully!
-{% endhint %}
+:::
 
 ![](../assets/ColonyName.gif)
 
