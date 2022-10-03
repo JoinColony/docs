@@ -24,6 +24,6 @@ If your tokens have been successfully activated, the indicator next to your toke
 
 In order to return your tokens to your wallet simply deactivate them. You can deactivate tokens through the same process as described above, just toggle the switch to "Deactivate" before clicking "Confirm".
 
-{% hint style="info" %}
+:::tip
 Note that only tokens that are neither staked nor locked in a Reward distribution can be deactivated.
-{% endhint %}
+:::

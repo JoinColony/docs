@@ -1,10 +1,10 @@
 ---
 description: Get Started with Colony
-sidebar_position: 2
+sidebar_position: 8
 ---
 
 import DocCardList from '@theme/DocCardList';
 
-# Get Started
+# Get Started (deprecated)
 
 <DocCardList />
