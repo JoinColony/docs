@@ -51,10 +51,7 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: getEditUrlPath,
-        },
+        docs: false,
         blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -139,33 +136,15 @@ const config = {
     }),
   plugins: [
     [
-      'docusaurus-plugin-typedoc',
+      '@docusaurus/plugin-content-docs',
       {
-        ...typedocConfigColonyJS,
-        id: 'colonyjs',
-        entryPoints: typedocConfigColonyJS
-          .entryPoints.map(p => resolveVendor('colonyJS', p)),
-        tsconfig: resolveVendor('colonyJS', typedocConfigColonyJS.tsconfig),
-        out: 'colonyjs/api',
-        hideBreadcrumbs: true,
-        hideInPageTOC: true,
-        plugin: undefined,
-      }
+        id: 'developers',
+        path: 'docs',
+        routeBasePath: 'developers',
+        sidebarPath: require.resolve('./sidebars.js'),
+          editUrl: getEditUrlPath,
+      },
     ],
-    [
-      'docusaurus-plugin-typedoc',
-      {
-        ...typedocConfigColonySDK,
-        id: 'colonysdk',
-        entryPoints: typedocConfigColonySDK
-          .entryPoints.map(p => resolveVendor('colonySDK', p)),
-        tsconfig: resolveVendor('colonySDK', typedocConfigColonySDK.tsconfig),
-        out: 'colonysdk/api',
-        hideBreadcrumbs: true,
-        hideInPageTOC: true,
-        plugin: undefined,
-      }
-    ]
   ]
 };
 
