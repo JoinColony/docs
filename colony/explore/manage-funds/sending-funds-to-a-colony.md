@@ -8,13 +8,13 @@ description: How to send and claim an ERC20 token to your colony.
 
 To send funds to your colony, you need to send them to the colony's address you find in the top-left corner of your Dashboard.
 
-{% hint style="warning" %}
+:::tip
 Make sure to only send **ERC20 tokens on xDai** to your colony.
-{% endhint %}
+:::
 
-{% hint style="danger" %}
+:::danger
 _Do **not** send ETH or any ERC20 tokens from Ethereum directly to your colony._ If your funds are currently on any other chain than xDai, such as Ethereum mainnet, you will first need to bridge them through [OmniBridge](https://www.xdaichain.com/for-users/bridges/omnibridge) before sending them to your colony. Otherwise your funds will be lost irreversibly. Before sending a significant amount of funds, it is advisable to send a small amount for testing purposes first. In case of doubt, please reach out on our [Discord](https://discord.gg/Qjupxvg).&#x20;
-{% endhint %}
+:::
 
 ![Sending 0.01 xDai to a colony using Metamask](../assets/SendTokens.gif)
 
