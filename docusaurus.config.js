@@ -3,9 +3,6 @@
 
 const path = require('path');
 
-const typedocConfigColonyJS = require('./vendor/colonyJS/typedoc.json');
-const typedocConfigColonySDK = require('./vendor/colonySDK/typedoc.json');
-
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -23,9 +20,66 @@ const resolveVendor = (libraryName, internalPath) => {
   return path.resolve(__dirname, 'vendor', libraryName, internalPath);
 }
 
+const pluginsBase = [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'learn',
+        path: 'colony/learn',
+        routeBasePath: 'learn',
+        sidebarPath: require.resolve('./colony/learn/sidebars.ts'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'build',
+        path: 'colony/build',
+        routeBasePath: 'build',
+        sidebarPath: require.resolve('./colony/build/sidebars.ts'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'develop',
+        path: 'colony/develop',
+        routeBasePath: 'develop',
+        sidebarPath: require.resolve('./colony/develop/sidebars.ts'),
+      },
+    ],
+];
+
+const pluginsFull = [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'develop_colonysdk',
+        path: 'vendor/colonySDK/docs',
+        routeBasePath: 'colonysdk',
+        // TODO: create proper sidebar
+        // TODO: consider using https://github.com/milesj/docusaurus-plugin-typedoc-api/blob/master/packages/plugin/README.md
+        sidebarPath: require.resolve('./sidebars.ts'),
+        editPath: getEditUrlPath,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'develop_colonyjs',
+        path: 'vendor/colonyJS/docs',
+        routeBasePath: 'colonyjs',
+        // TODO: create proper sidebar
+        // TODO: consider using https://github.com/milesj/docusaurus-plugin-typedoc-api/blob/master/packages/plugin/README.md
+        sidebarPath: require.resolve('./sidebars.ts'),
+        editPath: getEditUrlPath,
+      },
+    ],
+];
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Colony Developer Docs',
+  title: 'Colony Knowledge Base',
   tagline: 'Explore the vast possibilities of the Colony Network',
   url: 'https://docs.colony.io',
   baseUrl: '/',
@@ -48,18 +102,18 @@ const config = {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: getEditUrlPath,
-        },
+      {
+        docs: false,
         blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+        pages: {
+          path: 'src/pages',
+        }
+      },
     ],
   ],
 
@@ -73,7 +127,7 @@ const config = {
         contextualSearch: true,
       },
       navbar: {
-        title: 'Colony Developer Docs',
+        title: 'Colony Knowledge Base',
         logo: {
           alt: 'Colony Logo',
           src: 'img/logo.png',
@@ -81,21 +135,24 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'colonysdk/index',
+            docsPluginId: 'learn',
+            docId: 'index',
             position: 'left',
-            label: 'Colony SDK',
+            label: 'Learn',
           },
           {
             type: 'doc',
-            docId: 'colonynetwork/index',
+            docsPluginId: 'explore',
+            docId: 'index',
             position: 'left',
-            label: 'Colony Network',
+            label: 'Explore',
           },
           {
             type: 'doc',
-            docId: 'colonyjs/index',
+            docsPluginId: 'build',
+            docId: 'index',
             position: 'left',
-            label: 'ColonyJS',
+            label: 'Build',
           },
           {
             href: 'https://github.com/JoinColony',
@@ -136,37 +193,11 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      colorMode: {
+        defaultMode: 'dark',
+      }
     }),
-  plugins: [
-    [
-      'docusaurus-plugin-typedoc',
-      {
-        ...typedocConfigColonyJS,
-        id: 'colonyjs',
-        entryPoints: typedocConfigColonyJS
-          .entryPoints.map(p => resolveVendor('colonyJS', p)),
-        tsconfig: resolveVendor('colonyJS', typedocConfigColonyJS.tsconfig),
-        out: 'colonyjs/api',
-        hideBreadcrumbs: true,
-        hideInPageTOC: true,
-        plugin: undefined,
-      }
-    ],
-    [
-      'docusaurus-plugin-typedoc',
-      {
-        ...typedocConfigColonySDK,
-        id: 'colonysdk',
-        entryPoints: typedocConfigColonySDK
-          .entryPoints.map(p => resolveVendor('colonySDK', p)),
-        tsconfig: resolveVendor('colonySDK', typedocConfigColonySDK.tsconfig),
-        out: 'colonysdk/api',
-        hideBreadcrumbs: true,
-        hideInPageTOC: true,
-        plugin: undefined,
-      }
-    ]
-  ]
+  plugins: process.env.FULL ? pluginsBase.concat(pluginsFull) : pluginsBase,
 };
 
 module.exports = config;
