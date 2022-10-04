@@ -14,9 +14,9 @@ While every Motion has its distinct creation process depending on the Action, th
 
 ![](../../assets/CreateMotion2.gif)
 
-{% hint style="warning" %}
+:::caution
 Please note that Motions which have not received at least 10% of the required stake will not feature in the actions list as a spam prevention measure, so you must note the URL if you want to be able to get back to it later.
-{% endhint %}
+:::
 
 3\. Once fully staked, the staking period resets and the security delay starts.&#x20;
 

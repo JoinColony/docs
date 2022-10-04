@@ -10,9 +10,9 @@ To add a token to your colony, navigate to **New Action > Manage Funds > Manage 
 
 ![Adding tokens to your colony.](../assets/ManageTokens.gif)
 
-{% hint style="danger" %}
+:::danger
 Please add the xDai contract of the token you want to use. You can find them on [Blockscout](https://blockscout.com/poa/xdai/). Do not send main net tokens to your colony.
-{% endhint %}
+:::
 
 Once you've added them, you can review your tokens by clicking on "**Manage Funds**" or "**Available Funds**" in the Dashboard.
 

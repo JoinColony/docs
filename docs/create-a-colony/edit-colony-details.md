@@ -8,8 +8,8 @@ After you have created your colony, you can navigate to **New Action > Advanced 
 
 ![](../assets/ChangeDetails.gif)
 
-{% hint style="info" %}
+:::tip
 [Root](../advanced-features/permissions.md#root) permission is needed to edit the colony details.
-{% endhint %}
+:::
 
 You cannot change your colony URL or its [Native Token](select-native-token.md).

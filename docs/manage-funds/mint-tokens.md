@@ -8,11 +8,11 @@ To mint your colony native token, you need to navigate to **New Action > Manage 
 
 ![How to mint native tokens in Colony.](../assets/MintTokens.gif)
 
-{% hint style="warning" %}
+:::caution
 [Root](../advanced-features/permissions.md#root) permission is required in order to mint tokens.
-{% endhint %}
+:::
 
-{% hint style="info" %}
+:::note
 This option is exclusively available if the native token was generated through Colony, and wasn't imported. Please refer to [Native Tokens](../key-concepts/native-tokens.md) to know more.
-{% endhint %}
+:::
 

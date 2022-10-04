@@ -36,9 +36,9 @@ Any member of your colony can Object to any Motion and force a vote (AKA a dispu
 
 Votes are secret (i.e. they're encrypted using your private key), and weighted by reputation. Vote weight is proportional to the voter's reputation in the team in which the vote is occurring.
 
-{% hint style="info" %}
+:::note
 Colony differs from other voting protocols by keeping votes secret during the voting phase. This is to avoid the risk of manipulation and cognitive bias that comes from voters being able to see the running tally of the vote before they cast their vote.
-{% endhint %}
+:::
 
 Voters receive a reward for voting proportional to their reputation in the team in which the vote is occurring. The reward comes from the stake provided by whichever side of the dispute loses. It doesn't matter whether the voter voters for the winning or the losing side, they are rewarded the same either way.
 

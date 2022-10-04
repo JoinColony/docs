@@ -13,13 +13,13 @@ To create an expenditure and send a payment in any ERC20 token to any address, s
 
 ![](../assets/CreatePayment.gif)
 
-{% hint style="warning" %}
+:::caution
 Sending a payment currently requires you to have [**Administration**](../advanced-features/permissions.md#administration) and [**Funding**](../advanced-features/permissions.md#funding) permissions in the domain from which you're creating the expenditure.
-{% endhint %}
+:::
 
-{% hint style="info" %}
+:::hint
 Only payments in the colony native tokens confer reputation!&#x20;
-{% endhint %}
+:::
 
 We encourage interactions between members of a colony. You can leave a comment below every action, such as a payment, or a new Team is created... :sunglasses:&#x20;
 

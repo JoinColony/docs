@@ -6,15 +6,15 @@ description: >-
 
 # Parameters
 
-{% hint style="danger" %}
+:::danger
 Coin Machine is moving to a stand alone product and is therefore no longer being included in the Colony DApp. The documentation for Coin Machine will also be moved to it's own Gitbook as required.
-{% endhint %}
+:::
 
 As part of the installation process, you need to define certain parameters _that cannot be changed afterwards_, unless Coin Machine is uninstalled and installed again. This page describes these parameters and their default values.
 
-{% hint style="warning" %}
+:::caution
 To modify the default parameters and better understand how these will affect your token sale, you may copy and experiment with this [Google Sheet](https://docs.google.com/spreadsheets/d/1ZCuFcwqI4S6ZK5OwTl1yN7AK8mjv5d\_V3g-\_kMen01Y/edit#gid=2013814210) to model your own sale.
-{% endhint %}
+:::
 
 ### Token To Be Sold
 
@@ -22,9 +22,9 @@ Select the token you wish to sell.
 
 **Default value: The** [**native token**](../../key-concepts/native-tokens.md) **of your colony.**
 
-{% hint style="info" %}
+:::note
 If the token is not in this list, you must add it to your colony by going to [New Action / Manage Funds / Manage tokens](../../manage-funds/manage-tokens.md).
-{% endhint %}
+:::
 
 ### Purchase Token
 
@@ -32,9 +32,9 @@ Select the token you wish to receive in exchange for the token you are selling.
 
 **Default value: XDAI.**
 
-{% hint style="info" %}
+:::note
 If the token is not in this list, you must add it to your colony by going to [New Action / Manage Funds / Manage tokens](../../manage-funds/manage-tokens.md).
-{% endhint %}
+:::
 
 ### Period Length
 

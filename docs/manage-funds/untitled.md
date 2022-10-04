@@ -13,6 +13,6 @@ To transfer funds between Teams, you need to navigate to **New Action > Manage F
 
 ![How to transfer funds between teams in Colony.](../assets/TransferFunds.gif)
 
-{% hint style="warning" %}
+:::caution
 To move funds between Teams, you need to have the [Funding](../advanced-features/permissions.md#funding) permission in the team from which you're moving the funds.
-{% endhint %}
+:::
