@@ -114,10 +114,10 @@ const config = {
         docs: false,
         blog: false,
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/iota/custom.css'),
         },
         pages: {
-          path: 'src/pages',
+          path: 'src/pages/iota',
         }
       },
     ],
