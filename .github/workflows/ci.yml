@@ -22,7 +22,7 @@ jobs:
         run: npm ci
 
       - name: Build 🛠
-        run: npm run build
+        run: npm run build-full
 
   build-and-deploy:
     if: github.event_name != 'pull_request'
@@ -50,7 +50,7 @@ jobs:
         run: npm ci
 
       - name: Build 🛠
-        run: npm run build
+        run: npm run build-full
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4

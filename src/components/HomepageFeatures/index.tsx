@@ -19,7 +19,7 @@ const FeatureList: FeatureItem[] = [
         Just add <s>water</s> MetaMask toolbox for the most common Colony workflows. Start here if you're new 🚀
       </>
     ),
-    link: 'docs/colonysdk',
+    link: '/colonysdk',
     color: '#19A582',
   },
   {
@@ -30,7 +30,7 @@ const FeatureList: FeatureItem[] = [
         The Colony Smart Contracts in all their glory. Freshly tested. Upgradable. Ready for you!
       </>
     ),
-    link: 'docs/colonynetwork',
+    link: '/colonynetwork',
     color: '#289BDC',
   },
   {
@@ -41,7 +41,7 @@ const FeatureList: FeatureItem[] = [
         Our reference client implementation, written in TypeScript. Battle-tested in our Dapp, it gives you all the features the Colony Network has to offer.
       </>
     ),
-    link: 'docs/colonyjs',
+    link: '/colonyjs',
     color: '#F5416E',
   },
 ];
