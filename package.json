@@ -4,16 +4,17 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "npm run copy-docs && docusaurus start",
-    "build": "npm run copy-docs && docusaurus build",
+    "start": "docusaurus start",
+    "start-full": "FULL=true docusaurus start",
+    "build": "docusaurus build",
+    "build-full": "FULL=true docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc",
-    "copy-docs": "rimraf 'docs/*' && copyfiles -u 3 -e '**/api/**/*' 'vendor/colonyJS/docs/**/*' docs/colonyjs && copyfiles -u 3 -e '**/api/**/*' 'vendor/colonySDK/docs/**/*' docs/colonysdk && copyfiles -u 3 'vendor/colonyNetwork/docs/**/*' docs/colonynetwork"
+    "typecheck": "tsc"
   },
   "dependencies": {
     "@docusaurus/core": "^2.1.0",
