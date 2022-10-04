@@ -1,8 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const path = require('path');
-
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -14,10 +12,6 @@ const getEditUrlPath = ({ docPath }) => {
 
 
   return `https://github.com/JoinColony/${docPath}`;
-}
-
-const resolveVendor = (libraryName, internalPath) => {
-  return path.resolve(__dirname, 'vendor', libraryName, internalPath);
 }
 
 const pluginsBase = [
@@ -33,19 +27,19 @@ const pluginsBase = [
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'build',
-        path: 'colony/build',
-        routeBasePath: 'build',
-        sidebarPath: require.resolve('./colony/build/sidebars.ts'),
+        id: 'explore',
+        path: 'colony/explore',
+        routeBasePath: 'explore',
+        sidebarPath: require.resolve('./colony/explore/sidebars.ts'),
       },
     ],
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'develop',
-        path: 'colony/develop',
-        routeBasePath: 'develop',
-        sidebarPath: require.resolve('./colony/develop/sidebars.ts'),
+        id: 'build',
+        path: 'colony/build',
+        routeBasePath: 'build',
+        sidebarPath: require.resolve('./colony/build/sidebars.ts'),
       },
     ],
 ];
@@ -60,7 +54,19 @@ const pluginsFull = [
         // TODO: create proper sidebar
         // TODO: consider using https://github.com/milesj/docusaurus-plugin-typedoc-api/blob/master/packages/plugin/README.md
         sidebarPath: require.resolve('./sidebars.ts'),
-        editPath: getEditUrlPath,
+        editUrl: getEditUrlPath,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'develop_colonynetwork',
+        path: 'vendor/colonyNetwork/docs',
+        routeBasePath: 'colonynetwork',
+        // TODO: create proper sidebar
+        // TODO: consider using https://github.com/milesj/docusaurus-plugin-typedoc-api/blob/master/packages/plugin/README.md
+        sidebarPath: require.resolve('./sidebars.ts'),
+        editUrl: getEditUrlPath,
       },
     ],
     [
@@ -72,7 +78,7 @@ const pluginsFull = [
         // TODO: create proper sidebar
         // TODO: consider using https://github.com/milesj/docusaurus-plugin-typedoc-api/blob/master/packages/plugin/README.md
         sidebarPath: require.resolve('./sidebars.ts'),
-        editPath: getEditUrlPath,
+        editUrl: getEditUrlPath,
       },
     ],
 ];
