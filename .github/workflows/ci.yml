@@ -38,14 +38,6 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install SDK ⚙️
-        working-directory: ./vendor/colonySDK
-        run: npm ci
-
-      - name: Install ColonyJS ⚙️
-        working-directory: ./vendor/colonyJS
-        run: npm ci
-
       - name: Install Docusaurus ⚙️
         run: npm ci
 
