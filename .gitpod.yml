@@ -1,0 +1,9 @@
+tasks:
+  - name: Install and run core wiki
+    init: |
+      corepack enable
+      npm install
+    command: npm run start
+github:
+  prebuilds:
+    pullRequestsFromForks: true
