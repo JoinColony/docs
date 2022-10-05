@@ -4,7 +4,9 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const getEditUrlPath = ({ docPath }) => {
+const DEFAULT_EDIT_URL = 'https://github.com/JoinColony/docs/edit/main'
+
+const getLibraryEditUrl = ({ docPath }) => {
   docPath = docPath
     .replace(/^colonynetwork/, 'colonyNetwork/edit/develop/docs')
     .replace(/^colonysdk/, 'colonySDK/edit/main/docs')
@@ -22,6 +24,7 @@ const pluginsBase = [
         path: 'colony/learn',
         routeBasePath: 'learn',
         sidebarPath: require.resolve('./colony/learn/sidebars.ts'),
+        editUrl: DEFAULT_EDIT_URL,
       },
     ],
     [
@@ -31,6 +34,7 @@ const pluginsBase = [
         path: 'colony/explore',
         routeBasePath: 'explore',
         sidebarPath: require.resolve('./colony/explore/sidebars.ts'),
+        editUrl: DEFAULT_EDIT_URL,
       },
     ],
     [
@@ -40,6 +44,7 @@ const pluginsBase = [
         path: 'colony/build',
         routeBasePath: 'build',
         sidebarPath: require.resolve('./colony/build/sidebars.ts'),
+        editUrl: DEFAULT_EDIT_URL,
       },
     ],
 ];
@@ -54,7 +59,7 @@ const pluginsFull = [
         // TODO: create proper sidebar
         // TODO: consider using https://github.com/milesj/docusaurus-plugin-typedoc-api/blob/master/packages/plugin/README.md
         sidebarPath: require.resolve('./sidebars.ts'),
-        editUrl: getEditUrlPath,
+        editUrl: getLibraryEditUrl,
       },
     ],
     [
@@ -66,7 +71,7 @@ const pluginsFull = [
         // TODO: create proper sidebar
         // TODO: consider using https://github.com/milesj/docusaurus-plugin-typedoc-api/blob/master/packages/plugin/README.md
         sidebarPath: require.resolve('./sidebars.ts'),
-        editUrl: getEditUrlPath,
+        editUrl: getLibraryEditUrl,
       },
     ],
     [
@@ -78,7 +83,7 @@ const pluginsFull = [
         // TODO: create proper sidebar
         // TODO: consider using https://github.com/milesj/docusaurus-plugin-typedoc-api/blob/master/packages/plugin/README.md
         sidebarPath: require.resolve('./sidebars.ts'),
-        editUrl: getEditUrlPath,
+        editUrl: getLibraryEditUrl,
       },
     ],
 ];
