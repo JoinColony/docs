@@ -46,20 +46,20 @@ const pluginsBase = [
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'explore',
-        path: 'colony/explore',
-        routeBasePath: 'explore',
-        sidebarPath: require.resolve('./colony/explore/sidebars.ts'),
+        id: 'forge',
+        path: 'colony/forge',
+        routeBasePath: 'forge',
+        sidebarPath: require.resolve('./colony/forge/sidebars.ts'),
         editUrl: DEFAULT_EDIT_URL,
       },
     ],
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'build',
-        path: 'colony/build',
-        routeBasePath: 'build',
-        sidebarPath: require.resolve('./colony/build/sidebars.ts'),
+        id: 'develop',
+        path: 'colony/develop',
+        routeBasePath: 'develop',
+        sidebarPath: require.resolve('./colony/develop/sidebars.ts'),
         editUrl: DEFAULT_EDIT_URL,
       },
     ],
@@ -170,17 +170,17 @@ const config = {
           },
           {
             type: 'doc',
-            docsPluginId: 'explore',
+            docsPluginId: 'forge',
             docId: 'index',
             position: 'left',
-            label: 'Explore',
+            label: 'Forge',
           },
           {
             type: 'doc',
-            docsPluginId: 'build',
+            docsPluginId: 'develop',
             docId: 'index',
             position: 'left',
-            label: 'Build',
+            label: 'Develop',
           },
           {
             href: 'https://github.com/JoinColony',
@@ -225,7 +225,7 @@ const config = {
         defaultMode: 'dark',
       }
     }),
-  plugins: process.env.FULL ? pluginsBase.concat(pluginsFull) : pluginsBase,
+  plugins: process.env.FULL ? [...pluginsBase, ...pluginsFull] : pluginsBase,
 };
 
 module.exports = config;
