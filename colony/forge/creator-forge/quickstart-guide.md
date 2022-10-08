@@ -5,9 +5,9 @@ sidebar_position: 1
 
 # Colony Quickstart Guide
 
-**Welcome to the Colony Quickstart Guide! We are thrilled to help you take your organization to the next level.**
+**This guide will get you from zero to DAO in a matter of minutes.**
 
-Each of these seven steps will lay the groundwork for your DAO to reach its full potential. The entire process can be completed in just a few minutes, but don't hesitate to reach out to a Colony team member on [Discord](https://discord.gg/feVZWwysqM) if you need any assistance along the way.
+Each of these seven steps will lay the groundwork for your colony. The entire process can be completed in just a few minutes, so be sure to join the [Colony Community](https://discord.gg/feVZWwysqM) to share your journey with other DAO builders.
 
 ## Step 1: Define Your DAO
 
