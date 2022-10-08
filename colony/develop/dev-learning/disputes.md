@@ -1,14 +1,11 @@
 ---
-description: Lazy Consensus
-
+description: Reputation-weighted Voting
 sidebar_position: 8
 ---
 
-# Lazy Consensus
+# Objections and Disputes
 
-***Because voting is only needed when there is a disagreement about something.***
-
-The solution to collective decision making is usually voting, but voting on every single decision is a big waste of time. Since Colony is designed for an organization's day-to-day affairs, Lazy Consensus was created to balance governance participation with operational efficiency.
+The solution to collective decision making is usually voting, but Colony is designed for day to day operation of an organisation. Voting on every decision is wholly impractical.
 
 Colony is designed to be permissive. The [reputation system](reputation.md) mediates the extent to which members may influence a colony, but beyond that constraint, members are free to take executive action with most colony matters without any approval from a management authority.
 
@@ -26,9 +23,7 @@ Objections pass _automatically_ after three days if they are not opposed by othe
 
 ## Disputes
 
-:::note
-In Colony you cannot escalate a decision to higher management, you can only escalate to bigger groups of your peers.
-:::
+> In Colony you cannot escalate a decision to higher management, you can only escalate to bigger groups of your peers.
 
 A dispute is settled by vote to "Change" or "Keep", within the domain and/or skill that was specified when the objection was raised.
 
@@ -43,8 +38,6 @@ At the end of a vote, if the vote was very close, then the losing side receives 
 
 The motivation here is efficiency — it aims to discourage spurious objections and disputes. A close vote is a sign that the decision was not a simple one and forcing a vote may have been wise. Therefore, the instigators of the dispute should not be harshly punished. On the other hand, if a vote ended in a landslide, it is a sign that the losing side was going up against a general consensus.
 
-:::tip
 We encourage communication within the colony. Members should be aware of the opinions of their peers whenever possible before disputes are invoked.
-:::
 
 Complete details of the dispute mechanism can be found in the [Colony Whitepaper](https://colony.io/whitepaper.pdf) in section 9.2

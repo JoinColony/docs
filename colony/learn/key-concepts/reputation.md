@@ -1,7 +1,7 @@
 ---
 description: What is Reputation in Colony, and how does it work?
 
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Reputation
