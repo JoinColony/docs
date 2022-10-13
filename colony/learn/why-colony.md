@@ -5,11 +5,11 @@ sidebar_position: 1
 
 # Why Colony?
 
-**Colony is the most powerful, practical, flexible, and easy-to-use DAO framework.**
+**First conceived by DAO OGs all the way back in 2014, Colony is the most powerful, practical, flexible, and easy-to-use DAO framework.**
 
 ### *Powerful*
 
-Everything an organization needs to operate on-chain. Payments, Teams, Authority, Governance, Fundraising, Revenue sharing, Arbitration, the ability to interact with any other smart contract on Ethereum, and a whole lot more.
+Colony has everything an organization needs to operate on-chain. Payments, teams, authority, governance, fundraising, revenue sharing, arbitration, the ability to interact with any other smart contract on Ethereum, and a whole lot more.
 
 ### *Practical*
 
@@ -30,3 +30,7 @@ If you want to incentivize and pay contributors in a fair and transparent way, y
 
 If you want to maximize your project's scalability, you need a colony.
 :::
+
+[**Learn More**](key-concepts/)
+ 
+[**Start Building**](../craft/)

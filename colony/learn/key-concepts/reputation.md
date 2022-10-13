@@ -8,6 +8,10 @@ sidebar_position: 2
 
 ### What is Reputation?
 
+Most DAO frameworks in the past have used token-based governance systems: the more tokens you have, the more voting power you have. This system may work out for whales, but not for everyday DAO contributors that want to participate in the future of work. 
+
+In a Colony, governance power is determined by ***Reputation***, not the size of someone's native token bags. 
+
 Reputation is an off-chain attribute that is calculated through on-chain data and verified by **Reputation Miners**, that stake **CLNY** to provide network updates.
 
 Reputation is an attribute that quantifies a particular individual’s influence and is calculated from the sum of work that has been completed within the colony. Both **native tokens** and **reputation** are required to create motions, raise disputes, and vote.

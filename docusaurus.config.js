@@ -46,10 +46,10 @@ const pluginsBase = [
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'forge',
-        path: 'colony/forge',
-        routeBasePath: 'forge',
-        sidebarPath: require.resolve('./colony/forge/sidebars.ts'),
+        id: 'craft',
+        path: 'colony/craft',
+        routeBasePath: 'craft',
+        sidebarPath: require.resolve('./colony/craft/sidebars.ts'),
         editUrl: DEFAULT_EDIT_URL,
       },
     ],
@@ -107,7 +107,7 @@ const pluginsFull = [
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Colony Knowledge Base',
+  title: 'Colony Knowledge Realm',
   tagline: 'Explore the vast possibilities of the Colony Network',
   url: 'https://docs.colony.io',
   baseUrl: '/',
@@ -155,7 +155,7 @@ const config = {
         contextualSearch: true,
       },
       navbar: {
-        title: 'Colony Knowledge Base',
+        title: 'Colony Knowledge Realm',
         logo: {
           alt: 'Colony Logo',
           src: 'img/logo.png',
@@ -170,10 +170,10 @@ const config = {
           },
           {
             type: 'doc',
-            docsPluginId: 'forge',
+            docsPluginId: 'craft',
             docId: 'index',
             position: 'left',
-            label: 'Forge',
+            label: 'Craft',
           },
           {
             type: 'doc',
