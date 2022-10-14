@@ -16,7 +16,7 @@ You may activate some or all of your tokens (we suggest to always ensure all of 
 2. Click on "Activate", enter the desired amount, and click on "Confirm"
 3. Confirm both transactions in your wallet
 
-![](../../assets/1-activate.gif)
+![](../assets/1-activate.gif)
 
 If your tokens have been successfully activated, the indicator next to your token balance changes from red to green and you can see a balance in the "Active" section.
 

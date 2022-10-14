@@ -6,7 +6,7 @@ description: How to mint the colony native token in Colony.
 
 To mint your colony native token, you need to navigate to **New Action > Manage Funds > Mint Tokens** and enter the token amount, and why you're minting them (optional).
 
-![How to mint native tokens in Colony.](../../assets/MintTokens.gif)
+![How to mint native tokens in Colony.](../assets/MintTokens.gif)
 
 :::caution
 [Root](../../creator-forge/advanced-features/permissions.md#root) permission is required in order to mint tokens.

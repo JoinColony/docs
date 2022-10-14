@@ -14,7 +14,7 @@ Users can decide to adopt an [existing ERC20 token](../quickstart-guide.md#step-
 
 You can also check the Native Token contract address and add it to your Metamask.
 
-![](../../assets/AddTokenMetamask.gif)
+![](../assets/AddTokenMetamask.gif)
 
 :::info
 A colony native tokens are locked and non-transferrable by default. They can be [unlocked](../manage-funds/unlock-token.md) anytime, so that they may be freely transferred between accounts. **** This action is irreversible and only applies to new tokens created with Colony.

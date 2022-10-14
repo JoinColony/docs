@@ -14,7 +14,7 @@ Please note: this action is **irreversible**. Use with caution
 
 To unlock your native token, navigate to **New Action > Manage Funds > Unlock Token** and click "Confirm" **only after having carefully read and understood the warning message.**
 
-![](../../assets/UnlockTokens.gif)
+![](../assets/UnlockTokens.gif)
 
 :::note
 This feature's purpose is to avoid unwanted project token transfer outside of the colony, i.e. on decentralized exchanges.
