@@ -3,7 +3,7 @@ description: Time to level up your DAO-fu.
 sidebar_position: 1
 ---
 
-# The Colony Learning Realm
+# The Learning Realm
 
 **Whether you're brand new to DAO building or you're a seasoned DAOist, you've come to the right place.**
 
