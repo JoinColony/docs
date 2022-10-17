@@ -3,16 +3,18 @@ description: Time to level up your DAO-fu.
 sidebar_position: 1
 ---
 
-# The Learning Realm
+# Start Your Journey
 
 **Whether you're brand new to DAO building or you're a seasoned DAOist, you've come to the right place.**
 
-The Colony Learning Realm is where you'll find the fundamentals of DAO building and explore the principles that power Colony.
+The Learning Realm is where you'll find the fundamentals of DAO building and explore the principles that power Colony.
 
 :::tip The Colony Journey
-Once you've gathered up enough knowledge, you can [put your skills to the test](test-your-knowledge) and earn NFT completion badges. 
+Browse through the **Learn** section to level up your DAO-fu. 
 
-Then, you'll be ready to head over to [Craft and Contribute](../craft/) and start building colonies.
+Once you've gathered up enough knowledge, you can [**put your skills to the test**](test-your-knowledge) and earn NFT completion badges. 
+
+Then, you'll be ready to head over to [**Craft and Contribute**](../craft/) to start building colonies.
 :::
 
 :::note Hey Devs!
