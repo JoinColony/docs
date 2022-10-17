@@ -34,3 +34,5 @@ If you want to maximize your project's scalability, you need a colony.
 [**Learn More**](key-concepts/)
  
 [**Start Building**](../craft/)
+
+Find out more about the *why* behind Colony in [this blog post](https://blog.colony.io/why-colony-2a1e479dc40d/).
