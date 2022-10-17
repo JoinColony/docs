@@ -26,6 +26,15 @@ jobs:
 
       - name: Build 🛠
         run: npm run build-full
+        env:
+          QA: true
+
+      - name: Deploy to QA 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: build
+          target-folder: next
 
   build-and-deploy:
     if: github.event_name != 'pull_request'
@@ -47,8 +56,8 @@ jobs:
       - name: Build 🛠
         run: npm run build-full
 
-      - name: Deploy 🚀
+      - name: Deploy to production 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: build # The folder the action should deploy.
+          branch: gh-pages
+          folder: build
