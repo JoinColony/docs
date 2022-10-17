@@ -111,8 +111,8 @@ const config = {
   tagline: 'Explore the vast possibilities of the Colony Network',
   url: 'https://docs.colony.io',
   baseUrl: process.env.QA ? '/next/' : '/',
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: process.env.QA ? 'warn' : 'throw',
+  onBrokenMarkdownLinks: process.env.QA ? 'warn' : 'throw',
   favicon: 'img/logo.png',
 
   // GitHub pages deployment config.

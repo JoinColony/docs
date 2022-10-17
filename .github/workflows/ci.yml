@@ -6,7 +6,7 @@ on:
     branches: [main]
 
 jobs:
-  checks:
+  build-and-delpoy-to-qa:
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
