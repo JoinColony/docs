@@ -110,7 +110,7 @@ const config = {
   title: 'Colony Knowledge Realm',
   tagline: 'Explore the vast possibilities of the Colony Network',
   url: 'https://docs.colony.io',
-  baseUrl: '/',
+  baseUrl: process.env.QA ? '/next/' : '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.png',
