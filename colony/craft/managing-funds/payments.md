@@ -23,6 +23,6 @@ Sending a payment currently requires you to have [**Administration**](../advance
 Only payments in the colony native tokens confer reputation!
 :::
 
-We encourage interactions between members of a colony. You can leave a comment below every action, such as a payment, or a new Team is created... :sunglasses:
+We encourage interactions between members of a colony. You can leave a comment below every action, such as a payment, or the creation of a new team.
 
 ![](../assets/CommentPay.gif)
