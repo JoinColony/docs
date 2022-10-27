@@ -44,6 +44,10 @@ Already have a native token? Specify the token address and see if the token name
 
 Once you've set up your token, you'll see a confirmation page where you can double check the details. If it looks good to go, you're ready to launch your colony!
 
+:::tip
+Until multichain support is live, you'll need to bridge your ERC20 tokens to the Gnosis chain and have your Gnosis contract address ready before creating your colony.
+:::
+
 ## Step 3: Sign Transactions
 
 Next, you'll need to approve a series of transactions with your MetaMask wallet to get your colony's contracts set up. This process only needs to be ran one time per colony and should only take a few minutes.

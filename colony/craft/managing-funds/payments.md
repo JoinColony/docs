@@ -11,7 +11,8 @@ To create an expenditure and send a payment in any ERC20 token to any address, s
 1. From where you want to send the payment
 2. To which Ethereum address
 3. Which token and amount you wish to send
-4. You can also input details of why you are making this payment (optional)
+
+You can also input details of why you are making this payment (optional).
 
 ![](../assets/CreatePayment.gif)
 
@@ -19,10 +20,10 @@ To create an expenditure and send a payment in any ERC20 token to any address, s
 Sending a payment currently requires you to have [**Administration**](../advanced-features/permissions.md#administration) and [**Funding**](../advanced-features/permissions.md#funding) permissions in the domain from which you're creating the expenditure.
 :::
 
-:::hint
-Only payments in the colony native tokens confer reputation!
+:::tip
+Only payments in the colony's native tokens confer reputation! Sending stablecoins does not. You can use stablecoin payments to adjust for cost-of-living requirements for contributors, or any other situation where making a payment without giving additional reputation is appropriate. 
 :::
 
-We encourage interactions between members of a colony. You can leave a comment below every action, such as a payment, or the creation of a new team.
+Communication between colony members is highly encouraged. You can leave a comment below every action, such as a payment, or the creation of a new team.
 
 ![](../assets/CommentPay.gif)

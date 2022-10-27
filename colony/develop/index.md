@@ -5,7 +5,7 @@ sidebar_position: 0
 
 # Developer Knowledge Realm
 
-Welcome to the Colony DevRealm!
+**Welcome to the Colony DevRealm!**
 
 :::tip New to Colony?
 If you're brand new to Colony, head over to the [Learning Realm](../learn/) to brush up on the basics and earn a proof-of-knowledge NFT. 

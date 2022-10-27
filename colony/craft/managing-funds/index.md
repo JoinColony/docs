@@ -1,8 +1,13 @@
 ---
-description: For those about to DAO (we salute you).
+description: Powerful DAO fund management tools with Colony.
 
 sidebar_position: 3
 ---
 
 # Managing Funds
 
+This section covers [paying contributors](payments.md), [minting tokens](mint-tokens.md), [transferring funds between teams](move-funds.md), and many other fund management topics. 
+
+:::tip
+Have a question about managing funds with Colony? [Drop a note in our Discord](https://discord.gg/feVZWwysqM)!
+:::
