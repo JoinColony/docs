@@ -16,6 +16,22 @@ const getLibraryEditUrl = ({ docPath }) => {
   return `https://github.com/JoinColony/${docPath}`;
 }
 
+async function capitalizeSidebarItems({ defaultSidebarItemsGenerator, ...args }) {
+  const items = await defaultSidebarItemsGenerator(args);
+  items.forEach(mainItem => {
+    if (mainItem.items) {
+      mainItem.items = mainItem.items.map(item => {
+        if (item.label) {
+          item.label = item.label.replace(/^([a-z])/, m => m.toUpperCase());
+        }
+        return item;
+      });
+    }
+  });
+  console.log(items[2].items);
+  return items;
+};
+
 const pluginsBase = [
     [
       '@docusaurus/plugin-content-docs',
@@ -56,9 +72,8 @@ const pluginsFull = [
         id: 'develop_colonysdk',
         path: 'vendor/colonySDK/docs',
         routeBasePath: 'colonysdk',
-        // TODO: create proper sidebar
-        // TODO: consider using https://github.com/milesj/docusaurus-plugin-typedoc-api/blob/master/packages/plugin/README.md
         sidebarPath: require.resolve('./sidebars.ts'),
+        sidebarItemsGenerator: capitalizeSidebarItems,
         editUrl: getLibraryEditUrl,
       },
     ],
@@ -71,6 +86,7 @@ const pluginsFull = [
         // TODO: create proper sidebar
         // TODO: consider using https://github.com/milesj/docusaurus-plugin-typedoc-api/blob/master/packages/plugin/README.md
         sidebarPath: require.resolve('./sidebars.ts'),
+        sidebarItemsGenerator: capitalizeSidebarItems,
         editUrl: getLibraryEditUrl,
       },
     ],
@@ -83,6 +99,7 @@ const pluginsFull = [
         // TODO: create proper sidebar
         // TODO: consider using https://github.com/milesj/docusaurus-plugin-typedoc-api/blob/master/packages/plugin/README.md
         sidebarPath: require.resolve('./sidebars.ts'),
+        sidebarItemsGenerator: capitalizeSidebarItems,
         editUrl: getLibraryEditUrl,
       },
     ],
