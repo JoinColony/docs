@@ -28,7 +28,6 @@ async function capitalizeSidebarItems({ defaultSidebarItemsGenerator, ...args })
       });
     }
   });
-  console.log(items[2].items);
   return items;
 };
 
