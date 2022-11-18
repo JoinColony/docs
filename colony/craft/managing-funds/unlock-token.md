@@ -21,5 +21,5 @@ This feature's purpose is to avoid unwanted project token transfer outside of th
 :::
 
 :::caution
-Unlocking the native token requires you to have [Root](../../creator-forge/advanced-features/permissions.md#root) permission.
+Unlocking the native token requires you to have [Root](../advanced-features/permissions.md#root) permission.
 :::

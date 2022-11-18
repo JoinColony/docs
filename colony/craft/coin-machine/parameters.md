@@ -20,7 +20,7 @@ To modify the default parameters and better understand how these will affect you
 
 Select the token you wish to sell.
 
-**Default value: The** [**native token**](../../key-concepts/native-tokens.md) **of your colony.**
+**Default value: The** [**native token**](../managing-funds/native-tokens.md) **of your colony.**
 
 :::note
 If the token is not in this list, you must add it to your colony by going to [New Action / Manage Funds / Manage tokens](../managing-funds/manage-tokens.md).
@@ -52,13 +52,13 @@ This is the number of periods over which the moving average of your token’s pr
 
 The number of tokens to aim to sell per period. If this target is not met, the price in the next period will be lower. If this target is exceeded, the price in the next period will be higher.
 
-**Default value: 200000 units of the** [**native token**](../key-concepts/native-tokens.md) **of your colony**
+**Default value: 200000 units of the** [**native token**](../managing-funds/native-tokens.md) **of your colony**
 
 ### Maximum Per Period
 
 The number of tokens to aim to sell per period. If this target is not met, the price in the next period will be lower. If this target is exceeded, the price in the next period will be higher.
 
-**Default value: 400000 units of the** [**native token**](../../key-concepts/native-tokens.md) **of your colony**
+**Default value: 400000 units of the** [**native token**](../managing-funds/native-tokens.md) **of your colony**
 
 ### Per user purchase limit
 

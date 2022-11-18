@@ -18,4 +18,4 @@ You can navigate to the member's page to browse between all the members in a col
 
 ![Filter Members by Team, and check Reputation.](../assets/BrowseMembers.gif)
 
-Users are ordered by the reputation they have in the team you are watching. All Teams include users that have [joined a colony](../contributor-forge/join-a-colony.md) but have not earned [reputation](../../learn/key-concepts/reputation.md) in it. In fact, to truly call yourself a member of a colony, you'll need to earn some reputation.
+Users are ordered by the reputation they have in the team you are watching. All Teams include users that have [joined a colony](../join-a-colony.md) but have not earned [reputation](../reputation/) in it. In fact, to truly call yourself a member of a colony, you'll need to earn some reputation.

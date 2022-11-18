@@ -14,11 +14,11 @@ There are currently 6 different types of permission. To manage them, navigate to
 
 ### Root
 
-Root allows you to take actions affecting the Colony as a whole, such as [changing the colony details](../create-a-colony/edit-colony-details.md) and [minting tokens](../manage-funds/mint-tokens.md).
+Root allows you to take actions affecting the Colony as a whole, such as changing the colony details and [minting tokens](../managing-funds/mint-tokens.md).
 
 ### Administration
 
-Administration allows you to [create and manage expenditures](../expenditures/payments.md), but not to fund them.
+Administration allows you to create and manage expenditures, but not to fund them.
 
 ### Architecture
 
@@ -26,7 +26,7 @@ Architecture allows you to set permissions in the active Team, as well as [chang
 
 ### Funding
 
-Funding allows you to [fund expenditures](../expenditures/payments.md), and [transfer funds between Teams.](../manage-funds/untitled.md)
+Funding allows you to [fund expenditures](../expenditures/payments.md), and [transfer funds between Teams.](../managing-funds/move-funds.md)
 
 ### Arbitration
 

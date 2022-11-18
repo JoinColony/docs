@@ -9,7 +9,7 @@ sidebar_position: 3
 
 The DAO Builder's Toolkit is where you'll find the fundamental concepts that 
 
-Concepts like [reputation-based governance](../key-concepts/reputation.md) and [lazy consensus](../key-concepts/lazy-consensus.md) may be new to you, but you'll soon discover how powerful and intuitive they are.
+Concepts like [reputation-based governance](reputation.md) and [lazy consensus](lazy-consensus.md) may be new to you, but you'll soon discover how powerful and intuitive they are.
 
 Once you've explored the content in this section, you can put your knowledge to the test and earn an NFT completion badge.
 

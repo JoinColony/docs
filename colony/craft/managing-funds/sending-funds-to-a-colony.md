@@ -26,4 +26,4 @@ To claim funds, navigate to **Events**, wait for the token transfers to load, an
 
 ![](../assets/ClaimFunds.gif)
 
-Claimed funds will appear in the **Root** balance**,** and can be later transferred to any other Team using a motion, or by anyone who has the [Funding](../../creator-forge/advanced-features/permissions.md#funding) permission in Root.
+Claimed funds will appear in the **Root** balance**,** and can be later transferred to any other Team using a motion, or by anyone who has the [Funding](../advanced-features/permissions.md#funding) permission in Root.

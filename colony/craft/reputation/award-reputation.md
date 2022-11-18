@@ -6,7 +6,7 @@ description: How to Award Reputation without making payments.
 
 ### Why award reputation manually?
 
-After having [created a colony](../quickstart-guide.md), nobody has reputation will have reputation - not even the user who has created the colony. Some colonies use [permissions](https://colony.gitbook.io/colony/advanced-features/permissions) to distribute reputation through [payments](https://colony.gitbook.io/colony/expenditures/payments). Another way to distribute reputation is the Award feature, described below. Making sure that reputation is distributed appropriately among a colony's users allows users to get the most out of the Colony experience, such as the [Governance (Reputation Weighted)](../../extensions/governance/) extension.&#x20;
+After having [created a colony](../launch-a-colony.md), nobody has reputation will have reputation - not even the user who has created the colony. Some colonies use [permissions](https://colony.gitbook.io/colony/advanced-features/permissions) to distribute reputation through [payments](https://colony.gitbook.io/colony/expenditures/payments). Another way to distribute reputation is the Award feature, described below. Making sure that reputation is distributed appropriately among a colony's users allows users to get the most out of the Colony experience, such as the [Governance (Reputation Weighted)](../advanced-features/extensions/governance/creating-a-motion.md) extension.&#x20;
 
 ### Awarding reputation
 
@@ -18,7 +18,7 @@ After having [created a colony](../quickstart-guide.md), nobody has reputation w
 
 ![](../assets/award-reputation-2a\_AdobeCreativeCloudExpress.gif)
 
-3\. Choose the team. You can award reputation at Root level, however it is typically appropriate to do so on a team level. See [here for more information on teams](https://colony.gitbook.io/colony/teams/create-team).
+3\. Choose the team. You can award reputation at Root level, however it is typically appropriate to do so on a team level. See [here for more information on teams](../teams/create-team.md).
 
 ![](../assets/award-reputation-2b\_AdobeCreativeCloudExpress.gif)
 
@@ -29,7 +29,7 @@ Be careful when manually awarding reputation. **Improper use can break your colo
 :::
 
 :::caution
-To make sure that no single account can govern the colony, make sure that the number of reputation points awarded to a particular account is appropriate and reasonable compared to the number of reputation points that other accounts hold. A malicious actor could use this feature to attack your colony if they receive the [required permission](https://colony.gitbook.io/colony/advanced-features/permissions).
+To make sure that no single account can govern the colony, make sure that the number of reputation points awarded to a particular account is appropriate and reasonable compared to the number of reputation points that other accounts hold. A malicious actor could use this feature to attack your colony if they receive the [required permission](../advanced-features/permissions.md).
 :::
 
 ![](../assets/award-reputation-2c\_AdobeCreativeCloudExpress.gif)
@@ -40,4 +40,4 @@ To make sure that no single account can govern the colony, make sure that the nu
 
 ![](../assets/award-reputation-4\_AdobeCreativeCloudExpress.gif)
 
-If an account was awarded too many reputation points, you can use the [Smite feature](https://colony.gitbook.io/colony/key-concepts/reputation/smite-reputation) to reduce them again.
+If an account was awarded too many reputation points, you can use the [Smite feature](../reputation/smite-reputation.md) to reduce them again.
