@@ -10,12 +10,12 @@ Every colony has its own native token that complements its reputation. Payment i
 
 Both internal tokens and reputation are required to create motions, raise disputes, and vote.
 
-Users can decide to adopt an [existing ERC20 token](../quickstart-guide.md#step-2b-using-an-existing-token) as their native token (i.e. DAI or _USDC_), or to [create a new one](../quickstart-guide.md#step-2a-creating-a-new-token). Native Tokens are a key aspect when creating a new colony.
+Users can decide to adopt an [existing ERC20 token](../launch-a-colony.md#step-2b-using-an-existing-token) as their native token (i.e. DAI or _USDC_), or to [create a new one](../launch-a-colony.md#step-2a-creating-a-new-token). Native Tokens are a key aspect when creating a new colony.
 
 You can also check the Native Token contract address and add it to your Metamask.
 
 ![](../assets/AddTokenMetamask.gif)
 
 :::info
-A colony native tokens are locked and non-transferrable by default. They can be [unlocked](../manage-funds/unlock-token.md) anytime, so that they may be freely transferred between accounts. **** This action is irreversible and only applies to new tokens created with Colony.
+A colony native tokens are locked and non-transferrable by default. They can be [unlocked](../managing-funds/unlock-token.md) anytime, so that they may be freely transferred between accounts. **** This action is irreversible and only applies to new tokens created with Colony.
 :::

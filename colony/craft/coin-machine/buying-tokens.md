@@ -41,5 +41,5 @@ To buy tokens during an ongoing sale, follow these steps:
 * If the next screen shows "You didn't get any X this time" (with X representing the respective token of that colony's token sale), you did not buy any tokens at this time. Unless that was the very last sale, you will see a countdown to the next sale below where you can try again.&#x20;
 
 :::note
-To use tokens you just bought in the colony, you need to [activate](../../key-concepts/token-activation.md) them first.
+To use tokens you just bought in the colony, you need to [activate](../managing-funds/token-activation.md) them first.
 :::

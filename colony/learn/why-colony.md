@@ -31,7 +31,7 @@ If you want to incentivize and pay contributors in a fair and transparent way, y
 If you want to maximize your project's scalability, you need a colony.
 :::
 
-[**Learn More**](key-concepts/)
+[**Learn More**](../learn/)
  
 [**Start Building**](../craft/)
 
