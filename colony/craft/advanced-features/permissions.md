@@ -26,7 +26,7 @@ Architecture allows you to set permissions in the active Team, as well as [chang
 
 ### Funding
 
-Funding allows you to [fund expenditures](../expenditures/payments.md), and [transfer funds between Teams.](../managing-funds/move-funds.md)
+Funding allows you to [fund expenditures](../managing-funds/payments.md), and [transfer funds between Teams.](../managing-funds/move-funds.md)
 
 ### Arbitration
 
