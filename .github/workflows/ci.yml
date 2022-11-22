@@ -3,7 +3,7 @@ name: ci
 on:
   pull_request:
   push:
-    branches: [main]
+    branches: [main, qa]
 
 jobs:
   checks:
@@ -28,7 +28,7 @@ jobs:
         run: npm run build-full
 
   build-and-delpoy-to-qa:
-    if: github.event_name != 'push'
+    if: github.branch == 'qa'
     runs-on: ubuntu-latest
     steps:
 
