@@ -62,8 +62,6 @@ const pluginsFull = [
         id: 'develop_colonynetwork',
         path: 'vendor/colonyNetwork/docs',
         routeBasePath: 'colonynetwork',
-        // TODO: create proper sidebar
-        // TODO: consider using https://github.com/milesj/docusaurus-plugin-typedoc-api/blob/master/packages/plugin/README.md
         sidebarPath: require.resolve('./sidebars.ts'),
         sidebarItemsGenerator: capitalizeSidebarItems,
         editUrl: getLibraryEditUrl,
@@ -75,8 +73,6 @@ const pluginsFull = [
         id: 'develop_colonyjs',
         path: 'vendor/colonyJS/docs',
         routeBasePath: 'colonyjs',
-        // TODO: create proper sidebar
-        // TODO: consider using https://github.com/milesj/docusaurus-plugin-typedoc-api/blob/master/packages/plugin/README.md
         sidebarPath: require.resolve('./sidebars.ts'),
         sidebarItemsGenerator: capitalizeSidebarItems,
         editUrl: getLibraryEditUrl,
