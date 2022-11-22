@@ -28,7 +28,7 @@ jobs:
         run: npm run build-full
 
   build-and-delpoy-to-qa:
-    if: github.branch == 'qa'
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/qa'
     runs-on: ubuntu-latest
     steps:
 
@@ -58,7 +58,7 @@ jobs:
           target-folder: next
 
   build-and-deploy:
-    if: github.event_name != 'pull_request'
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
