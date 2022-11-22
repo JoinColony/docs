@@ -35,30 +35,10 @@ const pluginsBase = [
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'learn',
-        path: 'colony/learn',
-        routeBasePath: 'learn',
-        sidebarPath: require.resolve('./colony/learn/sidebars.ts'),
-        editUrl: DEFAULT_EDIT_URL,
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'craft',
-        path: 'colony/craft',
-        routeBasePath: 'craft',
-        sidebarPath: require.resolve('./colony/craft/sidebars.ts'),
-        editUrl: DEFAULT_EDIT_URL,
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'develop',
-        path: 'colony/develop',
-        routeBasePath: 'develop',
-        sidebarPath: require.resolve('./colony/develop/sidebars.ts'),
+        id: 'docs',
+        path: 'colony',
+        routeBasePath: '/',
+        sidebarPath: require.resolve('./colony/sidebars.ts'),
         editUrl: DEFAULT_EDIT_URL,
       },
     ],
@@ -162,22 +142,22 @@ const config = {
         items: [
           {
             type: 'doc',
-            docsPluginId: 'learn',
-            docId: 'index',
+            docsPluginId: 'docs',
+            docId: 'learn/index',
             position: 'left',
             label: 'Learn',
           },
           {
             type: 'doc',
-            docsPluginId: 'craft',
-            docId: 'index',
+            docsPluginId: 'docs',
+            docId: 'craft/index',
             position: 'left',
             label: 'Craft',
           },
           {
             type: 'doc',
-            docsPluginId: 'develop',
-            docId: 'index',
+            docsPluginId: 'docs',
+            docId: 'develop/index',
             position: 'left',
             label: 'Develop',
           },

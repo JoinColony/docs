@@ -31,8 +31,8 @@ If you want to incentivize and pay contributors in a fair and transparent way, y
 If you want to maximize your project's scalability, you need a colony.
 :::
 
-[**Learn More**](../learn/)
+[**Learn More**](index.md)
  
-[**Start Building**](../craft/)
+[**Start Building**](../craft/index.md)
 
 Find out more about the *why* behind Colony in [this blog post](https://blog.colony.io/why-colony-2a1e479dc40d/).
