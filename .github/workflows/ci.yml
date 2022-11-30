@@ -51,7 +51,7 @@ jobs:
           QA: true
 
       - name: Deploy to QA 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+        uses: JamesIves/github-pages-deploy-action@4
         with:
           branch: gh-pages
           folder: build
@@ -78,7 +78,7 @@ jobs:
         run: npm run build-full
 
       - name: Deploy to production 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+        uses: JamesIves/github-pages-deploy-action@4
         with:
           branch: gh-pages
           folder: build
