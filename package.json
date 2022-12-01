@@ -50,5 +50,8 @@
   },
   "engines": {
     "node": ">=16.14"
+  },
+  "overrides": {
+    "mdast-util-to-hast": "Divine-Software/mdast-util-to-hast#0e709bd254f07bad424d74a1d98e727d1d7926e4"
   }
 }
