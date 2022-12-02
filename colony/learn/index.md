@@ -1,6 +1,6 @@
 ---
 description: Time to level up your DAO-fu.
-sidebar_position: 1
+sidebar_position: 0
 ---
 
 # Start Your Journey
