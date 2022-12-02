@@ -2,13 +2,11 @@
 description: What is Recovery Mode in Colony, and how to use it in case of danger.
 ---
 
-# Recovery Mode
+# Entering and Exiting Recovery Mode
 
 If you believe that something dangerous is happening in your colony (e.g. it is under attack), recovery mode will disable the colony and prevent further activity until the issue is brought to resolution.
 
-:::caution
-Leaving recovery requires the approval of a majority of members holding the Recovery permission.
-:::
+See also [this article](../../learn/advanced-concepts/recovery-mode.md).
 
 ### Activate Recovery Mode
 
