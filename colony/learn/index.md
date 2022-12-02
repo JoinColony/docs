@@ -14,7 +14,7 @@ Browse through the [**Learn**](why-colony) section to level up your DAO-fu.
 
 Once you've gathered up enough knowledge, you can [**put your skills to the test**](test-your-knowledge) and earn NFT completion badges. 
 
-Then, you'll be ready to head over to [**Craft and Contribute**](../craft/) to start building colonies.
+Then, you'll be ready to head over to [**use and Contribute**](../use/) to start building colonies.
 :::
 
 :::note Hey Devs!
