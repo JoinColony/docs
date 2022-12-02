@@ -1,8 +1,38 @@
-# Permissions within Colony
+# Permissions
 
-Note: this list is not complete, but rather covers all of the interactions that you come across within the UI. If you feel like something is missing, feel free to reach out.
+### Managing Permissions in Colony
 
-## Colony permissions
+Permissions in Colony are used to distribute authority within colonies and [Teams](../../craft/teams/create-team.md). Permissions help ensure that your colony is secure and that the right users have the right abilities.
+
+There are currently 6 different types of permission. To manage them, navigate to **New Action > Advanced > Manage Permissions**.
+
+![](../assets/ManagePermissions.gif)
+
+### Root
+
+Root allows you to take actions affecting the Colony as a whole, such as changing the colony details and [minting tokens](../managing-funds/mint-tokens.md).
+
+### Administration
+
+Administration allows you to create and manage expenditures, but not to fund them.
+
+### Architecture
+
+Architecture allows you to set permissions in the active Team, as well as [changing the Team details](../teams/create-team.md#edit-team). Architecture permission in Root allows you to [create and edit Teams](../teams/create-team.md).
+
+### Funding
+
+Funding allows you to [fund expenditures](../managing-funds/payments.md), and [transfer funds between Teams.](../managing-funds/move-funds.md)
+
+### Arbitration
+
+Arbitration allows you to resolve disputes, make state changes, and punish bad behavior.
+
+### Recovery
+
+[Recovery](recovery-mode.md) allows you to disable the colony in an emergency, update storage, and approve reactivation. Recovery permission is only effective in **Root**.
+
+## Actions that require permissions
 
 | Action | Required permission(s) | Method on contract | Notes |
 | :------ | :------ | :------ | :------ |
@@ -53,6 +83,8 @@ The Motions & Disputes extension contract itself needs the *Root*, *Administrati
 
 
 ## Some notes on permissions
+
+This list of actions is not complete, but rather covers the most common actions that you come across within the UI.
 
 * The *Root* role can only be assigned in the `Root` team/domain.
 
