@@ -5,7 +5,7 @@ sidebar_position: 0
 
 # Roles & Permissions
 
-SOME TEXT WHY WE NEED ROLES, MAYBE MENTION REPUTATION BOOTSTRAPPING IN THE BEGINNING OF A COLONY AND SUCH THINGS.
+Roles and Permissions are used in a colony to determine who has access to which features. When setting up a colony, it's important to make sure that the right users have the right roles. 
 
 ## Available roles in Colony
 

@@ -146,9 +146,9 @@ const config = {
           {
             type: 'doc',
             docsPluginId: 'docs',
-            docId: 'craft/index',
+            docId: 'use/index',
             position: 'left',
-            label: 'Craft',
+            label: 'Use',
           },
           {
             type: 'doc',
