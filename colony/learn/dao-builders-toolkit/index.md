@@ -1,6 +1,6 @@
 ---
 description: Time to level up your DAO-fu.
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # The DAO Builder's Toolkit

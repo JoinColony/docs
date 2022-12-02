@@ -1,36 +1,37 @@
-# Permissions
+---
+description: Permissions within Colony
+sidebar_position: 0
+---
 
-### Managing Permissions in Colony
+# Roles & Permissions
 
-Permissions in Colony are used to distribute authority within colonies and [Teams](../../craft/teams/create-team.md). Permissions help ensure that your colony is secure and that the right users have the right abilities.
+SOME TEXT WHY WE NEED ROLES, MAYBE MENTION REPUTATION BOOTSTRAPPING IN THE BEGINNING OF A COLONY AND SUCH THINGS.
 
-There are currently 6 different types of permission. To manage them, navigate to **New Action > Advanced > Manage Permissions**.
-
-![](../assets/ManagePermissions.gif)
+## Available roles in Colony
 
 ### Root
 
-Root allows you to take actions affecting the Colony as a whole, such as changing the colony details and [minting tokens](../managing-funds/mint-tokens.md).
+*Root* allows you to take actions affecting the Colony as a whole, such as changing the colony details and minting tokens.
 
 ### Administration
 
-Administration allows you to create and manage expenditures, but not to fund them.
+*Administration* allows you to create and manage expenditures, but not to fund them.
 
 ### Architecture
 
-Architecture allows you to set permissions in the active Team, as well as [changing the Team details](../teams/create-team.md#edit-team). Architecture permission in Root allows you to [create and edit Teams](../teams/create-team.md).
+*Architecture* allows you to set permissions in the active team, as well as changing the Team details. Architecture permission in Root allows you to create and edit teams.
 
 ### Funding
 
-Funding allows you to [fund expenditures](../managing-funds/payments.md), and [transfer funds between Teams.](../managing-funds/move-funds.md)
+*Funding* allows you to fund expenditures, and transfer funds between Teams.
 
 ### Arbitration
 
-Arbitration allows you to resolve disputes, make state changes, and punish bad behavior.
+*Arbitration* allows you to resolve disputes, make state changes, and punish bad behavior.
 
 ### Recovery
 
-[Recovery](recovery-mode.md) allows you to disable the colony in an emergency, update storage, and approve reactivation. Recovery permission is only effective in **Root**.
+Recovery mode allows you to disable the colony in an emergency, update storage, and approve reactivation. The *Recovery* role is only effective in **Root**.
 
 ## Actions that require permissions
 
@@ -92,4 +93,4 @@ This list of actions is not complete, but rather covers the most common actions 
 
 [^2]: When a user has the *Root* role, they can set permissions for the *Root* domain (which doesn't have any parents), essentially meaning that the limitation in [^1] is lifted.
 
-[^3]: The *Recovery* role is a special role that enables a user to put the Colony into and out of Recovery Mode. Read more about Recovery Mode [INSERT LINK HERE](permissions.md)
+[^3]: The *Recovery* role is a special role that enables a user to put the Colony into and out of Recovery Mode. Read more about Recovery Mode [here](recovery-mode.md)
