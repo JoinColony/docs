@@ -4,7 +4,7 @@ description: It's time to build a colony.
 sidebar_position: 0
 ---
 
-# Craft and Contribute
+# Using Colony
 
 **This is where DAO building happens.**
 
