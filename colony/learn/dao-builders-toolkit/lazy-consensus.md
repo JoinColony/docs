@@ -1,7 +1,7 @@
 ---
 description: Lazy Consensus
 
-sidebar_position: 8
+sidebar_position: 3
 ---
 
 # Lazy Consensus
