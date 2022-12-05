@@ -1,5 +1,8 @@
+---
+description: Why do companies exist?
 
-
+sidebar_position: 9
+---
 
 # The Theory of the Firm
 

@@ -1,7 +1,7 @@
 ---
 description: The DAO that helps build DAOs.
 
-sidebar_position: 2
+sidebar_position: 5
 ---
 
 # The Metacolony and CLNY
