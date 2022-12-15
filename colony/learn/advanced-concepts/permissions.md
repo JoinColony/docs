@@ -9,27 +9,27 @@ Roles and Permissions are used in a colony to determine who has access to which 
 
 ## Available roles in Colony
 
-### Root
+### 🪙 Root
 
 *Root* allows you to take actions affecting the Colony as a whole, such as changing the colony details and minting tokens.
 
-### Administration
+### 🏛 Administration
 
 *Administration* allows you to create and manage expenditures, but not to fund them.
 
-### Architecture
+### 🏗 Architecture
 
 *Architecture* allows you to set permissions in the active team, as well as changing the Team details. Architecture permission in Root allows you to create and edit teams.
 
-### Funding
+### 💰 Funding
 
 *Funding* allows you to fund expenditures, and transfer funds between Teams.
 
-### Arbitration
+### 👩‍⚖️  Arbitration
 
 *Arbitration* allows you to resolve disputes, make state changes, and punish bad behavior.
 
-### Recovery
+### 🚨 Recovery
 
 Recovery mode allows you to disable the colony in an emergency, update storage, and approve reactivation. The *Recovery* role is only effective in **Root**.
 
