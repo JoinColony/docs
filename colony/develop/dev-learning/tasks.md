@@ -38,7 +38,7 @@ Every task has three roles associated with it which determine permissions for ed
 
 Once created, some changes to a task require the signature of multiple roles.
 
-Additionally, in the first version of the Colony Network, the creation and modification of tasks is mediated by `auth` roles as described in the [Colony Roles](permissions.md).
+Additionally, in the first version of the Colony Network, the creation and modification of tasks is mediated by `auth` roles as described in the Colony Roles.
 
 ## The Task Life-cycle
 

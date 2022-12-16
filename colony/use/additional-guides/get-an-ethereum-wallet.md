@@ -16,7 +16,7 @@ For additional security, you have the option to use a hardware wallet. Metamask 
 
 :::note
 Colony is now offering MetaTransactions, which covers your gas fees for Colony on the Gnosis Chain, meaning you no longer need xDai tokens to use Colony.\
-You can [read more about it here](../advanced-features/metatransactions.md).&#x20;
+You can [read more about it here](../advanced-features/gasless-transactions.md).&#x20;
 :::
 
 Since Colony runs on the Gnosis Chain network, transaction fees are extremely cheap compared to Ethereum mainnet - but not free. To cover transaction fees while using Colony, you need xDai tokens.&#x20;
