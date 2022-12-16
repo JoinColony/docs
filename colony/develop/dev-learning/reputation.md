@@ -15,7 +15,7 @@ The Reputation System in Colony is a tool for governance in a decentralized cont
 
 Reputation confers influence in a colony by mediating a member's ability to adjust various aspects of the organization. Whether it is the ability to move funds to fund tasks, to create new domains and skills, or to settle disputes, reputation determines influence by degrees.
 
-_It is important to note that in the first deployed version of the Colony Network, reputation will play a more passive role in a colony. Reputation will still determine payouts during the rewards cycle, but influence over domain/skill creation, funding tasks, and other important functions will instead be mediated by a permissioned_ [_authority role_](permissions.md)_._
+_It is important to note that in the first deployed version of the Colony Network, reputation will play a more passive role in a colony. Reputation will still determine payouts during the rewards cycle, but influence over domain/skill creation, funding tasks, and other important functions will instead be mediated by a permissioned_ authority role.
 
 ## Gaining and Losing Reputation
 

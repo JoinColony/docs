@@ -6,7 +6,7 @@ description: How to Award Reputation without making payments.
 
 ### Why award reputation manually?
 
-After having [created a colony](../launch-a-colony.md), nobody has reputation will have reputation - not even the user who has created the colony. Some colonies use [permissions](https://colony.gitbook.io/colony/advanced-features/permissions) to distribute reputation through [payments](https://colony.gitbook.io/colony/expenditures/payments). Another way to distribute reputation is the Award feature, described below. Making sure that reputation is distributed appropriately among a colony's users allows users to get the most out of the Colony experience, such as the [Governance (Reputation Weighted)](../advanced-features/extensions/governance/creating-a-motion.md) extension.&#x20;
+After having [created a colony](../launch-a-colony.md), nobody has reputation will have reputation - not even the user who has created the colony. Some colonies use [permissions](https://colony.gitbook.io/colony/advanced-features/permissions) to distribute reputation through [payments](https://colony.gitbook.io/colony/expenditures/payments). Another way to distribute reputation is the Award feature, described below. Making sure that reputation is distributed appropriately among a colony's users allows users to get the most out of the Colony experience, such as the [Governance (Reputation Weighted)](../motions-and-disputes/creating-a-motion.md) extension.&#x20;
 
 ### Awarding reputation
 
@@ -29,7 +29,7 @@ Be careful when manually awarding reputation. **Improper use can break your colo
 :::
 
 :::caution
-To make sure that no single account can govern the colony, make sure that the number of reputation points awarded to a particular account is appropriate and reasonable compared to the number of reputation points that other accounts hold. A malicious actor could use this feature to attack your colony if they receive the [required permission](../advanced-features/permissions.md).
+To make sure that no single account can govern the colony, make sure that the number of reputation points awarded to a particular account is appropriate and reasonable compared to the number of reputation points that other accounts hold. A malicious actor could use this feature to attack your colony if they receive the [required permission](../teams/permissions.md).
 :::
 
 ![](../assets/award-reputation-2c\_AdobeCreativeCloudExpress.gif)
