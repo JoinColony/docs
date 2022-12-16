@@ -2,7 +2,7 @@
 description: Colony now covers your gas fees when performing transactions on Colony.
 ---
 
-# Metatransactions
+# Gasless Transactions
 
 In order to reduce the steps required to get started with using Colony, Metatransactions is a feature that will cover your gas fees when performing any action on Colony that requires a transaction. Now, all you need to do is sign the transaction.
 
