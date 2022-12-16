@@ -6,7 +6,7 @@ description: How to activate your Tokens in your Colony.
 
 When your account receives your colony's native tokens, they are _Inactive_ by default. That means they are in your MetaMask wallet, but not yet usable within your colony.&#x20;
 
-In order to use them in your colony, such as for staking on Motions or to e eligible to receive Reward distributions (when that functionality goes live), they need to be _Activated_. Active tokens are tokens that have been deposited to a locking contract so that they can be locked in place any time you need to Stake. Active tokens will not be visible in your MetaMask wallet, but do not be alarmed, as long as they are not staked you can _Deactivate_ your tokens and return them to your wallet at any time.
+In order to use them in your colony, such as for staking on Motions or to be eligible to receive Reward distributions (when that functionality goes live), they need to be _Activated_. Active tokens are tokens that have been deposited to a locking contract so that they can be locked in place any time you need to Stake. Active tokens will not be visible in your MetaMask wallet, but do not be alarmed, as long as they are not staked you can _Deactivate_ your tokens and return them to your wallet at any time.
 
 ### How to Activate Tokens
 
