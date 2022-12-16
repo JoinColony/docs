@@ -17,7 +17,7 @@ You can also input details of why you are making this payment (optional).
 ![](../assets/CreatePayment.gif)
 
 :::caution
-Sending a payment currently requires you to have [**Administration**](../advanced-features/permissions.md#administration) and [**Funding**](../advanced-features/permissions.md#funding) permissions in the domain from which you're creating the expenditure.
+Sending a payment currently requires you to have [**Administration**](../teams/permissions.md#administration) and [**Funding**](../teams/permissions.md#funding) permissions in the domain from which you're creating the expenditure.
 :::
 
 :::tip

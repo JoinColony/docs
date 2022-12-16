@@ -9,7 +9,7 @@ To mint your colony native token, you need to navigate to **New Action > Manage 
 ![How to mint native tokens in Colony.](../assets/MintTokens.gif)
 
 :::caution
-[Root](../advanced-features/permissions.md#root) permission is required in order to mint tokens.
+[Root](../teams/permissions.md#root) permission is required in order to mint tokens.
 :::
 
 :::note

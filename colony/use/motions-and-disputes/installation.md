@@ -14,7 +14,7 @@ Otherwise, follow these steps:
 
 2\. Click on "Extensions", select "Governance (Reputation Weighted)", click on "Install" and confirm the transaction in your wallet.
 
-![](../../../assets/install-governance.gif)
+![](../assets/install-governance.gif)
 
 3\. Review the settings, click on "Confirm" and confirm the transaction in your wallet.
 
@@ -22,8 +22,8 @@ Otherwise, follow these steps:
 For a detailed description of these settings, default values and recommended values for testing purposes, see the next page "[Parameters](https://colony.gitbook.io/colony/extensions/motions-and-disputes/parameters)".&#x20;
 :::
 
-![](../../../assets/enable-governance.gif)
+![](../assets/enable-governance.gif)
 
 4\. Once all transactions are confirmed and the status changes from "Disabled" to "Enabled", the extension has been successfully installed.
 
-![](../../../assets/enabled-governance.gif)
+![](../assets/enabled-governance.gif)
