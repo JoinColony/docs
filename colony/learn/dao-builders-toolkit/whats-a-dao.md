@@ -11,7 +11,9 @@ DAOs solve the problems of effective coordination, cognition, and collaboration 
 
 ## Who are DAOs for?
 
-DAOs aren't just for DeFi and NFT projects - they're for anyone that wants increased flexibility in their organization. In the [Colony Community](https://discord.gg/feVZWwysqM), you'll find many examples of DAO builders utilizing Colony to solve a variety of real-world organizational challenges. If you can dream it, you can DAO it. 
+DAOs aren't just for DeFi and NFT projects - they're for anyone that wants increased flexibility in their organization. In the [Colony Community](https://discord.gg/feVZWwysqM), you'll find many examples of DAO builders utilizing Colony to solve a variety of real-world organizational challenges. 
+
+*If you can dream it, you can DAO it.* 
 
 
 :::tip DAO Building is Better Together

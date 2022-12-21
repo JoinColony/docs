@@ -8,23 +8,23 @@ Any member of your colony can Object to any Motion and force a vote (AKA a dispu
 
 1\. Open the Motion with which you disagree and click on "Object" in the upper right-hand corner.
 
-![](../assets/C-1-Object.gif)
+![](../../assets/C-1-Object.gif)
 
 2\. Stake your own tokens and/or let other members of your colony stake their tokens on your Objection.
 
-![](../assets/C-2-Stake.gif)
+![](../../assets/C-2-Stake.gif)
 
 ## Scenario 1: Motion is fully staked, but Objection is not
 
 2a) If by the end of the staking period, the Motion is fully staked but the Objection is not or only partially, the Motion will pass.
 
-![](../assets/C-2a-passes.png)
+![](../../assets/C-2a-passes.png)
 
 ## Scenario 2: Objection is fully staked, but Motion is not
 
 2b) If by the end of the staking period, the Objection is fully staked but the Motion is not or only partially, the Motion will fail.
 
-![](../assets/C-2b-fails.png)
+![](../../assets/C-2b-fails.png)
 
 ## Scenario 3: **Both** Motion and Objection are fully staked
 
@@ -32,7 +32,7 @@ Any member of your colony can Object to any Motion and force a vote (AKA a dispu
 
 2c) If both the Motion and the Objection are fully staked, voting starts immediately.&#x20;
 
-![](../assets/C-2c-voting-starts.gif)
+![](../../assets/C-2c-voting-starts.gif)
 
 Votes are secret (i.e. they're encrypted using your private key), and weighted by reputation. Vote weight is proportional to the voter's reputation in the team in which the vote is occurring.
 
@@ -48,7 +48,7 @@ Voters receive a reward for voting proportional to their reputation in the team 
 
 The Reveal phase ends when either the time runs out, or everyone who has voted reveals their vote, whichever comes first.&#x20;
 
-![](../assets/C-4-Reveal-votes.gif)
+![](../../assets/C-4-Reveal-votes.gif)
 
 ### Outcomes of a Vote
 
@@ -56,6 +56,6 @@ The Reveal phase ends when either the time runs out, or everyone who has voted r
 \
 5b. If the `No` side wins, hitting the `Finalize` button will simply allow stakers to reclaim their funds.
 
-![](../assets/C-5-Finalise.gif)
+![](../../assets/C-5-Finalise.gif)
 
 ##

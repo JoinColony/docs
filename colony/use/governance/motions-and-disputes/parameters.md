@@ -2,6 +2,8 @@
 description: >-
   The Parameters required when setting up this Extension and their Default
   Values.
+
+sidebar_position: 2
 ---
 
 # Parameters

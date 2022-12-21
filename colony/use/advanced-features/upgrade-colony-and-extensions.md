@@ -10,9 +10,9 @@ Colony has been set up in a way that allows for functionality to be added over t
 
 Upgrading is completely optional, you're able to continue to use your existing contracts for as long as you like, they will never be removed.
 
-### How to upgrade Colony
+### How to upgrade your colony
 
-Upgrading is simple, you will likely see a banner on your Colony that informs you of the latest released version. Such as the below screenshot:
+Upgrading your colony is simple. You will likely see a banner on your Colony that informs you of the latest released version. Such as the below screenshot:
 
 ![Banner showing that there is a new version of Colony available.](../assets/50c33c3e-b618-4b72-b2c9-ca5590bc8b92.png)
 
