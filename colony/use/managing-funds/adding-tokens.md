@@ -1,8 +1,10 @@
 ---
 description: How to manage tokens and add them to your colony.
+
+sidebar_position: 5
 ---
 
-# Manage Tokens
+# Adding Tokens to DAO Treasury
 
 Much like Metamask or any other Ethereum wallet, before sending unknown tokens to your colony, you need to add their contract before they are recognized.
 

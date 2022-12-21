@@ -1,5 +1,7 @@
 ---
-description: How to punish undesirable behaviour by deducting Reputation points.
+description: How to punish undesirable behavior by deducting Reputation points.
+
+sidebar_position: 2
 ---
 
 # Smite Reputation

@@ -4,11 +4,17 @@ description: It's time to build a colony.
 sidebar_position: 0
 ---
 
-# Using Colony
+# Getting Started
 
 **This is where DAO building happens.**
 
-This section covers everything you need to know about using the [Colony dapp](https://xdai.colony.io/landing). 
+This section covers everything you need to know about using the [Colony dapp](https://xdai.colony.io/landing).
+
+Colony currently runs on Gnosis Chain, so be sure to add it to MetaMask by clicking the button below:
+
+<connect-metamask />
+
+Or, [follow this guide](additional-guides/connect-metamask-to-xdai.md).
 
 Looking to get a DAO off the ground? Head over to [Launch a colony](launch-a-colony.md).
 

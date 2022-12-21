@@ -4,7 +4,7 @@ description: Use this guide to get up-and-running with Colony in just 7 steps!
 sidebar_position: 1
 ---
 
-# Launch a Colony
+# Launching a Colony
 
 **This guide will get you from zero to DAO in a matter of minutes.**
 
@@ -26,7 +26,7 @@ Once you’ve logged into the [Colony Dapp](https://xdai.colony.io/landing) and 
 
 ## Step 2: Setup Your Token
 
-Every colony has its own [native token](../use/managing-funds/native-tokens.md). Payment in a colony’s native token confers [**reputation**](../learn/dao-builders-toolkit/reputation.md) in the team from which it was received.
+Every colony has its own [native token](../learn/dao-builders-toolkit/payments-and-tokens.md). Payment in a colony’s native token confers [**reputation**](../learn/dao-builders-toolkit/reputation.md) in the team from which it was received.
 
 Users can decide to adopt an existing ERC20 token as their native token (e.g. if your project already has a token), or to create a new one. If you already have an ERC20 governance token, skip to step 2b.
 
@@ -109,4 +109,4 @@ For today, let's set our reputation score directly. We do this by navigating to 
 
 Note: make sure that your reputation scores have been adequately weighted to avoid new contributors having an undue amount of influence in your colony. In other words: set your own reputation before sending out payments.
 
-**Congrats! Your colony has now been setup, and you’re ready to [pay contributors](../use/managing-funds/payments.md), launch governance votes, and grow your organization.**
+**Congrats! Your colony has now been setup, and you’re ready to [pay contributors](../use/making-payments/payments.md), launch governance votes, and grow your organization.**

@@ -2,26 +2,16 @@
 description: How to create an Ethereum wallet so you can log in to Colony
 ---
 
-# Get a Wallet and xDai
-
-To create a Colony account, you need an Ethereum wallet and a little bit of xDai tokens to pay for transaction fees.
-
-## Ethereum Wallet
-
-[Metamask](https://metamask.io/) is one of the simplest ways to get and manage an Ethereum address. It is a free-to-use browser extension, you can read more about it and how to install it in their [getting started guide](https://metamask.zendesk.com/hc/en-us/articles/360015489531-Getting-Started-With-MetaMask-Part-1-). Make sure to choose a secure password and both your password and your seed phrase in a safe place, such as a password manager. Never reveal your seed phrase to anyone.
-
-For additional security, you have the option to use a hardware wallet. Metamask [supports](https://metamask.zendesk.com/hc/en-us/articles/360020394612-How-to-connect-a-Trezor-or-Ledger-Hardware-Wallet) hardware wallets from Trezor and Ledger.
-
-## xDai tokens
+# Getting xDAI
 
 :::note
-Colony is now offering MetaTransactions, which covers your gas fees for Colony on the Gnosis Chain, meaning you no longer need xDai tokens to use Colony.\
-You can [read more about it here](../advanced-features/gasless-transactions.md).&#x20;
+Colony is now offering Gassless Transactions (MetaTransactions), which covers your gas fees for Colony on the Gnosis Chain, meaning you no longer need xDai tokens to use Colony.
+You can [read more about it here](../advanced-features/gasless-transactions.md). In some cases, power users may want to disable MetaTransactions and use xDAI, so we've preserved this guide.
 :::
 
-Since Colony runs on the Gnosis Chain network, transaction fees are extremely cheap compared to Ethereum mainnet - but not free. To cover transaction fees while using Colony, you need xDai tokens.&#x20;
+Since Colony runs on the Gnosis Chain network, transaction fees are extremely cheap compared to Ethereum mainnet. If you've disabled the [MetaTransaction feature](../advanced-features/gasless-transactions.md), you'll need xDAI to cover gas fees.
 
-For creating a new colony, 0.1 XDAI are usually sufficient. Once a colony is created, 0.01 XDAI will be sufficient for using a colony for months.
+For creating a new colony, 0.1 xDAI is usually sufficient. Once a colony is created, 0.01 xDAI will be sufficient for using a colony for months.
 
 ### Faucet for smaller amounts
 

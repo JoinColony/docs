@@ -16,7 +16,7 @@ Reputation is an off-chain attribute that is calculated through on-chain data an
 
 Reputation is an attribute that quantifies a particular individual’s influence and is calculated from the sum of work that has been completed within the colony. Both **native tokens** and **reputation** are required to create motions, raise disputes, and vote.
 
-![](../../learn/assets/key-concepts/Frame-40.png)
+![](../assets/key-concepts/Frame-40.png)
 
 **Reputation confers influence in a colony by mediating a member's ability to adjust various aspects of the organization.** Whether it is the ability to move funds, create new teams, or settle disputes, reputation determines influence by degrees.
 
@@ -24,13 +24,29 @@ Reputation is an attribute that quantifies a particular individual’s influence
 
 Unlike tokens, reputation cannot be transferred between accounts and can only be gained or lost through receiving a colony's native token **(contributions)** or resolving disputes (**participating in the colony governance**).
 
-### Earning Reputation
+### Earning Reputation in a Colony
+
+**After you [join a colony](../../use/join-a-colony.md), you'll need to earn some reputation before you can participate in governance.**
+
+The most common way of earning reputation is by [getting paid](../../use/making-payments/payments.md) in the colony's native token. 
+
+:::tip
+Payments in stablecoins will not provide reputation. You can use stablecoin payments to adjust for cost-of-living requirements for contributors, or any other situation where making a payment without giving additional reputation is appropriate. 
+:::
+
+Reputation can also be [manually awarded](../../use/reputation/award-reputation.md) in special circumstances, such as when launching a new colony with an existing team.
+
+Each colony will have its own rationale for paying contributors. Some colonies may pay contributors for approved content or codebase contributions, while other colonies may send you some native tokens just for asking nicely.
+
+# Earning Reputation in the Metacolony
+
+Are you interested in helping build the Colony ecosystem? You can earn CLNY and reputation by contributing to the Metacolony. Drop a line in the [Colony Discord](https://discord.com/invite/feVZWwysqM) to find out the latest ways you can contribute.  
 
 When a member of a colony receives a payment in the colony native tokens, they earn Reputation in that Team as well as all parent Teams, including Root.
 
 **They do not earn any reputation in child Teams or sibling Teams.**
 
-![Example of a colony structure.](../../learn/assets/key-concepts/domains_1-fcfb92e273169bc60b983c3a4f765839.png)
+![Example of a colony structure.](../assets/key-concepts/domains_1-fcfb92e273169bc60b983c3a4f765839.png)
 
 To make an example, earning reputation as a result of an internal token payment in **Backend**, will earn reputation in **Backend**, **Development,** and in **Root.**
 

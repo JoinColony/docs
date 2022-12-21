@@ -2,11 +2,13 @@
 description: How to connect your Metamask to the xDai network
 ---
 
-# Connect Metamask to xDai
+# Connecting Metamask to Gnosis Chain (xDAI)
 
-If you have [Metamask installed](https://colony.gitbook.io/colony/get-started/get-an-ethereum-wallet) and unlocked with your password, Metamask will usually automatically prompt you to connect to the xDai network. If it doesn't, you can find the details for adding the xDai network manually at the bottom of this page.&#x20;
+The easiest way to connect your MetaMask wallet to the Gnosis Chain is by clicking the button below:
 
-## Letting Metamask add xDai automatically
+<connect-metamask />
+
+## Adding xDai to Metamask
 
 1\. Visit a colony on xdai.colony.io, such as the [Metacolony](https://xdai.colony.io/colony/meta).
 
@@ -32,17 +34,5 @@ If you have [Metamask installed](https://colony.gitbook.io/colony/get-started/ge
 
 ![](<../assets/Screenshot 2021-12-13 at 13.28.59.png>)
 
-## Manually adding or changing network settings
 
-1 . Click on the Metamask icon to open the browser extension. Click on your profile image in the top right corner and click on "Add Network".
-
-![](<../assets/Screenshot 2021-12-13 at 13.55.51.png>)
-
-2\. You will be forwarded to the Metamask settings. On the "Add a network" page, add in the xDai network details as shown below and click "Save".
-
-* Network Name: **xDai**
-* New RPC URL: [**https://rpc.xdaichain.com**](https://rpc.xdaichain.com/)
-* Chain ID: **100**
-* Symbol: **xDai**
-* Block Explorer URL: [**https://blockscout.com/poa/xdai**](https://blockscout.com/poa/xdai) ****&#x20;
 
