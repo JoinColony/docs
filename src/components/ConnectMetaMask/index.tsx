@@ -1,4 +1,5 @@
 import React from 'react';
+import useIsBrowser from '@docusaurus/useIsBrowser';
 import styles from './styles.module.css';
 
 const addColonyRPC = () => {
@@ -23,7 +24,8 @@ const addColonyRPC = () => {
 };
 
 export default function ConnectMetaMask(): JSX.Element {
-  if ('ethereum' in window) {
+  const isBrowser = useIsBrowser();
+  if (isBrowser && 'ethereum' in window) {
     return (
       <button className={styles.button} onClick={addColonyRPC}>
         <img src="/img/metamask-fox.svg" />
