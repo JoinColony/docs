@@ -6,14 +6,21 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const DEFAULT_EDIT_URL = 'https://github.com/JoinColony/docs/edit/main'
 
-const getLibraryEditUrl = ({ docPath }) => {
-  docPath = docPath
-    .replace(/^colonynetwork/, 'colonyNetwork/edit/develop/docs')
-    .replace(/^colonysdk/, 'colonySDK/edit/main/docs')
-    .replace(/^colonyjs/, 'colonyJS/edit/main/docs');
+const getLibraryEditUrl = ({ versionDocsDirPath: path, docPath }) => {
+  // Remove edit link from auto-generate docs
+  if (docPath.startsWith('api') || docPath.startsWith('interfaces')) {
+    return null;
+  }
 
-
-  return `https://github.com/JoinColony/${docPath}`;
+  const LIB_ROOT_EDIT_URL = 'https://github.com/JoinColony';
+  if (path.includes('colonyNetwork')) {
+    return `${LIB_ROOT_EDIT_URL}/colonyNetwork/edit/develop/docs/${docPath}`;
+  } else if (path.includes('colonySDK')) {
+    return `${LIB_ROOT_EDIT_URL}/colonySDK/edit/main/docs/${docPath}`;
+  } else if (path.includes('colonyJS')) {
+    return `${LIB_ROOT_EDIT_URL}/colonyJS/edit/main/docs/${docPath}`;
+  }
+  return null;
 }
 
 async function capitalizeSidebarItems({ defaultSidebarItemsGenerator, ...args }) {
