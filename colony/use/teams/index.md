@@ -6,6 +6,6 @@ sidebar_position: 3
 
 # Teams
 
-Colony is the best way to build online organizations. 
+In this section, you'll learn how to [create](create-teams.md) and [browse](browse-teams.md) Teams in your colony.
 
-These docs serve as a reference guide to using Colony. Be sure to join Colony's [Discord community](https://discord.gg/feVZWwysqM) to get support and connect with other DAO builders.
+For more information on how Teams work, see [this page](../../learn/dao-builders-toolkit/teams.md). 

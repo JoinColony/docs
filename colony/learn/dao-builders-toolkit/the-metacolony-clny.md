@@ -1,7 +1,7 @@
 ---
 description: The DAO that helps build DAOs.
 
-sidebar_position: 5
+sidebar_position: 8
 ---
 
 # The Metacolony and CLNY
@@ -24,7 +24,7 @@ Just like in a "normal" colony, accounts holding both CLNY and Reputation in the
 
 CNLY is required as a stake to participate in Reputation Mining. Miners earn a reward in CLNY, as well as reputation within the Metacolony tagged with a special 'mining' skill.
 
-## Revenue and Rewards
+## Revenue and Rewards (in development)
 
 The Metacolony, as custodian of the Colony Network, collects a small fee every time a user claims a payout from a task. If the task payout is in a token other than whitelisted currencies such as ETH or DAI, the token is sent to an auction contract, and sold off for CLNY, which is burned.
 
@@ -32,7 +32,7 @@ This idea of a fee is a little unusual for such a decentralized system. One of t
 
 Importantly, this fee is not payable to any centrally controlled entity, but rather to the Metacolony. Anybody may contribute to the Metacolony and claim a share of these fees proportional to their contribution. We believe that the benefit of being part of a secure, well supported network will ultimately be appealing enough that a small fee to pay for its existence will be acceptable.
 
-## Global Skills
+## Global Skills (in development)
 
 The Metacolony also curates a global list of skill tags, used by _all colonies_ on the Colony Network. This hierarchy of global skill provides a clear and consistent reference for skill organization, facilitating fluid comparisons of skill for individuals working within multiple colonies.
 

@@ -1,8 +1,10 @@
 ---
 description: How to manage permissions in your colony
+
+sidebar_position: 3
 ---
 
-# Managing Permissions in Colony
+# Managing Permissions in Teams
 
 Permissions in Colony are used to distribute authority within colonies and [Teams](../teams/create-team.md). Permissions help ensure that your colony is secure and that the right users have the right abilities.
 
