@@ -1,5 +1,7 @@
 ---
 description: How to Award Reputation without making payments.
+
+sidebar_position: 1
 ---
 
 # Award Reputation

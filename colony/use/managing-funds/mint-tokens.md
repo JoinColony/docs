@@ -1,5 +1,7 @@
 ---
 description: How to mint the colony native token in Colony.
+
+sidebar_position: 1
 ---
 
 # Mint Tokens
@@ -13,7 +15,7 @@ To mint your colony native token, you need to navigate to **New Action > Manage 
 :::
 
 :::note
-This option is exclusively available if the native token was generated through Colony, and wasn't imported. Please refer to [Native Tokens](native-tokens.md) to know more.
+This option is exclusively available if the native token was generated through Colony, and wasn't imported. Please refer to [Payments and Native Tokens](../../learn/dao-builders-toolkit/payments-and-tokens.md) to learn more.
 :::
 
 :::tip
