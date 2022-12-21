@@ -4,8 +4,6 @@ description: Get Started with Colony
 sidebar_position: 10
 ---
 
-import DocCardList from '@theme/DocCardList';
-
 # Additional Guides
 
-<DocCardList />
+In this section, you'll find additional guides for navigating the Colony ecosystem.

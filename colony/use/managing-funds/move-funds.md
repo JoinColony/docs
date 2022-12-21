@@ -1,5 +1,7 @@
 ---
 description: How to move funds between different teams in a colony.
+
+sidebar_position: 3
 ---
 
 # Move Funds Between Teams
