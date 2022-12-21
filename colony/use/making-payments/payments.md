@@ -4,7 +4,7 @@ description: How to send a payment to an Ethereum address in any token.
 sidebar_position: 4
 ---
 
-# Payments
+# 🧩 Single Transaction Payments
 
 To create an expenditure and send a payment in any ERC20 token to any address, simply navigate to **New Action > Create Expenditure > Payment** and input:
 

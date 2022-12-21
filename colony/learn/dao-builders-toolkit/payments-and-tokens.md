@@ -1,7 +1,7 @@
 ---
 description: How do payments and tokens work in a colony?
 
-sidebar_position: 3
+sidebar_position: 6
 ---
 
 # Payments and Native Tokens

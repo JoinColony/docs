@@ -14,9 +14,9 @@ Browse through the [**Learn**](why-colony) section to level up your DAO-fu.
 
 Once you've gathered up enough knowledge, you can [**put your skills to the test**](https://101.xyz/c/colony_io) and earn NFT completion badges. 
 
-Then, you'll be ready to head over to [**use and Contribute**](../use/) to start building colonies.
+Then, you'll be ready to [**start building colonies**](../use/).
 :::
 
 :::note Hey Devs!
-If you're a developer, be sure to check out the [DevRealm](../develop/).
+If you're a developer, be sure to check out the [**DevRealm**](../develop/).
 :::

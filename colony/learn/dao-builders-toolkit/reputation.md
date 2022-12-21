@@ -53,7 +53,7 @@ To make an example, earning reputation as a result of an internal token payment 
 **No reputation** will be earned in child Teams (**Ruby**, **Node.js)**, or in sibling or uncle teams (**Frontend** & **Design)**.
 
 :::tip
-Currently, Colony allows **only one layer of Teams**. Nested Teams are planned.
+Currently, Colony allows **only one layer of Teams**. Nested Teams are forthcoming.
 :::
 
 ### Reputation Decay
