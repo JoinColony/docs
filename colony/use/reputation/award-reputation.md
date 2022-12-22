@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ### Why award reputation manually?
 
-After having [created a colony](../launch-a-colony.md), nobody has reputation will have reputation - not even the user who has created the colony. Some colonies use [permissions](https://colony.gitbook.io/colony/advanced-features/permissions) to distribute reputation through [payments](https://colony.gitbook.io/colony/expenditures/payments). Another way to distribute reputation is the Award feature, described below. Making sure that reputation is distributed appropriately among a colony's users allows users to get the most out of the Colony experience, such as the [Governance (Reputation Weighted)](../motions-and-disputes/creating-a-motion.md) extension.&#x20;
+After having [created a colony](../launch-a-colony.md), nobody has reputation will have reputation - not even the user who has created the colony. Some colonies use [permissions](https://colony.gitbook.io/colony/advanced-features/permissions) to distribute reputation through [payments](https://colony.gitbook.io/colony/expenditures/payments). Another way to distribute reputation is the Award feature, described below. Making sure that reputation is distributed appropriately among a colony's users allows users to get the most out of the Colony experience, such as the [Governance (Reputation Weighted)](../governance/motions-and-disputes/creating-a-motion.md) extension.&#x20;
 
 ### Awarding reputation
 
