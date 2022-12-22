@@ -16,7 +16,7 @@ const addColonyRPC = () => {
           symbol: 'XDAI',
           decimals: 18,
         },
-        rpcUrls: ['https://xdai.colony.io/rpc2/'],
+        rpcUrls: ['https://xdai.colony.io/rpc/'],
         blockExplorerUrls: ['https://blockscout.com/xdai/mainnet'],
       },
     ],
