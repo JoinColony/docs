@@ -10,41 +10,26 @@ sidebar_position: 3
 
 The solution to collective decision making is usually voting, but voting on every single decision is a big waste of time. Since Colony is designed for an organization's day-to-day affairs, Lazy Consensus was created to balance governance participation with operational efficiency.
 
-Colony is designed to be permissive. The [reputation system](reputation.md) mediates the extent to which members may influence a colony, but beyond that constraint, members are free to take executive action with most colony matters without any approval from a management authority.
+The Lazy Consensus process was designed to make DAO decision-making as efficient and fair as possible. In a colony, a vote only needs to be triggered if there is a disagreement. If there are no objections, a proposed action can go through without the need for a governance vote. 
 
-In the event of disagreement, the Dispute system allows colony members to signal disapproval and potentially force a vote on decisions and actions that would otherwise have proceeded unimpeded.
+### The Lazy Consensus Process
 
-## Objections
+Here's how Lazy Consensus works:
 
-When a member of a colony feels that something is amiss, they can _raise an objection_. By doing so, they are fundamentally proposing that a variable, or more than one variable, in the contract should be changed to another value. For this reason we call supporters of the objection the "change" side and opponents the "keep" side.
+* A DAO member creates a Motion to carry out an action such as, “Pay Alice 100 xDAI”
+* A staking period begins, where the colony’s native tokens are used to back the Motion. This is *putting skin in the game*
+* If the Motion has been adequately staked and no objections are raised, it passes and is executed automatically
+* If someone objects to the Motion, they can raise an objection and trigger a reputation-weighted governance vote
+* DAO members who vote can be awarded a portion of the staked tokens after voting concludes
 
-The user raising the objection must put up a stake of colony tokens to back it up. In essence, they are challenging the rest of the colony to disagree with them.
+## Objections and Voting
 
-In raising an objection, the objector must provide the change to be made, as well as specify the Reputation that should vote on the issue.
-
-Objections pass _automatically_ after three days if they are not opposed by other colony members, who must stake tokens on the "keep" side in order to _escalate_ the objection to become a _dispute_.
-
-## Disputes
-
-:::note
-In Colony you cannot escalate a decision to higher management, you can only escalate to bigger groups of your peers.
-:::
-
-A dispute is settled by vote to "Change" or "Keep", within the domain and/or skill that was specified when the objection was raised.
-
-During the vote, any member with reputation in the named domain or skill may stake the "Change" or the "Keep" side with the colony's internal token.
-
-At the conclusion of the poll, losing stakers receive some of their staked tokens back and they lose the complementary percentage of the reputation that was required to stake. The exact amount of tokens they receive back (and therefore reputation they lose) is based on:
-
-* The fraction of the reputation in the colony that voted.
-* How close the vote ultimately was.
-
-At the end of a vote, if the vote was very close, then the losing side receives nearly 90% of their stake back. If the vote is lopsided enough that the winning side’s vote weight reaches a landslide threshold of the total vote weight, then they receive 0% of their staked tokens back.
-
-The motivation here is efficiency — it aims to discourage spurious objections and disputes. A close vote is a sign that the decision was not a simple one and forcing a vote may have been wise. Therefore, the instigators of the dispute should not be harshly punished. On the other hand, if a vote ended in a landslide, it is a sign that the losing side was going up against a general consensus.
+When a member of a colony feels that something is amiss, they can _raise an objection_. In order to raise an objection, they also have to stake the colony's native tokens. Staking tokens serves as an anti-spam measure and ensures that motions and objections are made in good faith. In addition, this pool of staked tokens incentivizes DAO members to show up and vote. A portion of the staked tokens can be rewarded to those who are on the winning side of the vote.
 
 :::tip
-We encourage communication within the colony. Members should be aware of the opinions of their peers whenever possible before disputes are invoked.
+We encourage communication within the colony. Members should be aware of the opinions of their peers whenever possible before objections are invoked.
 :::
 
-Complete details of the dispute mechanism can be found in the [Colony Whitepaper](https://colony.io/whitepaper.pdf) in section 9.2
+Complete details of the objection mechanism can be found in the [Colony Whitepaper](https://colony.io/whitepaper.pdf) in section 9.2
+
+For more on using Lazy Consensus in your colony, see [**this page**](../../use/governance/motions-and-disputes/).
