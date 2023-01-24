@@ -1,0 +1,24 @@
+.button {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1em;
+  padding: 0.6rem;
+  border: none;
+  background: #5865F2;
+  border-radius: var(--ifm-global-radius);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  color: buttontext;
+}
+
+.button:hover {
+  text-decoration: inherit;
+  color: buttontext;
+}
+
+.button img {
+    width: 35px;
+}
