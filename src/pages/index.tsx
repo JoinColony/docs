@@ -3,7 +3,6 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 
@@ -14,13 +13,6 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/colonysdk/getting-started">
-            Start building now 🏗
-          </Link>
-        </div>
       </div>
     </header>
   );
@@ -33,7 +25,13 @@ export default function Home(): JSX.Element {
       description="Explore the vast possibilities of the Colony Network">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/learn/">
+            New to Colony? Start here
+          </Link>
+        </div>
       </main>
     </Layout>
   );

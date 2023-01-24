@@ -16,7 +16,7 @@ const FeatureList: FeatureItem[] = [
     logo: 'https://raw.githubusercontent.com/JoinColony/brand/v1.0.0/logo_sdk_no_padding.svg',
     description: (
       <>
-        Just add <s>water</s> MetaMask toolbox for the most common Colony workflows. Start here if you're new 🚀
+        "Just add <s>water</s> MetaMask" toolbox for the most common Colony workflows. Start here if you're new 🚀
       </>
     ),
     link: '/colonysdk',
@@ -60,7 +60,7 @@ function Feature({title, logo, description, link, color}: FeatureItem) {
   );
 }
 
-export default function HomepageFeatures(): JSX.Element {
+export default function DeveloperTools(): JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">
