@@ -1,10 +1,9 @@
 ---
 description: How to unlock your native tokens.
-
-sidebar_position: 15
+sidebar_position: 4
 ---
 
-# Unlock Token
+# Unlocking the native Token
 
 Your colony’s native token is locked and non-transferrable by default. This action allows you to unlock it so that it may be freely transferred between accounts. This feature is only available if the native token has been generated with Colony.
 

@@ -1,10 +1,9 @@
 ---
 description: How to move funds between different teams in a colony.
-
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-# Move Funds Between Teams
+# Moving Funds Between Teams
 
 To transfer funds between Teams, you need to navigate to **New Action > Manage Funds > Transfer Funds** and input:
 

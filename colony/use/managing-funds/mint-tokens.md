@@ -1,10 +1,9 @@
 ---
 description: How to mint the colony native token in Colony.
-
-sidebar_position: 1
+sidebar_position: 0
 ---
 
-# Mint Tokens
+# Minting Tokens
 
 To mint your colony native token, you need to navigate to **New Action > Manage Funds > Mint Tokens** and enter the token amount, and why you're minting them (optional).
 

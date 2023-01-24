@@ -1,5 +1,6 @@
 ---
 description: How to send and claim an ERC20 token to your colony.
+sidebar_position: 5
 ---
 
 # Sending Funds to a Colony
