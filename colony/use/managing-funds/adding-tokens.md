@@ -1,7 +1,6 @@
 ---
 description: How to manage tokens and add them to your colony.
-
-sidebar_position: 5
+sidebar_position: 1
 ---
 
 # Adding Tokens to DAO Treasury

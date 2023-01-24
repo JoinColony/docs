@@ -1,6 +1,5 @@
 ---
 description: Powerful DAO fund management tools with Colony.
-
 sidebar_position: 3
 ---
 

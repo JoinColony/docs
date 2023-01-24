@@ -1,5 +1,6 @@
 ---
 description: How to activate your Tokens in your Colony.
+sidebar_position: 3
 ---
 
 # Token Activation
