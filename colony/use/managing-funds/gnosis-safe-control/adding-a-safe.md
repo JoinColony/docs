@@ -3,13 +3,12 @@ description: Control a Safe (formerly Gnosis Safe) on another chain using your C
 sidebar_position: 0
 ---
 
-# Adding a Safe
+# Adding a Safe to your colony
 
 A guide on how to add and use your Safe within Colony.
 
 :::info
-Currently supported chains are **Ethereum Mainnet** and **Binance Smart Chain** (BNB). More chains will be added as suitable bridges are made available.\
-\
+Currently supported chains are **Ethereum Mainnet** and **Binance Smart Chain** (BNB). More chains will be added as suitable bridges are made available.
 This process will require you to switch back and forth between chains to perform the required transactions and there will be cost to setup the Safe on the Safe's chain.
 :::
 
@@ -48,7 +47,9 @@ With the details from the previous step, you will now be able to give permission
 
 ![Finding the Zodiac Safe app within the Apps page](../../assets/34653708-dc88bd775fcb8dbbcd3534d07f1477392.png)
 
-> Note: You may need to accept a disclaimer after you have clicked on the Zodiac app.
+:::tip Note
+You may need to accept a disclaimer after you have clicked on the Zodiac app.
+:::
 
 Within the Zodiac app, look for the "Bridge Module" and click on it in order to install it.
 
@@ -56,9 +57,11 @@ Within the Zodiac app, look for the "Bridge Module" and click on it in order to 
 
 The fields provided within the Adding a Safe steps on Colony should align with the fields available when adding the module on Safe. So, copy and paste the fields from Colony over to the module settings fields.
 
-![Values required to add the Bridge Module](../../assets/Screenshot 2022-11-22 223855.png)
+![Values required to add the Bridge Module](../../assets/safe-bridge-required-values.png)
 
-> Note: You will likely need to switch the chain your wallet is connected to, if you are doing the whole process in the same browser, to be the same chain as your Safe is on.
+:::tip Note
+You will likely need to switch the chain your wallet is connected to, if you are doing the whole process in the same browser, to be the same chain as your Safe is on.
+:::
 
 Once you have added all the required values and double checked them, click the "Add Module" button. You will need to perform a transaction in the Safe in order to add the module, so review the details of the transaction and confirm it.
 
@@ -80,11 +83,11 @@ If returning to Colony you find you no longer have "Add a Safe" process up, you 
 
 To find the module contract address, return to **Apps > Zodiac**, then click on the newly installed module as shown in the below screenshot.
 
-![../../assets/34715811-9cbd9f165594196b262b7474e6141569.png](Finding the installed Bridge Module)
+![Finding the installed Bridge Module](../../assets/34715811-9cbd9f165594196b262b7474e6141569.png)
 
 Then copy the address at the very top of the module details screen. You can see this highlighted in the image below. Add this into the "Module contract address" field on Colony.
 
-![Finding the Module contract address](../../assets/Screenshot 2022-11-24 170551.png)
+![Finding the Module contract address](../../assets/safe-finding-module-contract-address.png)
 
 You can then enter in a name for the Safe to identify it on Colony and click 'Add Safe'.
 
