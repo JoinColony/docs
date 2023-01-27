@@ -20,6 +20,10 @@ Reputation is an attribute that quantifies a particular individual’s influence
 
 **Reputation confers influence in a colony by mediating a member's ability to adjust various aspects of the organization.** Whether it is the ability to move funds, create new teams, or settle disputes, reputation determines influence by degrees.
 
+:::tip
+If you've just started a new colony, be sure to [award reputation](award-reputation.md) to yourself before paying contributors.
+:::
+
 ### Can Reputation be Transferred?
 
 Unlike tokens, reputation cannot be transferred between accounts and can only be gained or lost through receiving a colony's native token **(contributions)** or resolving disputes (**participating in the colony governance**).
