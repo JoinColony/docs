@@ -1,6 +1,6 @@
 ---
 description: Your source for Colony DAO jargon!
-sidebar_position: 4
+sidebar_position: 6
 ---
 
 # Glossary of Terms

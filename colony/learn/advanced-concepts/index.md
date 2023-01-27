@@ -1,10 +1,10 @@
 ---
 description: Advanced concepts
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 # Advanced Concepts
 
 This section houses some of the more advanced Colony concepts such as [permissions](permissions.md) and [Recovery Mode](recovery-mode.md).
 
-You'll get the hang of these concepts in no time!
+You'll also find an introduction to [🧩 Extensions](extensions.md), which expand the capabilities of your Colony.
