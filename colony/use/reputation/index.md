@@ -6,6 +6,7 @@ sidebar_position: 4
 
 # Reputation
 
+<<<<<<< HEAD
 ### What is Reputation?
 
 Most DAO frameworks in the past have used token-based governance systems: the more tokens you have, the more voting power you have. This system may work out for whales, but not for everyday DAO contributors that want to participate in the future of work. 
@@ -63,3 +64,8 @@ One of the unique characteristics of reputation is that it **decays over time**.
 Every 600000 blocks, a user’s reputation in every team decays by a factor of 2. **This implies a 'reputation half-life' of about 3.5 months.** Reputation slowly decays on a per-block basis.
 
 To know more about **Reputation Decay**, **Reputation Mining**, and **how it's calculated**, please refer to the [Whitepaper](https://colony.io/whitepaper.pdf).
+=======
+Here is where you can learn about adjusting reputation in your Colony.
+
+If you've just started a new colony, be sure to [award reputation](award-reputation.md) to yourself before paying contributors. 
+>>>>>>> be171c8897a865dde85ac8e6070e8502ab0d68b2

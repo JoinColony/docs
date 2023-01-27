@@ -1,6 +1,11 @@
 ---
 description: How to mint the colony native token in Colony.
+<<<<<<< HEAD
 sidebar_position: 0
+=======
+
+sidebar_position: 1
+>>>>>>> be171c8897a865dde85ac8e6070e8502ab0d68b2
 ---
 
 # Minting Tokens

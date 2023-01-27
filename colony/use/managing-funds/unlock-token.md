@@ -1,6 +1,11 @@
 ---
 description: How to unlock your native tokens.
+<<<<<<< HEAD
 sidebar_position: 4
+=======
+
+sidebar_position: 15
+>>>>>>> be171c8897a865dde85ac8e6070e8502ab0d68b2
 ---
 
 # Unlocking the native Token

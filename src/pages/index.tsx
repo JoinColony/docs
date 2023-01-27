@@ -13,6 +13,16 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+<<<<<<< HEAD
+=======
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/colonysdk/getting-started">
+            Start building now 🏗
+          </Link>
+        </div>
+>>>>>>> be171c8897a865dde85ac8e6070e8502ab0d68b2
       </div>
     </header>
   );
