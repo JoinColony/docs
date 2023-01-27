@@ -3,7 +3,7 @@ description: How to send and claim an ERC20 token to your colony.
 sidebar_position: 5
 ---
 
-# Sending Funds to a Colony
+# Sending and Claiming Funds
 
 ### Sending Funds
 
@@ -23,8 +23,10 @@ _Do **not** send ETH or any ERC20 tokens from Ethereum directly to your colony._
 
 Funds sent to a colony address will not appear in the colony's treasury until they are claimed by a member of the colony.
 
-To claim funds, navigate to **Events**, wait for the token transfers to load, and click "**Claim**".
+You can easily claim funds in a colony from the colony's dashboard. If funds are available to claim, you'll see an **Incoming funds** section in the upper right corner of  the colony's dashboard. Click the **Claim** button to claim the specified funds. 
 
-![](../assets/ClaimFunds.gif)
+![](../assets/claimFunds2.png)
 
-Claimed funds will appear in the **Root** balance**,** and can be later transferred to any other Team using a motion, or by anyone who has the [Funding](../teams/permissions.md#funding) permission in Root.
+You can see a more detailed view of a colony's claimable funds by navigating to its **Funds** page. This is found through the **Available Funds** link on the right side of the dashboard.
+
+![](../assets/claimFunds3.png)
