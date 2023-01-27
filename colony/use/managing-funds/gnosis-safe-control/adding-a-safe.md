@@ -8,25 +8,24 @@ sidebar_position: 0
 A guide on how to add and use your Safe within Colony.
 
 :::info
-Currently supported chains are **Ethereum Mainnet** and **Binance Smart Chain** (BNB). More chains will be added as suitable bridges are made available.\
-\
-This process will require you to switch back and forth between chains to perform the required transactions and there will be cost to setup the Safe on the Safe's chain.
+Currently supported chains are **Ethereum Mainnet** and **Binance Smart Chain** (BNB). More chains will be added as suitable bridges are made available.
+This process will require you to switch back and forth between chains to perform the required transactions and there will be gas costs to setup the Safe.
 :::
 
 ### What you will need
 
 * A Safe on one of the supported chains.
-* Funds on the chain the Safe is on to cover the transaction costs to set up the module.
+* Funds on the Safe's chain (ETH or BNB) to cover the transaction costs to set up the module.
 * Permission to create the transaction in the Safe and enough signers on board to co-sign.
 * Approximately 5 - 10 minutes to complete the full set up.
 
 ## Adding a Safe
 
-In order to add a Safe to your Colony you will need to complete all of the following steps.
+In order to add a Safe to your colony you will need to complete all of the following steps:
 
 ### Step 1: Check for the safe
 
-First, click on the "New Action" button on your Colony home page and then navigate to "Advanced", then "Safe Control", then the "Add Existing Safe" option.
+The first step is to locate your Safe's contract address and add it to your colony. To get started, click on the "New Action" button on your Colony home page and then navigate to "Advanced", then "Safe Control", then the "Add Existing Safe" option.
 
 You can find the chain and the address by accessing your Safe here: [https://app.safe.global/](https://app.safe.global/)
 
@@ -54,7 +53,7 @@ Within the Zodiac app, look for the "Bridge Module" and click on it in order to 
 
 ![Installing the Bridge Module](../../assets/34653722-7a6bcc696d2c654acaafb7a13b246702.png)
 
-The fields provided within the Adding a Safe steps on Colony should align with the fields available when adding the module on Safe. So, copy and paste the fields from Colony over to the module settings fields.
+The fields provided within the Adding a Safe steps on Colony should align with the fields available when adding the module on Safe. Copy and paste the fields from Colony over to the module settings fields to continue.
 
 ![Values required to add the Bridge Module](../../assets/Screenshot 2022-11-22 223855.png)
 
@@ -86,6 +85,8 @@ Then copy the address at the very top of the module details screen. You can see 
 
 ![Finding the Module contract address](../../assets/Screenshot 2022-11-24 170551.png)
 
-You can then enter in a name for the Safe to identify it on Colony and click 'Add Safe'.
+You can then enter in a name for the Safe to identify it on Colony and click 'Add Safe'. 
 
-Colony will now be set up to control the Safe on the other chain, the next thing to do would be to see it in action by creating a transaction as described in the next steps.
+Colony will now be set up to control the Safe on the other chain. The next step is to see it in action by creating a transaction.
+
+See [**controlling a Safe.**](controlling-a-safe.md)

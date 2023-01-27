@@ -1,6 +1,6 @@
 ---
 description: Why launch a DAO on Colony?
-sidebar_position: 1
+sidebar_position: 0
 ---
 
 # Why Colony?

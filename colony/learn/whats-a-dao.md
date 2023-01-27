@@ -1,6 +1,6 @@
 ---
 description: What's a DAO?
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # What's a DAO, anyway?

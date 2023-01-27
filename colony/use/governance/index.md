@@ -1,7 +1,7 @@
 ---
 description: Get Started with DAO Governance on Colony
 
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 # Governance
