@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # Contribute to Colony
 
-If you are passionate about decentralization or DAOs and want to help shape the future of the web, then contributing to the Colony project is a fantastic opportunity. Colony is a decentralized platform that enables anyone to create, manage, and participate in decentralized organizations on the blockchain. Whether you are a web developer, Solidity developer, or security researcher, you can get involved and make a difference.
+If you are passionate about decentralization or DAOs and want to help shape the future of organizations, then contributing to the Colony project is a fantastic opportunity. Colony is a decentralized platform that enables anyone to create, manage, and participate in decentralized organizations on the blockchain. Whether you are a web developer, Solidity developer, security researcher, or just have general interest in DAOs, you can get involved and make a difference.
 
 ## Web Developers
 
@@ -26,6 +26,8 @@ If you're a security researcher, you can help secure the Colony platform by part
 
 ## Get in Touch
 
-If you have any questions or would like to get in touch, you can reach out to Chris, the community manager, by email at chris@colony.io or in Discord at chmanie#5800. We're always looking for ways to grow the Colony community and help more people get involved, so don't hesitate to reach out.
+If you have any questions or would like to get in touch, you can reach out to Chris, the community manager, by email at chris@colony.io or in [Discord](https://discord.com/invite/feVZWwysqM) at chmanie#5800. We're always looking for ways to grow the Colony community and help more people get involved, so don't hesitate to reach out.
 
+:::tip Welcome to the Future of Work.
 Join us today and help build a better decentralized future with Colony!
+:::
