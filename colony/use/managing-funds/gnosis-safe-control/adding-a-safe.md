@@ -79,11 +79,11 @@ If returning to Colony you find you no longer have "Add a Safe" process up, you 
 
 To find the module contract address, return to **Apps > Zodiac**, then click on the newly installed module as shown in the below screenshot.
 
-![../../assets/34715811-9cbd9f165594196b262b7474e6141569.png](Finding the installed Bridge Module)
+![Finding the installed Bridge Module](../../assets/34715811-9cbd9f165594196b262b7474e6141569.png)
 
 Then copy the address at the very top of the module details screen. You can see this highlighted in the image below. Add this into the "Module contract address" field on Colony.
 
-![Finding the Module contract address](../../assets/Screenshot 2022-11-24 170551.png)
+![Finding the Module contract address](../../assets/Screenshot%202022-11-24%20170551.png)
 
 You can then enter in a name for the Safe to identify it on Colony and click 'Add Safe'. 
 
