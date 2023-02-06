@@ -8,7 +8,7 @@ sidebar_position: 6
 
 Every colony has its own native token. Native tokens are used for [staking motions and disputes](../governance/motions.md).
 
-Payment in a colony’s native token also confers [reputation](reputation.md), but paying in other tokens (such as stablecoins) does not.
+Payment in a colony’s native token also confers [reputation](../governance/reputation.md), but paying in other tokens (such as stablecoins) does not.
 
 Users can decide to adopt an [existing ERC20 token](../../use/launch-a-colony.md#step-2b-using-an-existing-token) as their native token (i.e. DAI or USDC), or to [create a new one](../../use/launch-a-colony.md#step-2a-creating-a-new-token). Native Tokens are a key aspect when creating a new colony.
 
