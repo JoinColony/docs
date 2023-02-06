@@ -6,7 +6,7 @@ sidebar_position: 6
 
 # Payments and Native Tokens
 
-Every colony has its own native token. Native tokens are used for [staking motions and disputes](motions.md).
+Every colony has its own native token. Native tokens are used for [staking motions and disputes](../governance/motions.md).
 
 Payment in a colony’s native token also confers [reputation](reputation.md), but paying in other tokens (such as stablecoins) does not.
 

@@ -10,7 +10,7 @@ sidebar_position: 4
 
 Whether you're paying contributors, managing a DAO treasury, or creating teams, Motions allow your DAO to carry out actions without the need for a trusted third party. Motions follow the [Lazy Consensus](lazy-consensus.md) model.
 
-Does your DAO want to decide on proposals that cannot be executed automatically? That's where [Simple Decisions](simple-decisions.md) come in.
+Does your DAO want to decide on proposals that cannot be executed automatically? That's where Simple Decisions come in.
 
 For a quick overview of Motions, [view this Twitter thread](https://twitter.com/joincolony/status/1598009846544191488?s=20&t=tDd7GViC_aeTrXr0ElZDRg). 
 

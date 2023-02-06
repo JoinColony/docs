@@ -21,4 +21,4 @@ How it works:
 * DAO members who vote can be awarded a portion of the staked tokens after voting concludes
 
 
-For more on the rationale behind Lazy Consensus, see [**this page**](../../../learn/dao-builders-toolkit/lazy-consensus.md).
+For more on the rationale behind Lazy Consensus, see [**this page**](../../../learn/governance/lazy-consensus.md).
