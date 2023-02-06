@@ -8,7 +8,7 @@ sidebar_position: 3
 
 If you're launching a new colony for a previously established organization, you'll want to ensure that reputation is fairly distributed amongst those who have earned it. This process is known as **Reputation Bootstrapping**.
 
-You can use the [award reputation](award-reputation.md) function to distribute reputation without needing to send tokens. 
+You can use the [award reputation](../reputation/award-reputation.md) function to distribute reputation without needing to send tokens. 
 
 ## Determining Reputation Allotments
 
@@ -22,7 +22,7 @@ In this method, a contributor's proportion of reputation is determined by how ma
 Easy to determine and implement
 :::
 :::warning Cons
-Many of the drawbacks of token-based governance are preserved in this method, such as early holders (with huge bags, who contribute very little) having an unfair advantage over new holders (with smaller bags, who actively contribute). However, as the colony matures, the benefits of [reputation-based governance](../../learn/dao-builders-toolkit/reputation.md) will gradually take precedent.
+Many of the drawbacks of token-based governance are preserved in this method, such as early holders (with huge bags, who contribute very little) having an unfair advantage over new holders (with smaller bags, who actively contribute). However, as the colony matures, the benefits of [reputation-based governance](../../learn/governance/reputation.md) will gradually take precedent.
 :::
 
 **Method 2: Reputation scores are agreed upon through a vote**

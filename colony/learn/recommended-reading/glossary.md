@@ -1,6 +1,6 @@
 ---
 description: Your source for Colony DAO jargon!
-sidebar_position: 4
+sidebar_position: 6
 ---
 
 # Glossary of Terms
@@ -31,7 +31,7 @@ A token chosen by a colony which confers reputation when paid out as a task boun
 
 ### Objection
 
-Objections trigger votes during the [Lazy Consensus](../learn/dao-builders-toolkit/lazy-consensus.md) process. To raise an objection, a colony member is required to put up a stake of internal tokens. If another member opposes an objection, they may stake tokens to elevate the objection to become a dispute. Otherwise, the objection will pass automatically after a defined period of time.
+Objections trigger votes during the [Lazy Consensus](../governance/lazy-consensus.md) process. To raise an objection, a colony member is required to put up a stake of internal tokens. If another member opposes an objection, they may stake tokens to elevate the objection to become a dispute. Otherwise, the objection will pass automatically after a defined period of time.
 
 ### Reputation
 

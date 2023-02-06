@@ -12,4 +12,4 @@ That colony will then appear in the list of colonies on the left of your screen,
 
 ![](<../use/assets/Screen record from 2021-03-03 15.40.20.gif>)
 
-However, to truly call yourself a member of the colony, you'll need to earn some [Reputation](../learn/dao-builders-toolkit/reputation.md) in the colony.
+However, to truly call yourself a member of the colony, you'll need to earn some [Reputation](../learn/governance/reputation.md) in the colony.
