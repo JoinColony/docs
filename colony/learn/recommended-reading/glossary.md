@@ -37,7 +37,7 @@ Objections trigger votes during the [Lazy Consensus](../governance/lazy-consensu
 
 A number associated with an account which attempts to quantify the merit of a user’s recent contributions to a colony. Reputation is used to weight a user’s influence in decisions related to the expertise they have demonstrated, and to determine amounts owed to a colony’s members when rewards are disbursed.
 
-Unlike tokens, reputation cannot be transferred between addresses; it must be earned by direct action within the colony. Reputation that is earned can eventually be lost through inactivity (decay) or through [smite motions](../use/reputation/smite-reputation.md)
+Unlike tokens, reputation cannot be transferred between addresses; it must be earned by direct action within the colony. Reputation that is earned can eventually be lost through inactivity (decay) or through [smite motions](../../use/reputation/smite-reputation.md)
 
 ### Reputation Mining
 
