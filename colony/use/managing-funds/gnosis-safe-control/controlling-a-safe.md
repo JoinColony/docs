@@ -66,14 +66,14 @@ Finally, just click **Create Transaction** and your Motion will be launched!
 
 Once the Motion has passed, an additional step needs to be taken to execute the transaction on the chain of the Safe. This step can be carried out by anyone, since the Motion has already passed governance. Whoever executes the transaction will need to cover the gas fee. 
 
-You'll know this step needs to be carried out when you see the "Action needed" tag next to the Motion in your colony's action list:
+You'll know this step needs to be carried out when you see the **Action needed** tag next to the Motion in your colony's action list:
 ![](../../assets/executesafetx1.png)
 
 You'll also see a banner at the top of the Motion page:
 
 ![](../../assets/executesafetx2.png)
 
-Once you click "Process transaction" you'll be brought to the Transaction Service page, where you'll need to ensure that you're connected to the same chain as the Safe. Then, click "Execute" and you're done!
+Once you click **Process transaction** you'll be brought to the Transaction Service page, where you'll need to ensure that you're connected to the same chain as the Safe. Then, click **Execute** and you're done!
 
 ![](../../assets/executesafetx3.png)
 
