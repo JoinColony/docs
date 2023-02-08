@@ -58,11 +58,11 @@ Now that your colony has officially been created, you’re ready to bring some c
 
 ## Step 4: Invite Contributors
 
-After completing the initial setup process, you’ll be brought to your colony's dashboard, which will serve as the home base for your DAO. For now, let's click on "Contributors" to see how we can bring some friends onboard.
+After completing the initial setup process, you’ll be brought to your colony's dashboard, which will serve as the home base for your DAO. For now, let's click on "Contributors" to see how we can bring some friends on board.
 
 ![Invite Contributors](assets/quickstart-guide/Pasted_image_20220926120053.png)
 
-On the Contributors page, we'll see a list of all the DAO members, along with their permissions and reputation scores. It's a bit lonely in here, but not for long! Clicking "Invite" will copy our sharable colony URL, which contributors can use to join the group.
+On the Contributors page, we'll see a list of all the DAO members, along with their permissions and reputation scores. It's a bit lonely in here, but not for long! Clicking "Invite" will copy our shareable colony URL, which contributors can use to join the group.
 
 ![Invite Contributors with Sharable Link](assets/quickstart-guide/Pasted_image_20220926120446.png)
 
