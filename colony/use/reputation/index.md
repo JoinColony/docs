@@ -6,7 +6,6 @@ sidebar_position: 4
 
 # Reputation
 
-<<<<<<< HEAD
 ### What is Reputation?
 
 Most DAO frameworks in the past have used token-based governance systems: the more tokens you have, the more voting power you have. This system may work out for whales, but not for everyday DAO contributors that want to participate in the future of work. 
