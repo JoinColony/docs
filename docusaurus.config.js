@@ -115,10 +115,6 @@ const config = {
       '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       {
-        gtag: {
-          trackingID: 'G-354563238',
-          anonymizeIP: true
-        },
         docs: false,
         blog: false,
         theme: {
@@ -212,6 +208,9 @@ const config = {
       }
     }),
   plugins: process.env.FULL ? [...pluginsBase, ...pluginsFull] : pluginsBase,
+  clientModules: [
+    require.resolve('./src/piwik.js'),
+  ]
 };
 
 module.exports = config;
