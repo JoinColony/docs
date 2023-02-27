@@ -6,7 +6,7 @@ sidebar_position: 1
 
 # Address Book
 
-The Address Book feature allows contributors to quickly identify verified wallet addresses in a colony. MeBy adding a wallet address to the Address Book, the address will be shown in the members list with a green check mark. 
+The Address Book feature allows contributors to quickly identify verified wallet addresses in a colony. By adding a wallet address to the Address Book, the address will be shown in the members list with a green check mark. 
 
 This feature helps keep your colony secure against imposters and other bad actors. User selection inputs throughout the Colony UI will only show addresses that are in the Address Book and will warn you if you're interacting with an unapproved address.
 

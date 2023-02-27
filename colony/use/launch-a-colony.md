@@ -26,7 +26,7 @@ Once you’ve logged into the [Colony Dapp](https://xdai.colony.io/landing) and 
 
 ## Step 2: Setup Your Token
 
-Every colony has its own [native token](../learn/payments-and-tokens/payments-and-tokens.md). Payment in a colony’s native token confers [**reputation**](../learn/governance/reputation.md) in the team from which it was received.
+Every colony has its own [native token](../learn/payments-and-tokens/payments-and-native-tokens.md). Payment in a colony’s native token confers [**reputation**](../learn/governance/reputation.md) in the team from which it was received.
 
 Users can decide to adopt an existing ERC20 token as their native token (e.g. if your project already has a token), or to create a new one. If you already have an ERC20 governance token, skip to step 2b.
 

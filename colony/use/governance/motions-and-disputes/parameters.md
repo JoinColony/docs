@@ -28,11 +28,13 @@ _In a dispute, what percentage of the losing side’s stake should be awarded to
 
 **Default value: 20%**
 
-E.g., if both the colony members who create a motion, and the colony members who raise an objection stake 50 tokens, and the Voter Reward is 20%, then the voters will share 20 tokens between them, proportional to their reputations (i.e. 20% of the combined stake of both side of the dispute).\
-\
-For unbalanced voting outcomes the reward calculation is on a linear scale between 0 and 100% of the defined Voter Reward. The remainder will be shared between the stakers proportional to the outcome of the vote. The calculation for this is: \
-\
-_rewardFactor = (2 \* Winning Votes Count / (Winning Votes Count + Losing Votes Count)) - 1_\
+E.g., if both the colony members who create a motion, and the colony members who raise an objection stake 50 tokens, and the Voter Reward is 20%, then the voters will share 20 tokens between them, proportional to their reputations (i.e. 20% of the combined stake of both side of the dispute).
+
+For unbalanced voting outcomes the reward calculation is on a linear scale between 0 and 100% of the defined Voter Reward. The remainder will be shared between the stakers proportional to the outcome of the vote. 
+
+The calculation for this is: 
+
+_rewardFactor = (2 \* Winning Votes Count / (Winning Votes Count + Losing Votes Count)) - 1_/
 _totalReward = rewardFactor \* Voter Reward Value_
 
 ### Minimum Stake
