@@ -14,7 +14,7 @@ To mint your colony native token, you need to navigate to **New Action > Manage 
 :::
 
 :::note
-This option is exclusively available if the native token was generated through Colony, and wasn't imported. Please refer to [Payments and Native Tokens](../../learn/payments-and-tokens/payments-and-tokens.md) to learn more.
+This option is exclusively available if the native token was generated through Colony, and wasn't imported. Please refer to [Payments and Native Tokens](../../learn/payments-and-tokens/payments-and-native-tokens.md) to learn more.
 :::
 
 :::tip
