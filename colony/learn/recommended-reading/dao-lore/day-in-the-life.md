@@ -7,7 +7,7 @@ sidebar_position: 2
 
 Today was a day like any other, where I got up early and opened my computer to begin my daily routine of contributing to a Decentralized Autonomous Organization (DAO). I'm part of a community of people who are working together to make decisions and manage resources in a decentralized way, using blockchain technology.
 
-![](../assets/happydesk.png)
+![](../../assets/happydesk.png)
 
 ## Coffee in hand, I begin
 
