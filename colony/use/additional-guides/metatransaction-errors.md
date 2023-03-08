@@ -6,7 +6,7 @@ sidebar_position: 10
 
 # Metatransaction Errors
 
-Metatransactions (also known as [Gassless transactions](../advanced-features/gasless-transactions.md)) make using Colony free, but are sometimes incompatible with legacy features such as unwrapping CLNY tokens. 
+Metatransactions (also known as [Gasless transactions](../advanced-features/gasless-transactions.md)) make using Colony free, but are sometimes incompatible with legacy features such as unwrapping CLNY tokens. 
 
 If you run into an error involing Metatransactions, not to worry! It's easy to disable and re-enable this feature. 
 
