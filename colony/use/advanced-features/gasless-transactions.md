@@ -20,6 +20,8 @@ To disable / enable, Click on your 'Avatar' and click 'Settings'. On the 'Settin
 
 ![Click on your 'Avatar' and click 'Settings'](<../assets/download (54).png>) ![Go to the 'Advanced settings' tab. Toggle the setting.](../assets/c6ecc3e8-d24c-439d-be22-ab434a4f486b.png)
 
+See also: [**Metatransaction errors**](../additional-guides/metatransaction-errors.md)
+
 ### Prerequisites
 
 :::note
