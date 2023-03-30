@@ -106,13 +106,13 @@ const Home = () => (
           </h1>
           <div className="mt-6 md:mt-8">
             <Link href="https://discord.gg/feVZWwysqM">
-              <Discord className="w-8 fill-blue-400 transition-all md:w-14 hover:fill-white" />
+              <Discord className="w-8 fill-blue-400 transition-color md:w-14 hover:fill-white" />
             </Link>
             <Link href="https://github.com/JoinColony/">
-              <GitHub className="w-8 fill-blue-400 ml-10 transition-all md:w-14 hover:fill-white" />
+              <GitHub className="w-8 fill-blue-400 ml-10 transition-color md:w-14 hover:fill-white" />
             </Link>
             <Link href="https://twitter.com/JoinColony/">
-              <Twitter className="w-8 fill-blue-400 ml-10 transition-all md:w-14 hover:fill-white" />
+              <Twitter className="w-8 fill-blue-400 ml-10 transition-color md:w-14 hover:fill-white" />
             </Link>
           </div>
         </section>
