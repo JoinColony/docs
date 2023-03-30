@@ -4,6 +4,7 @@
  */
 
 .bgShape1 {
+    @apply hidden md:inline-block;
     position: absolute;
     top: 50%;
     left: 0;
@@ -11,15 +12,17 @@
 }
 
 .bgShape2 {
+    @apply hidden md:inline-block;
     position: absolute;
-    top: 50%;
-    left: 0;
+    top: 60%;
+    right: 6%;
     z-index: 0;
 }
 
 .bgShape3 {
+    @apply hidden md:inline-block;
     position: absolute;
-    top: 50%;
-    right: 0;
+    top: 10%;
+    right: 2%;
     z-index: 0;
 }

@@ -4,14 +4,24 @@ module.exports = {
   corePlugins: {
     preflight: false, // disable Tailwind's reset
   },
-  content: ["./src/**/*.{js,jsx,ts,tsx}", "../docs/**/*.{mdx,md}"],
+  content: ['./src/**/*.{js,jsx,ts,tsx}', '../docs/**/*.{mdx,md}'],
   darkMode: ['class', '[data-theme="dark"]'], // hooks into docusaurus' dark mode settigns
   theme: {
-    extend: {
-      colors: {
-        navy: '#00284B',
-      }
+    colors: {
+      pink: '#F5416E',
+      purple: ' #FFBBDC',
+      blue: {
+        900: '#012138',
+        800: '#00284B',
+        400: '#289BDC',
+      },
+      transparent: 'transparent',
+      white: '#ffffff',
+    },
+    fontFamily: {
+      sans: ['Avenir Next', 'sans-serif'],
+      mono: ['IBM Plex Mono', 'monospace'],
     },
   },
   plugins: [],
-}
+};

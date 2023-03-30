@@ -16,6 +16,12 @@
 
 @font-face {
   font-family: Avenir Next;
+  font-weight: 600;
+  src: url(/61840fafb9a4c49dad470966_avenir-next-demi.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: Avenir Next;
   font-weight: 700;
   src: url(/61840fafb9a4c40af0470965_avenir-next-bold.woff2) format('woff2');
 }
