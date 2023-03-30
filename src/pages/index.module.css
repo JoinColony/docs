@@ -3,22 +3,23 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+.bgShape1 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 0;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.bgShape2 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 0;
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
+.bgShape3 {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 0;
 }

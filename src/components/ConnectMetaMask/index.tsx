@@ -1,4 +1,3 @@
-import React from 'react';
 import useIsBrowser from '@docusaurus/useIsBrowser';
 import styles from './styles.module.css';
 
