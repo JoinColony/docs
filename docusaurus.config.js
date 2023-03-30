@@ -1,10 +1,14 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
+/* eslint-disable @typescript-eslint/no-var-requires */
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const tailwindCss = require('tailwindcss');
+const autoPrefixer = require('autoprefixer');
 
-const DEFAULT_EDIT_URL = 'https://github.com/JoinColony/docs/edit/main'
+/* eslint-enable @typescript-eslint/no-var-requires */
+
+const DEFAULT_EDIT_URL = 'https://github.com/JoinColony/docs/edit/main';
 
 const getLibraryEditUrl = ({ versionDocsDirPath: path, docPath }) => {
   // Remove edit link from auto-generate docs
@@ -15,76 +19,115 @@ const getLibraryEditUrl = ({ versionDocsDirPath: path, docPath }) => {
   const LIB_ROOT_EDIT_URL = 'https://github.com/JoinColony';
   if (path.includes('colonyNetwork')) {
     return `${LIB_ROOT_EDIT_URL}/colonyNetwork/edit/develop/docs/${docPath}`;
-  } else if (path.includes('colonySDK')) {
+  }
+  if (path.includes('colonySDK')) {
     return `${LIB_ROOT_EDIT_URL}/colonySDK/edit/main/docs/${docPath}`;
-  } else if (path.includes('colonyJS')) {
+  }
+  if (path.includes('colonyJS')) {
     return `${LIB_ROOT_EDIT_URL}/colonyJS/edit/main/docs/${docPath}`;
   }
   return null;
-}
+};
 
-async function capitalizeSidebarItems({ defaultSidebarItemsGenerator, ...args }) {
+async function capitalizeSidebarItems({
+  defaultSidebarItemsGenerator,
+  ...args
+}) {
   const items = await defaultSidebarItemsGenerator(args);
-  items.forEach(mainItem => {
+  items.forEach((mainItem) => {
     if (mainItem.items) {
-      mainItem.items = mainItem.items.map(item => {
+      mainItem.items = mainItem.items.map((item) => {
         if (item.label) {
-          item.label = item.label.replace(/^([a-z])/, m => m.toUpperCase());
+          item.label = item.label.replace(/^([a-z])/, (m) => m.toUpperCase());
         }
         return item;
       });
     }
   });
   return items;
-};
+}
 
 const pluginsBase = [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'docs',
-        path: 'colony',
-        routeBasePath: '/',
-        sidebarPath: require.resolve('./colony/sidebars.ts'),
-        editUrl: DEFAULT_EDIT_URL,
+  [
+    '@docusaurus/plugin-content-docs',
+    {
+      id: 'docs',
+      path: 'colony',
+      routeBasePath: '/',
+      sidebarPath: require.resolve('./colony/sidebars.ts'),
+      editUrl: DEFAULT_EDIT_URL,
+    },
+  ],
+  // https://github.com/facebook/docusaurus/issues/8297
+  // This is quite brittle, I just hope they provide a better way to access the svgo options at some point
+  function svgFix() {
+    return {
+      name: 'svg-fix',
+      configureWebpack(config) {
+        const svgRuleIndex = config.module.rules.findIndex((r) =>
+          r.test.test('file.svg'),
+        );
+        const svgrConfigIndex = config.module.rules[
+          svgRuleIndex
+        ].oneOf.findIndex((r) => {
+          if (!Array.isArray(r.use) || r.use.length === 0) return false;
+          return r.use[0].loader.indexOf('@svgr/webpack') !== -1;
+        });
+        if (svgRuleIndex === -1 || svgrConfigIndex === -1) return;
+
+        config.module.rules[svgRuleIndex].oneOf[
+          svgrConfigIndex
+        ].use[0].options.svgoConfig.plugins[0].params.overrides.cleanupIDs = false;
       },
-    ],
+    };
+  },
+  function tailwindcss() {
+    return {
+      name: 'docusaurus-tailwindcss',
+      configurePostCss(config) {
+        // Appends TailwindCSS and AutoPrefixer.
+        config.plugins.push(tailwindCss);
+        config.plugins.push(autoPrefixer);
+        return config;
+      },
+    };
+  },
 ];
 
 const pluginsFull = [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'develop_colonysdk',
-        path: 'vendor/colonySDK/docs',
-        routeBasePath: 'colonysdk',
-        sidebarPath: require.resolve('./sidebars.ts'),
-        sidebarItemsGenerator: capitalizeSidebarItems,
-        editUrl: getLibraryEditUrl,
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'develop_colonynetwork',
-        path: 'vendor/colonyNetwork/docs',
-        routeBasePath: 'colonynetwork',
-        sidebarPath: require.resolve('./sidebars.ts'),
-        sidebarItemsGenerator: capitalizeSidebarItems,
-        editUrl: getLibraryEditUrl,
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'develop_colonyjs',
-        path: 'vendor/colonyJS/docs',
-        routeBasePath: 'colonyjs',
-        sidebarPath: require.resolve('./sidebars.ts'),
-        sidebarItemsGenerator: capitalizeSidebarItems,
-        editUrl: getLibraryEditUrl,
-      },
-    ],
+  [
+    '@docusaurus/plugin-content-docs',
+    {
+      id: 'develop_colonysdk',
+      path: 'vendor/colonySDK/docs',
+      routeBasePath: 'colonysdk',
+      sidebarPath: require.resolve('./sidebars.ts'),
+      sidebarItemsGenerator: capitalizeSidebarItems,
+      editUrl: getLibraryEditUrl,
+    },
+  ],
+  [
+    '@docusaurus/plugin-content-docs',
+    {
+      id: 'develop_colonynetwork',
+      path: 'vendor/colonyNetwork/docs',
+      routeBasePath: 'colonynetwork',
+      sidebarPath: require.resolve('./sidebars.ts'),
+      sidebarItemsGenerator: capitalizeSidebarItems,
+      editUrl: getLibraryEditUrl,
+    },
+  ],
+  [
+    '@docusaurus/plugin-content-docs',
+    {
+      id: 'develop_colonyjs',
+      path: 'vendor/colonyJS/docs',
+      routeBasePath: 'colonyjs',
+      sidebarPath: require.resolve('./sidebars.ts'),
+      sidebarItemsGenerator: capitalizeSidebarItems,
+      editUrl: getLibraryEditUrl,
+    },
+  ],
 ];
 
 /** @type {import('@docusaurus/types').Config} */
@@ -93,8 +136,12 @@ const config = {
   tagline: 'Explore the vast possibilities of the Colony Network',
   url: 'https://docs.colony.io',
   baseUrl: process.env.QA ? '/next/' : '/',
-  onBrokenLinks: process.env.QA ? 'warn' : (process.env.FULL ? 'throw' : 'log'),
-  onBrokenMarkdownLinks: process.env.QA ? 'warn' : (process.env.FULL ? 'throw' : 'log'),
+  onBrokenLinks: process.env.QA ? 'warn' : process.env.FULL ? 'throw' : 'log',
+  onBrokenMarkdownLinks: process.env.QA
+    ? 'warn'
+    : process.env.FULL
+    ? 'throw'
+    : 'log',
   favicon: 'img/logo.png',
 
   // GitHub pages deployment config.
@@ -122,7 +169,7 @@ const config = {
         },
         pages: {
           path: 'src/pages',
-        }
+        },
       },
     ],
   ],
@@ -205,12 +252,10 @@ const config = {
       },
       colorMode: {
         defaultMode: 'dark',
-      }
+      },
     }),
   plugins: process.env.FULL ? [...pluginsBase, ...pluginsFull] : pluginsBase,
-  clientModules: [
-    require.resolve('./src/piwik.js'),
-  ]
+  clientModules: [require.resolve('./src/piwik.js')],
 };
 
 module.exports = config;

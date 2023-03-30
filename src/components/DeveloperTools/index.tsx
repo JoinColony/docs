@@ -1,4 +1,3 @@
-import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
@@ -16,7 +15,8 @@ const FeatureList: FeatureItem[] = [
     logo: 'https://raw.githubusercontent.com/JoinColony/brand/v1.0.0/logo_sdk_no_padding.svg',
     description: (
       <>
-        "Just add <s>water</s> MetaMask" toolbox for the most common Colony workflows. Start here if you're new 🚀
+        "Just add <s>water</s> MetaMask" toolbox for the most common Colony
+        workflows. Start here if you're new 🚀
       </>
     ),
     link: '/colonysdk',
@@ -27,7 +27,8 @@ const FeatureList: FeatureItem[] = [
     logo: 'https://raw.githubusercontent.com/JoinColony/brand/v1.0.0/logo_network_no_padding.svg',
     description: (
       <>
-        The Colony Smart Contracts in all their glory. Freshly tested. Upgradable. Ready for you!
+        The Colony Smart Contracts in all their glory. Freshly tested.
+        Upgradable. Ready for you!
       </>
     ),
     link: '/colonynetwork',
@@ -38,7 +39,9 @@ const FeatureList: FeatureItem[] = [
     logo: 'https://raw.githubusercontent.com/JoinColony/brand/v1.0.0/logo_js_no_padding.svg',
     description: (
       <>
-        Our reference client implementation, written in TypeScript. Battle-tested in our Dapp, it gives you all the features the Colony Network has to offer.
+        Our reference client implementation, written in TypeScript.
+        Battle-tested in our Dapp, it gives you all the features the Colony
+        Network has to offer.
       </>
     ),
     link: '/colonyjs',
@@ -46,14 +49,20 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, logo, description, link, color}: FeatureItem) {
+function Feature({ title, logo, description, link, color }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <a href={link}><img src={logo} className={styles.featureSvg} /></a>
+        <a href={link}>
+          <img src={logo} className={styles.featureSvg} />
+        </a>
       </div>
       <div className="text--center padding-horiz--md">
-        <h3><a href={link} style={{ color }}>{title}</a></h3>
+        <h3>
+          <a href={link} style={{ color }}>
+            {title}
+          </a>
+        </h3>
         <p>{description}</p>
       </div>
     </div>

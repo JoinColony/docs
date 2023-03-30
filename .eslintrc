@@ -1,0 +1,47 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+        "plugin:@typescript-eslint/recommended",
+        "@colony/eslint-config-colony"
+    ],
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "rules": {
+        "max-len": [
+            "error",
+            {
+                "ignoreStrings": true,
+                "ignoreComments": true,
+                "ignoreTemplateLiterals": true
+            }
+        ],
+        "no-dupe-class-members": "off",
+        "no-redeclare": "off",
+        "no-shadow": "off",
+        "no-unused-vars": "off",
+        "no-use-before-define": "off",
+        "@typescript-eslint/no-unused-vars": "error",
+        "@typescript-eslint/no-shadow": [
+            "error"
+        ],
+        "import/extensions": "off",
+        "import/no-unresolved": "off",
+        "import/prefer-default-export": "off",
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": [
+                    "docusaurus.config.js"
+                ]
+            }
+        ]
+    },
+    "globals": {
+        "JSX": true
+    }
+}
