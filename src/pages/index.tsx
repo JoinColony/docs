@@ -38,7 +38,7 @@ const Home = () => (
   >
     <main className="grow bg-blue-800 font-sans">
       <div className="container relative mx-auto text-center mt-10 md:mt-40 z-10">
-        <h1 className="mb-6 text-3xl text-white font-extrabold leading-none tracking-normal md:text-5xl lg:text-6xl">
+        <h1 className="mb-6 text-3xl text-white font-bold leading-none tracking-normal md:text-5xl lg:text-6xl">
           Welcome to Colony Docs
         </h1>
         <p className="leading-7 text-white mx-auto tracking-normal md:text-lg mb-10 md:max-w-3xl md:mb-20">
