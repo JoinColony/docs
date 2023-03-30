@@ -26,43 +26,70 @@
   src: url(/61840fafb9a4c40af0470965_avenir-next-bold.woff2) format('woff2');
 }
 
+
 body {
   font-family: 'Avenir Next', sans-serif;
-  letter-spacing: -.03em;
 }
 
-h1, h2, h3, h4, h5 {
-  letter-spacing: -.04em;
+html[data-theme='dark'] {
+  /* --ifm-background-color: #00284B; */
+}
+
+.navbar--dark {
+  --ifm-navbar-background-color: #012138;
+  --ifm-navbar-link-hover-color: #289BDC;
+  --ifm-navbar-item-padding-horizontal: 1.5rem;
 }
 
 /* You can override the default Infima variables here. */
 :root {
   --ifm-heading-font-family: 'Avenir Next', sans-serif;
+  --ifm-font-weight-normal: 400;
+  --ifm-font-weight-semibold: 600;
   --ifm-font-weight-bold: 700;
   --ifm-color-primary: #289BDC;
-  --ifm-color-primary-dark: #289BDC;
-  --ifm-color-primary-darker: #289BDC;
-  --ifm-color-primary-darkest: #289BDC;
-  --ifm-color-primary-light: #19A582;
-  --ifm-color-primary-lighter: #19A582;
-  --ifm-color-primary-lightest: #19A582;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* --ifm-color-primary-dark: #289BDC; */
+  /* --ifm-color-primary-darker: #289BDC; */
+  /* --ifm-color-primary-darkest: #289BDC; */
+  /* --ifm-color-primary-light: #19A582; */
+  /* --ifm-color-primary-lighter: #19A582; */
+  /* --ifm-color-primary-lightest: #19A582; */
+  /* --ifm-code-font-size: 95%; */
+  /* --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1); */
+}
+
+.navbarSectionLearn:hover {
+    @apply text-blue-400
+}
+
+.navbarSectionLearn[aria-current="page"] {
+    @apply text-blue-400
+}
+
+.navbarSectionUse:hover {
+    @apply text-purple
+}
+
+.navbarSectionUse[aria-current="page"] {
+    @apply text-purple
+}
+
+.navbarSectionDevelop:hover {
+    @apply text-pink
+}
+
+.navbarSectionDevelop[aria-current="page"] {
+    @apply text-pink
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #19A582;
-  --ifm-color-primary-dark: #19A582;
-  --ifm-color-primary-darker: #19A582;
-  --ifm-color-primary-darkest: #19A582;
-  --ifm-color-primary-light: #289BDC;
-  --ifm-color-primary-lighter: #289BDC;
-  --ifm-color-primary-lightest: #289BDC;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
-
-.navbar__title {
-    text-transform: uppercase;
-    letter-spacing: 0.01em;
-}
+/* [data-theme='dark'] { */
+/*   --ifm-color-primary: #19A582; */
+/*   --ifm-color-primary-dark: #19A582; */
+/*   --ifm-color-primary-darker: #19A582; */
+/*   --ifm-color-primary-darkest: #19A582; */
+/*   --ifm-color-primary-light: #289BDC; */
+/*   --ifm-color-primary-lighter: #289BDC; */
+/*   --ifm-color-primary-lightest: #289BDC; */
+/*   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3); */
+/* } */
