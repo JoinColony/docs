@@ -45,8 +45,9 @@ const Home = () => (
           Colony is the best way to build online organizations.
           <br />
           <br />
-          These docs serve as a reference guide to building DAOs with Colony. Be sure to join Colony's Discord community to connect
-          with other DAO builders and get support.
+          These docs serve as a reference guide to building DAOs with Colony. Be
+          sure to join Colony's Discord community to connect with other DAO
+          builders and get support.
         </p>
         <section className="grid grid-flow-row gap-4 mx-auto md:gap-8 md:grid-flow-col md:auto-cols-fr md:max-w-6xl">
           <article className="p-6 bg-blue-900 text-left md:p-8">

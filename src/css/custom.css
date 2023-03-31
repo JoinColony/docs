@@ -32,11 +32,11 @@ body {
 }
 
 html[data-theme='dark'] {
-  /* --ifm-background-color: #00284B; */
+  --ifm-background-color: #00284B;
 }
 
 .navbar--dark {
-  --ifm-navbar-background-color: #012138;
+  --ifm-navbar-background-color: #021C2B;
   --ifm-navbar-link-hover-color: #289BDC;
   --ifm-navbar-item-padding-horizontal: 1.5rem;
 }
