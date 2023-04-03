@@ -217,6 +217,10 @@ const config = {
         ],
       },
       footer: {
+        logo: {
+          alt: 'Colony Logo',
+          src: 'img/logo.svg',
+        },
         style: 'dark',
         links: [
           {
@@ -242,7 +246,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} colony.io. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Colony. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

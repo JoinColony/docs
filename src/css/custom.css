@@ -41,6 +41,12 @@ html[data-theme='dark'] {
   --ifm-navbar-item-padding-horizontal: 1.5rem;
 }
 
+.footer {
+  --ifm-footer-background-color: #021C2B;
+  --ifm-footer-padding-vertical: 0;
+  --ifm-footer-padding-horizontal: 0;
+}
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-heading-font-family: 'Avenir Next', sans-serif;
