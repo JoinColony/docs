@@ -19,7 +19,7 @@ const FooterLink = ({
 
 const FooterGrid = () => (
   <section className="grid grid-flow-row mx-auto pt-8 pb-6 md:pt-10 md:grid-flow-col md:auto-cols-fr md:max-w-6xl">
-    <div className="mt-10 md:mt-0">
+    <div>
       <FooterLink href="https://colony.io">
         <Logomark className="w-8 h-8 md:w-12 md:h-12" />
         <span className="block text-white">Visit Colony</span>
