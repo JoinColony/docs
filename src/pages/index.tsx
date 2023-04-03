@@ -25,7 +25,7 @@ const MainLink = ({
 }) => (
   <Link
     href={href}
-    className={`${className} inline-block font-sans text-sm py-4 px-10 rounded-full text-white tracking-normal bg-transparent border border-solid cursor-pointer transition-colors hover:no-underline`}
+    className={`${className} inline-block font-sans text-sm py-4 px-8 rounded-full text-white tracking-normal bg-transparent border border-solid cursor-pointer transition-colors hover:no-underline`}
   >
     {children}
   </Link>
@@ -96,7 +96,7 @@ const Home = () => (
             </MainLink>
           </article>
         </section>
-        <section className="my-8 md:mt-48">
+        <section className="my-8 md:my-48">
           <h2 className="font-mono font-normal text-blue-400 text-lg tracking-normal md:text-xl">
             Need guidance?
           </h2>
