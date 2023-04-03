@@ -104,14 +104,23 @@ const Home = () => (
             Our team and community are here to help.
           </h1>
           <div className="mt-6 md:mt-8">
-            <Link href="https://discord.gg/feVZWwysqM">
-              <Discord className="w-8 fill-blue-400 transition-color md:w-14 hover:fill-white" />
+            <Link
+              className="inline-block w-8 md:w-14"
+              href="https://discord.gg/feVZWwysqM"
+            >
+              <Discord className="w-full fill-blue-400 transition-color md:w-14 hover:fill-white" />
             </Link>
-            <Link href="https://github.com/JoinColony/">
-              <GitHub className="w-8 fill-blue-400 ml-10 transition-color md:w-14 hover:fill-white" />
+            <Link
+              className="inline-block w-8 ml-10 md:w-14"
+              href="https://github.com/JoinColony/"
+            >
+              <GitHub className="w-full fill-blue-400 transition-color hover:fill-white" />
             </Link>
-            <Link href="https://twitter.com/JoinColony/">
-              <Twitter className="w-8 fill-blue-400 ml-10 transition-color md:w-14 hover:fill-white" />
+            <Link
+              className="inline-block w-8 ml-10 md:w-14"
+              href="https://twitter.com/JoinColony/"
+            >
+              <Twitter className="w-full fill-blue-400 transition-color hover:fill-white" />
             </Link>
           </div>
         </section>
