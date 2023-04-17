@@ -27,18 +27,30 @@ const FooterGrid = () => (
     </div>
     <div className="mt-8 md:mt-0">
       <h1 className="text-base">Learn</h1>
-      <FooterLink>Glossary</FooterLink>
+      <FooterLink href="/learn/why-colony">Why Colony?</FooterLink>
+      <FooterLink href="/learn/governance/reputation">Reputation</FooterLink>
+      <FooterLink href="/learn/payments-and-tokens/the-metacolony-clny">
+        The Metacolony and CLNY
+      </FooterLink>
     </div>
     <div className="mt-8 md:mt-0">
       <h1 className="text-base">Use</h1>
-      <FooterLink>Foo link</FooterLink>
+      <FooterLink href="/use/launch-a-colony">Launching a Colony</FooterLink>
+      <FooterLink href="/use/managing-funds/mint-tokens">
+        Minting Tokens
+      </FooterLink>
+      <FooterLink href="/use/governance/motions-and-disputes/creating-a-motion">
+        Creating a Motion
+      </FooterLink>
     </div>
     <div className="mt-8 md:mt-0">
       <h1 className="text-base">Develop</h1>
       <FooterLink href="/colonysdk">Colony SDK</FooterLink>
-      <FooterLink href="/colonygraph">Colony Graph API</FooterLink>
       <FooterLink href="/colonynetwork">Colony Network</FooterLink>
       <FooterLink href="/colonyjs">Colony JS</FooterLink>
+      <FooterLink href="/colonynetwork/bug-bounty">
+        Bug Bounty Program
+      </FooterLink>
     </div>
   </section>
 );
