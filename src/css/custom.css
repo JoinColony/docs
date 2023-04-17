@@ -32,7 +32,11 @@ body {
 }
 
 html[data-theme='dark'] {
-  --ifm-background-color: #00284B;
+  --ifm-background-color: #0c151d;
+}
+
+html[data-theme='light'] .alert {
+    --ifm-alert-foreground-color: #ffffff;
 }
 
 .navbar--dark {
@@ -45,6 +49,26 @@ html[data-theme='dark'] {
   --ifm-footer-background-color: #021C2B;
   --ifm-footer-padding-vertical: 0;
   --ifm-footer-padding-horizontal: 0;
+}
+
+.alert--secondary {
+    --ifm-alert-background-color: #707070;
+}
+
+.alert--success {
+    --ifm-alert-background-color: #054c05;
+}
+
+.alert--info {
+    --ifm-alert-background-color: #245b6c;
+}
+
+.alert--warning {
+    --ifm-alert-background-color: #8b6915;
+}
+
+.alert--danger {
+    --ifm-alert-background-color: #6a171a;
 }
 
 /* You can override the default Infima variables here. */
