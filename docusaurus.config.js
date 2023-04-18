@@ -1,10 +1,11 @@
 // @ts-check
 /* eslint-disable @typescript-eslint/no-var-requires */
 
-const lightCodeTheme = require('prism-react-renderer/themes/nightOwlLight');
-const darkCodeTheme = require('prism-react-renderer/themes/nightOwl');
 const tailwindCss = require('tailwindcss');
 const autoPrefixer = require('autoprefixer');
+
+const lightCodeTheme = require('./src/prismLight');
+const darkCodeTheme = require('./src/prismDark');
 
 /* eslint-enable @typescript-eslint/no-var-requires */
 
