@@ -31,14 +31,6 @@ body {
   font-family: 'Avenir Next', sans-serif;
 }
 
-html[data-theme='dark'] {
-  --ifm-background-color: #0c151d;
-}
-
-html[data-theme='light'] .alert {
-    --ifm-alert-foreground-color: #ffffff;
-}
-
 .navbar--dark {
   --ifm-navbar-background-color: #021C2B;
   --ifm-navbar-link-hover-color: #289BDC;
@@ -86,6 +78,34 @@ html[data-theme='light'] .alert {
   /* --ifm-color-primary-lightest: #19A582; */
   /* --ifm-code-font-size: 95%; */
   /* --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1); */
+}
+
+html[data-theme='dark'] {
+  --ifm-background-color: #0c151d;
+}
+
+html[data-theme='light'] .alert {
+    --ifm-alert-foreground-color: #ffffff;
+}
+
+html[data-theme='light'] .alert--secondary {
+    --ifm-alert-background-color: #b0b0b0;
+}
+
+html[data-theme='light'] .alert--success {
+    --ifm-alert-background-color: #216c21;
+}
+
+html[data-theme='light'] .alert--info {
+    --ifm-alert-background-color: #328da9;
+}
+
+html[data-theme='light'] .alert--warning {
+    --ifm-alert-background-color: #bc911e;
+}
+
+html[data-theme='light'] .alert--danger {
+    --ifm-alert-background-color: #a52429;
 }
 
 .navbarSectionLearn:hover {
