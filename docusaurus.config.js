@@ -21,11 +21,11 @@ const getLibraryEditUrl = ({ versionDocsDirPath: path, docPath }) => {
   if (path.includes('colonyNetwork')) {
     return `${LIB_ROOT_EDIT_URL}/colonyNetwork/edit/develop/docs/${docPath}`;
   }
-  if (path.includes('colonySDK')) {
-    return `${LIB_ROOT_EDIT_URL}/colonySDK/edit/main/docs/${docPath}`;
+  if (path.includes('colonyJS/packages/sdk')) {
+    return `${LIB_ROOT_EDIT_URL}/colonyJS/edit/main/packages/sdk/docs/${docPath}`;
   }
-  if (path.includes('colonyJS')) {
-    return `${LIB_ROOT_EDIT_URL}/colonyJS/edit/main/docs/${docPath}`;
+  if (path.includes('colonyJS/packages/colony-js')) {
+    return `${LIB_ROOT_EDIT_URL}/colonyJS/edit/main/packages/colony-js/docs/${docPath}`;
   }
   return null;
 };
@@ -100,7 +100,7 @@ const pluginsFull = [
     '@docusaurus/plugin-content-docs',
     {
       id: 'develop_colonysdk',
-      path: 'vendor/colonySDK/docs',
+      path: 'vendor/colonyJS/packages/sdk/docs',
       routeBasePath: 'colonysdk',
       sidebarPath: require.resolve('./sidebars.ts'),
       sidebarItemsGenerator: capitalizeSidebarItems,
@@ -122,7 +122,7 @@ const pluginsFull = [
     '@docusaurus/plugin-content-docs',
     {
       id: 'develop_colonyjs',
-      path: 'vendor/colonyJS/docs',
+      path: 'vendor/colonyJS/packages/colony-js/docs',
       routeBasePath: 'colonyjs',
       sidebarPath: require.resolve('./sidebars.ts'),
       sidebarItemsGenerator: capitalizeSidebarItems,
