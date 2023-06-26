@@ -32,9 +32,9 @@ The pages are automatically deployed on push of the `main` branch using GitHub p
 
 The docs for the individual libraries (like Colony Network, Colony SDK, etc.) are pulled in via git submodules. Make sure that the individual submodule tags always correspond to a proper release tag of that library.
 
-**To update a library version** (e.g. `colonySDK`)
+**To update a library version** (e.g. `colonyJS`)
 
-Go to `vendor/colonySDK` and do a `git checkout v0.6.0` (adjust to the version you want to update to). Then leave to the `docs` main repository directory and do a git commit and push. The docs will then automatically be built and deployed by GitHub actions.
+Go to `vendor/colonyJS` and do a `git checkout v0.6.0` (adjust to the version you want to update to). Then leave to the `docs` main repository directory and do a git commit and push. The docs will then automatically be built and deployed by GitHub actions.
 
 ## Contributing
 
