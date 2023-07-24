@@ -26,6 +26,8 @@ jobs:
 
       - name: Build 🛠
         run: npm run build-full
+        env:
+          NODE_OPTIONS: "--max-old-space-size=8192"
 
   build-and-delpoy-to-qa:
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/qa'
@@ -49,6 +51,7 @@ jobs:
         run: npm run build-full
         env:
           QA: true
+          NODE_OPTIONS: "--max-old-space-size=8192"
 
       - name: Deploy to QA 🚀
         uses: JamesIves/github-pages-deploy-action@v4
@@ -76,6 +79,8 @@ jobs:
 
       - name: Build 🛠
         run: npm run build-full
+        env:
+          NODE_OPTIONS: "--max-old-space-size=8192"
 
       - name: Deploy to production 🚀
         uses: JamesIves/github-pages-deploy-action@v4
