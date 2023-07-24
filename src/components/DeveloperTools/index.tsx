@@ -1,5 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 import styles from './styles.module.css';
 
 type FeatureItem = {
@@ -51,16 +53,17 @@ const FeatureList: FeatureItem[] = [
 ];
 
 function Feature({ title, logo, description, link, color }: FeatureItem) {
+  const linkUrl = useBaseUrl(link);
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <a href={link}>
+        <a href={linkUrl}>
           <img src={logo} className={styles.featureSvg} />
         </a>
       </div>
       <div className="text--center padding-horiz--md">
         <h3>
-          <a href={link} style={{ color }}>
+          <a href={linkUrl} style={{ color }}>
             {title}
           </a>
         </h3>
