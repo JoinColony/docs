@@ -55,7 +55,7 @@ Within the Zodiac app, look for the "Bridge Module" and click on it in order to 
 
 The fields provided within the Adding a Safe steps on Colony should align with the fields available when adding the module on Safe. Copy and paste the fields from Colony over to the module settings fields to continue.
 
-![Values required to add the Bridge Module](../../assets/Screenshot 2022-11-22 223855.png)
+![Values required to add the Bridge Module](<../../assets/Screenshot 2022-11-22 223855.png>)
 
 > Note: You will likely need to switch the chain your wallet is connected to, if you are doing the whole process in the same browser, to be the same chain as your Safe is on.
 
@@ -83,7 +83,7 @@ To find the module contract address, return to **Apps > Zodiac**, then click on 
 
 Then copy the address at the very top of the module details screen. You can see this highlighted in the image below. Add this into the "Module contract address" field on Colony.
 
-![Finding the Module contract address](../../assets/Screenshot%202022-11-24%20170551.png)
+![Finding the Module contract address](<../../assets/Screenshot 2022-11-24 170551.png>)
 
 You can then enter in a name for the Safe to identify it on Colony and click 'Add Safe'. 
 
