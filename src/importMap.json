@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "ethers": "https://unpkg.com/ethers@legacy-v5/dist/ethers.esm.min.js",
+    "@colony/sdk": "https://unpkg.com/@colony/sdk@next/dist/prod/index.min.js"
+  }
+}

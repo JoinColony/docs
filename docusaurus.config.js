@@ -6,6 +6,7 @@ const autoPrefixer = require('autoprefixer');
 
 const lightCodeTheme = require('./src/prismLight');
 const darkCodeTheme = require('./src/prismDark');
+const { imports } = require('./src/importMap.json');
 
 /* eslint-enable @typescript-eslint/no-var-requires */
 
@@ -69,12 +70,7 @@ const pluginsBase = [
         }
         // Set externals for client to load ethers and sdk
         config.externalsType = 'import';
-        config.externals = {
-          'ethers-external':
-            'https://unpkg.com/ethers@legacy-v5/dist/ethers.esm.min.js',
-          'sdk-external':
-            'https://unpkg.com/@colony/sdk@next/dist/prod/index.min.js',
-        };
+        config.externals = imports;
         // SVG fixes
         // https://github.com/facebook/docusaurus/issues/8297
         // This is quite brittle, I just hope they provide a better way to access the svgo options at some point

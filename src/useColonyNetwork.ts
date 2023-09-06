@@ -7,19 +7,15 @@ import { useState, useEffect } from 'react';
 import { useScript } from 'hoofd';
 import useIsBrowser from '@docusaurus/useIsBrowser';
 
+import IMPORT_MAP from './importMap.json';
+
 declare global {
   interface Window {
     ethereum?: MetaMaskInpageProvider;
   }
 }
 
-const importMap = `
-{
-  "imports": {
-    "ethers": "https://unpkg.com/ethers@legacy-v5/dist/ethers.esm.min.js"
-  }
-}
-`;
+const importMap = JSON.stringify(IMPORT_MAP);
 
 export const useColonyNetwork = () => {
   const isBrowser = useIsBrowser();
@@ -33,20 +29,14 @@ export const useColonyNetwork = () => {
   useEffect(() => {
     if (isBrowser) {
       const getSDK = async () => {
-        const fetchedSDK = await import(
-          // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-          // @ts-ignore
-          'sdk-external'
-        );
+        // eslint-disable-next-line import/no-extraneous-dependencies
+        const fetchedSDK = await import('@colony/sdk');
         setSdk(fetchedSDK);
       };
       getSDK();
       const getEthers = async () => {
-        const fetchedEthers = await import(
-          // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-          // @ts-ignore
-          'ethers-external'
-        );
+        // eslint-disable-next-line import/no-extraneous-dependencies
+        const fetchedEthers = await import('ethers');
         setEthers(fetchedEthers);
       };
       getEthers();
