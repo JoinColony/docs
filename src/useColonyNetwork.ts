@@ -36,7 +36,7 @@ export const useColonyNetwork = () => {
         const fetchedSDK = await import(
           // eslint-disable-next-line @typescript-eslint/ban-ts-comment
           // @ts-ignore
-          'https://unpkg.com/@colony/sdk@next/dist/prod/index.min.js'
+          'sdk-external'
         );
         setSdk(fetchedSDK);
       };
@@ -45,7 +45,7 @@ export const useColonyNetwork = () => {
         const fetchedEthers = await import(
           // eslint-disable-next-line @typescript-eslint/ban-ts-comment
           // @ts-ignore
-          'https://unpkg.com/ethers@legacy-v5/dist/ethers.esm.min.js'
+          'ethers-external'
         );
         setEthers(fetchedEthers);
       };

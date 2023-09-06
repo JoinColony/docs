@@ -59,12 +59,25 @@ const pluginsBase = [
       editUrl: DEFAULT_EDIT_URL,
     },
   ],
-  // https://github.com/facebook/docusaurus/issues/8297
-  // This is quite brittle, I just hope they provide a better way to access the svgo options at some point
-  function svgFix() {
+  function reconfigureWebpack() {
     return {
-      name: 'svg-fix',
-      configureWebpack(config) {
+      name: 'webpack-config',
+      configureWebpack(config, isServer) {
+        // Set target for client to suppoer import() syntax
+        if (!isServer) {
+          config.target = ['web', 'es2020'];
+        }
+        // Set externals for client to load ethers and sdk
+        config.externalsType = 'import';
+        config.externals = {
+          'ethers-external':
+            'https://unpkg.com/ethers@legacy-v5/dist/ethers.esm.min.js',
+          'sdk-external':
+            'https://unpkg.com/@colony/sdk@next/dist/prod/index.min.js',
+        };
+        // SVG fixes
+        // https://github.com/facebook/docusaurus/issues/8297
+        // This is quite brittle, I just hope they provide a better way to access the svgo options at some point
         const svgRuleIndex = config.module.rules.findIndex((r) =>
           r.test.test('file.svg'),
         );
