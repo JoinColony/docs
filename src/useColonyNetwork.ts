@@ -47,9 +47,15 @@ export const useColonyNetwork = () => {
     const {
       providers: { Web3Provider },
     } = ethers;
-    const signer = new Web3Provider(window.ethereum as ExternalProvider);
+    const provider = new Web3Provider(window.ethereum as ExternalProvider);
+    const signer = provider.getSigner();
     const colonyNetwork = new ColonyNetwork(signer);
-    return [colonyNetwork, ethers, signer, window.ethereum] as const;
+    return {
+      colonyNetwork,
+      ethers,
+      signer,
+      ethereum: window.ethereum,
+    } as const;
   }
   return null;
 };
