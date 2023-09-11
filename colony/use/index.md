@@ -12,7 +12,7 @@ This section covers everything you need to know about using the [Colony dapp](ht
 
 Colony currently runs on Gnosis Chain, so be sure to add it to MetaMask by clicking the button below:
 
-<connect-metamask />
+<metamask-add-chain />
 
 Or, [follow this guide](additional-guides/connect-metamask-to-xdai.md).
 

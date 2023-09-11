@@ -6,7 +6,7 @@ description: How to connect your Metamask to the xDai network
 
 The easiest way to connect your MetaMask wallet to the Gnosis Chain is by clicking the button below:
 
-<connect-metamask />
+<metamask-add-chain />
 
 ## Adding xDai to Metamask
 
