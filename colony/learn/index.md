@@ -10,7 +10,7 @@ sidebar_position: 0
 The Learning Realm is where you'll find the fundamentals of DAO building and explore the principles that power Colony.
 
 :::tip The Colony Journey
-Browse through the [**Learn**](why-colony) section to level up your DAO-fu. 
+Browse through the [**Learn**](learn/why-colony) section to level up your DAO-fu. 
 
 Once you've gathered up enough knowledge, you can [**put your skills to the test**](https://101.xyz/c/colony_io) and earn NFT completion badges. 
 
