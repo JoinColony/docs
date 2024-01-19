@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ### Why deduct reputation manually?
 
-A fundamental principle of Colony's reputation system is [reputation decay](https://colony.gitbook.io/colony/key-concepts/reputation#reputation-decay) which ensures that recent contributions result in higher reputation than older contributions by constantly deducting reputation points from all accounts. However, there may be instances where a colony wishes to deduct reputation points manually, such as malicious behaviour. You can use the Smite feature to deduct any number of reputation points from any account.
+A fundamental principle of Colony's reputation system is reputation decay which ensures that recent contributions result in higher reputation than older contributions by constantly deducting reputation points from all accounts. However, there may be instances where a colony wishes to deduct reputation points manually, such as malicious behaviour. You can use the Smite feature to deduct any number of reputation points from any account.
 
 ### Smiting reputation
 
@@ -20,7 +20,7 @@ A fundamental principle of Colony's reputation system is [reputation decay](http
 
 ![](../assets/smite-reputation-2\_AdobeCreativeCloudExpress.gif)
 
-3\. Choose the team. You can smite reputation at Root level, however it is typically appropriate to do so on a team level. See [here for more information on teams](https://colony.gitbook.io/colony/teams/create-team).
+3\. Choose the team. You can smite reputation at Root level, however it is typically appropriate to do so on a team level.
 
 ![](../assets/smite-reputation-3\_AdobeCreativeCloudExpress.gif)
 
@@ -34,4 +34,4 @@ A fundamental principle of Colony's reputation system is [reputation decay](http
 
 ![](../assets/smite-reputation-5\_AdobeCreativeCloudExpress.gif)
 
-If too many reputation points have been deducted from an account, you can use the [Award feature](https://colony.gitbook.io/colony/key-concepts/reputation/award-reputation) to increase them again.
+If too many reputation points have been deducted from an account, you can use the Award feature to increase them again.
