@@ -6,7 +6,7 @@ sidebar_position: 10
 # Coin Machine
 
 :::note
-Coin Machine is moving to a stand alone product and is therefore no longer being included in the Colony DApp. The documentation for Coin Machine will also be moved to its own Gitbook as required.
+Coin Machine is moving to a stand alone product and is therefore no longer being included in the Colony DApp.
 :::
 
 Fundraising is an omnipresent theme in blockchain ecosystems and usually tackled by selling tokens. The space has seen a variety of mechanisms, yet finding one that is easy-to-use without compromising on security, transparency and fairness turns out to be easier said than done.
