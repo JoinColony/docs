@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react';
 import Layout from '@theme/Layout';
+import Head from '@docusaurus/Head';
 
 import Books from '@site/static/img/books.svg';
 import Code from '@site/static/img/code.svg';
@@ -36,6 +37,12 @@ const Home = () => (
     title="Welcome"
     description="Explore the vast possibilities of the Colony Network"
   >
+    <Head>
+      <meta
+        name="google-site-verification"
+        content="l1ibLfGChyPkho3mtmGABRKUe7ADfDpLl4iyj9iAnAI"
+      />
+    </Head>
     <main className="grow bg-blue-800 font-sans">
       <div className="container relative mx-auto text-center mt-10 md:mt-40 z-10">
         <h1 className="mb-6 text-3xl text-white font-bold leading-none tracking-normal md:text-5xl lg:text-6xl">
