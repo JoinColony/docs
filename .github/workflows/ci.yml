@@ -22,7 +22,7 @@ jobs:
           node-version: 16
 
       - name: Install ⚙️
-        run: npm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Build 🛠
         run: npm run build-full
@@ -45,7 +45,7 @@ jobs:
           node-version: 16
 
       - name: Install ⚙️
-        run: npm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Build 🛠
         run: npm run build-full
@@ -75,7 +75,7 @@ jobs:
           node-version: 16
 
       - name: Install Docusaurus ⚙️
-        run: npm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Build 🛠
         run: npm run build-full
