@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkdocs=globalThis.webpackChunkdocs||[]).push([[6716],{1833:o=>{o.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"develop_colonynetwork"}')}}]);
