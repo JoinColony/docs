@@ -211,14 +211,6 @@ const config = {
           {
             type: 'doc',
             docsPluginId: 'docs',
-            docId: 'use/index',
-            position: 'right',
-            label: 'Use',
-            className: 'navbarSectionUse',
-          },
-          {
-            type: 'doc',
-            docsPluginId: 'docs',
             docId: 'develop/index',
             position: 'right',
             label: 'Develop',

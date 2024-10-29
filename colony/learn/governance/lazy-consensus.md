@@ -31,5 +31,3 @@ We encourage communication within the colony. Members should be aware of the opi
 :::
 
 Complete details of the objection mechanism can be found in the [Colony Whitepaper](https://colony.io/whitepaper.pdf) in section 9.2
-
-For more on using Lazy Consensus in your colony, see [**this page**](../../use/governance/motions-and-disputes/).

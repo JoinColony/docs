@@ -16,10 +16,6 @@ For a quick overview of Motions, [view this Twitter thread](https://twitter.com/
 
 ## How Motions work
 
-:::tip
-Your colony must have the [Motions governance extension](../../use/governance/motions-and-disputes/installation.md) enabled to proceed.
-:::
-
 Within Colony, a Motion is an on-chain proposal whose two sides (*Yay* or *Nay*) can be supported by staking the Colony's native token for that side. Motions always have an **action** attached to them which is a contract transaction that can take place in a Colony. 
 
 For example, Motions could be created to move funds from one team to another, for paying someone that did work or minting new native tokens (even arbitrary transaction on any contract in the name of the Colony are supported!). Motions that pass (the outcome is *Yay*) will execute the **action** once they are finalized. If the outcome is *Nay*, there is no action taking place.
@@ -27,7 +23,7 @@ For example, Motions could be created to move funds from one team to another, fo
 ## The Motion lifecycle
 
 ### Step 1: Create a Motion
-Anyone within a colony can start a Motion. [**See how to create a Motion in the Colony UI.**](../../use/governance/motions-and-disputes/creating-a-motion.md)
+Anyone within a colony can start a Motion.
 
 ### Step 2: Stake the Motion
 

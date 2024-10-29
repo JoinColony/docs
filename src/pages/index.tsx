@@ -73,21 +73,6 @@ const Home = () => (
             </MainLink>
           </article>
           <article className="p-6 bg-blue-900 text-left md:p-8">
-            <Books className="stroke-purple mb-8 md:mb-14" />
-            <h3 className="text-sm font-normal text-purple font-mono tracking-normal">
-              — For everyone
-            </h3>
-            <h2 className="text-2xl text-white leading-none tracking-normal xl:text-3xl">
-              Build a DAO
-            </h2>
-            <MainLink
-              href="/use"
-              className="border-purple hover:bg-purple hover:text-blue-900"
-            >
-              Start building
-            </MainLink>
-          </article>
-          <article className="p-6 bg-blue-900 text-left md:p-8">
             <Code className="stroke-pink mb-8 md:mb-14" />
             <h3 className="text-sm font-normal text-pink font-mono tracking-normal">
               — For developers
@@ -96,7 +81,7 @@ const Home = () => (
               Develop on Colony
             </h2>
             <MainLink
-              href="develop"
+              href="/develop"
               className="border-pink hover:bg-pink hover:text-blue-900"
             >
               Get started

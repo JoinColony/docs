@@ -11,8 +11,6 @@ The Learning Realm is where you'll find the fundamentals of DAO building and exp
 
 :::tip The Colony Journey
 Browse through the [**Learn**](../learn/why-colony) section to level up your DAO-fu. 
-
-Then, you'll be ready to [**start building colonies**](../use/).
 :::
 
 :::note Hey Devs!
