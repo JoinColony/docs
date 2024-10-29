@@ -17,9 +17,22 @@ jobs:
           fetch-depth: 0
           submodules: true
 
-      - uses: actions/setup-node@v3
+      - uses: pnpm/action-setup@v4
         with:
-          node-version: 16
+          version: 9.12.1
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+
+      - name: Cache NPM dependencies
+        uses: actions/cache@v4
+        id: cache
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('pnpm-lock.yaml') }}
 
       - name: Install ⚙️
         run: pnpm install --frozen-lockfile
@@ -40,9 +53,22 @@ jobs:
           fetch-depth: 0
           submodules: true
 
-      - uses: actions/setup-node@v3
+      - uses: pnpm/action-setup@v4
         with:
-          node-version: 16
+          version: 9.12.1
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+
+      - name: Cache NPM dependencies
+        uses: actions/cache@v4
+        id: cache
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('pnpm-lock.yaml') }}
 
       - name: Install ⚙️
         run: pnpm install --frozen-lockfile
@@ -70,9 +96,22 @@ jobs:
           fetch-depth: 0
           submodules: true
 
-      - uses: actions/setup-node@v3
+      - uses: pnpm/action-setup@v4
         with:
-          node-version: 16
+          version: 9.12.1
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+
+      - name: Cache NPM dependencies
+        uses: actions/cache@v4
+        id: cache
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('pnpm-lock.yaml') }}
 
       - name: Install Docusaurus ⚙️
         run: pnpm install --frozen-lockfile
