@@ -8,7 +8,7 @@ sidebar_position: 7
 
 Colonies can be made of Teams (aka Domains) such as the **Dev Team**, the **Growth Team**, or the **Meme Team**. 
 
-Teams can be thought of as sub-DAOs which have a degree of autonomy within the parent DAO (known as Root). They can have their own treasuries, launch their own [governance processes](../../use/governance/), and appeal to the wisdom of the Root DAO when there is a dispute. 
+Teams can be thought of as sub-DAOs which have a degree of autonomy within the parent DAO (known as Root). They can have their own treasuries, launch their own governance processes, and appeal to the wisdom of the Root DAO when there is a dispute. 
 
 ### Reputation in Teams
 

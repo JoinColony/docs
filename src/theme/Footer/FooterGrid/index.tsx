@@ -34,16 +34,6 @@ const FooterGrid = () => (
       </FooterLink>
     </div>
     <div className="mt-8 md:mt-0">
-      <h1 className="text-base">Use</h1>
-      <FooterLink href="/use/launch-a-colony">Launching a Colony</FooterLink>
-      <FooterLink href="/use/managing-funds/mint-tokens">
-        Minting Tokens
-      </FooterLink>
-      <FooterLink href="/use/governance/motions-and-disputes/creating-a-motion">
-        Creating a Motion
-      </FooterLink>
-    </div>
-    <div className="mt-8 md:mt-0">
       <h1 className="text-base">Develop</h1>
       <FooterLink href="/colonysdk">Colony SDK</FooterLink>
       <FooterLink href="/colonynetwork">Colony Network</FooterLink>
