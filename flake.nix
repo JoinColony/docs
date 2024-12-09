@@ -1,23 +1,18 @@
 {
-  description = "Flake to develop the CDapp using nix(OS)";
+  description = "Flake to develop the Colony docs using nix(OS)";
 
   inputs = {
-    # node 20.11.0
-    nixpkgs_node.url = "github:NixOS/nixpkgs/97b17f32362e475016f942bbdfda4a4a72a8a652";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
 
   outputs = {
     self,
-    nixpkgs_node
+    nixpkgs,
   }: {
-    devShell.x86_64-linux = with nixpkgs_node.legacyPackages.x86_64-linux;
+    devShell.x86_64-linux = with nixpkgs.legacyPackages.x86_64-linux;
       mkShell {
-        buildInputs = [nodejs_20 nodePackages.pnpm zsh];
-        shellHook = ''
-          if [ -n "$SHELL" ]; then
-            exec $SHELL
-          fi
-        '';
+        buildInputs = [nodejs_20 pnpm_8 zsh];
+        shellHook = "exec zsh";
       };
   };
 }
