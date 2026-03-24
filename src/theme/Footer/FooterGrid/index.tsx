@@ -38,9 +38,6 @@ const FooterGrid = () => (
       <FooterLink href="/colonysdk">Colony SDK</FooterLink>
       <FooterLink href="/colonynetwork">Colony Network</FooterLink>
       <FooterLink href="/colonyjs">Colony JS</FooterLink>
-      <FooterLink href="/colonynetwork/bug-bounty">
-        Bug Bounty Program
-      </FooterLink>
     </div>
   </section>
 );
