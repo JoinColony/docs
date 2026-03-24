@@ -10,7 +10,7 @@ If you are passionate about decentralization or DAOs and want to help shape the 
 ## Web Developers
 
 As a web developer (web2 or web3), you can contribute to the Colony decentralized application (dApp) by looking for issues tagged with "good-first-issue" in the GitHub issue tracker. You'll find a wealth of opportunities to make an impact and improve the user experience for our growing community of decentralized organizations. Whether you're working on front-end, back-end, or anything in between, you're sure to find a way to contribute to the project. Check out the issue tracker here: https://github.com/JoinColony/colonyCDapp.
-Additionally, you can also help build and shape our software development kit (SDK) called the Colony SDK. This can be found here: https://github.com/JoinColony/colonyJS/tree/main/packages/sdk. 
+Additionally, you can also help build and shape our software development kit (SDK) called the Colony SDK. This can be found here: https://github.com/JoinColony/colonyJS/tree/main/packages/sdk.
 
 ## Community Projects
 
@@ -19,10 +19,6 @@ You can also start or contribute to one of the Colony community projects. Whethe
 ## Solidity Developers
 
 If you are a Solidity developer, you can contribute to the Colony Network by checking out our smart contracts on GitHub. Find issues with the "good-first-issue" tag and help us improve the underlying infrastructure that powers the Colony platform. You can find the smart contracts here: https://github.com/JoinColony/colonyNetwork.
-
-## Security Researchers
-
-If you're a security researcher, you can help secure the Colony platform by participating in our bug-bounty program. The bug-bounty program rewards responsible disclosure of security vulnerabilities. If you find a vulnerability, please report it through the bug-bounty program: https://docs.colony.io/colonynetwork/bug-bounty.
 
 ## Get in Touch
 
